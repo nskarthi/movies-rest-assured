@@ -5,7 +5,7 @@ public class Crew {
 	private String musicDirector;
 	private String productionCompany;
 
-	private Crew() { }
+	public Crew() { }
 	
 	public Crew(String director, String musicDirector, String productionCompany) {
 		this.director = director;

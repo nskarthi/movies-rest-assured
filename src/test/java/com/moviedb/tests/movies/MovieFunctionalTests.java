@@ -1,4 +1,4 @@
-package com.moviedb.tests;
+package com.moviedb.tests.movies;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -9,73 +9,29 @@ import static org.testng.Assert.assertNotNull;
 
 import java.util.List;
 
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
-import com.moviedb.pojos.health.Health;
+import com.moviedb.api.endpoints.Routes;
 import com.moviedb.pojos.movies.Cast;
 import com.moviedb.pojos.movies.Crew;
 import com.moviedb.pojos.movies.Finance;
 import com.moviedb.pojos.movies.Movie;
 import com.moviedb.pojos.movies.ReleaseDetails;
+import com.moviedb.tests.BaseTest;
 
-import api.utils.AuthManager;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.builder.ResponseSpecBuilder;
-import io.restassured.filter.log.LogDetail;
-//import io.restassured.filter.log.LogDetail.IF_VALIDATION_FAILS;
-import io.restassured.http.ContentType;
-import io.restassured.specification.RequestSpecification;
-import io.restassured.specification.ResponseSpecification;
+public class MovieFunctionalTests extends BaseTest {
 
-public class MovieTests {
-	RequestSpecification requestSpecification;
-	ResponseSpecification responseSpecification;
-	//String bearerToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyMDY5ODAxLCJleHAiOjE3NzIxNTYyMDF9.bDM_VmIEGn39WJJZFyO5gb13rEIUUHuM7_8Nnq7CWkw";
-	String bearerToken = AuthManager.getToken();
-	
-	@BeforeClass
-	public void beforeClass() {
-		// 1. Setup Request Spec
-		RequestSpecBuilder requestSpecBuilder = new RequestSpecBuilder()
-				.setBaseUri("http://localhost:4000/")
-				.setBasePath("/movies")
-				.addHeader("Authorization", "Bearer " + bearerToken)
-				.setContentType(ContentType.JSON)
-				.log(LogDetail.ALL);
-		requestSpecification = requestSpecBuilder.build();
-		
-		// 2. Setup Response Spec
-		ResponseSpecBuilder responseSpecBuilder = new ResponseSpecBuilder()
-				.expectContentType(ContentType.JSON)
-				.log(LogDetail.ALL);
-
-		responseSpecification = responseSpecBuilder.build();
-
-		// 3. Enable Global Logging on Failure
-		// Shortcut
-	    //RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
-		// The "Explicit" (The Architect's Choice), reason: customization
-		// RestAssured.config = RestAssured.config().logConfig(LogConfig.logConfig()
-		//	    .enableLoggingOfRequestAndResponseIfValidationFails()
-		//	    .blacklistHeader("Authorization"));
-	}
-
-	//@Test(description = "Verify that the movie list is correctly paginated when 'page' and 'limit' parameters are provided")
+	@Test(description = "Verify that the movie list is correctly paginated when 'page' and 'limit' parameters are provided")
 	public void givenAuthorizedUser_whenRequestingAllMovieDetails_thenReturnsList() {
 		int qParamPage = 1;
 		int qParamLimit = 100;
 
-		given()
-			.baseUri("http://localhost:4000/")
-			.basePath("/movies")
-			.header("Authorization", "Bearer " + "incorrect_token")
-			.contentType(ContentType.JSON)
+		given(requestSpecification)
 			.queryParam("page", qParamPage)
 			.queryParam("limit", qParamLimit)
-			.log().all()
 		.when()
-			.get()
+			.get(Routes.MOVIES)
 		.then()
 			.spec(responseSpecification)
 			.statusCode(200)
@@ -83,28 +39,12 @@ public class MovieTests {
 					"page", equalTo(qParamPage));
 	}
 	
-	//@Test(description = "Verify that a 200 OK and the complete list of movies are returned for an authorized request")
-	public void givenUnauthorizedUser_whenRequestingAllMovieDetails_thenReturnsList() {
-		//tbd
-		int qParamPage = 1;
-		int qParamLimit = 100;
-
-		given(requestSpecification)
-			.queryParam("page", qParamPage)
-			.queryParam("limit", qParamLimit)
-		.when()
-			.get()
-		.then()
-			.spec(responseSpecification)
-			.statusCode(200);
-	}
-	
-	//@Test(description = "Ensure that movie details are returned when a valid movie ID is passed as input")
+	@Test(description = "Ensure that movie details are returned when a valid movie ID is passed as input")
 	public void givenValidMovieId_whenRequestingMovieInfo_thenStatusIs200() {
 		String movieId = "2";
 		given(requestSpecification)
 		.when()
-			.get("/" + movieId)
+			.get(Routes.MOVIES + "/" + movieId)
 		.then()
 			.spec(responseSpecification)
 			.assertThat()
@@ -117,25 +57,11 @@ public class MovieTests {
 			//.body("cast.find { it.actorName == 'Joseph Gordon-Levitt'}.role.awards", hasItem("Independent Spirit Award"));
 	}
 
-	//@Test(description = "Ensure that 404 NOT FOUND is returned when an invalid movie Id is requested")
-	public void givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404() {
-		String movieId = "200";
-		given(requestSpecification)
-		.when()
-			.get("/" + movieId)
-		.then()
-			.spec(responseSpecification)
-			.assertThat()
-			.statusCode(404)
-			.body("status", equalTo(404),
-					"error", equalTo("Not Found"),
-					"message", equalTo("Movie with id " + movieId + " not found"));
-	}
-
-	//@Test(description = "Ensure that new movie is created when movie details provided is valid")
+	@Test(description = "Ensure that new movie is created when movie details provided is valid")
 	public void givenValidMovieDetails_whenCreatingMovie_thenStatusIs201() {
+		String movieTitle = "Bahubali";
 		String payload = "{\r\n"
-				+ "  \"title\": \"Colarado Jones\",\r\n"
+				+ "  \"title\": \"" + movieTitle + "\",\r\n"
 				+ "  \"crew\": {\r\n"
 				+ "    \"director\": \"Denis Villeneuve\",\r\n"
 				+ "    \"musicDirector\": \"Grégoire Hetzel\",\r\n"
@@ -185,17 +111,19 @@ public class MovieTests {
 		int movieId = given(requestSpecification)
 			.body(payload)
 		.when()
-			.post("")
+			.post(Routes.MOVIES)
 		.then()
 			.spec(responseSpecification)
 			.statusCode(201)
+			.body("title", equalTo(movieTitle))
 			.extract().path("id");
 
 		System.out.println("Id of the newly created movie is: " + movieId);
 	}
 
-	//@Test(description = "Ensure that new movie is created when movie details provided via POJO is valid")
+	@Test(description = "Ensure that new movie is created when movie details provided via POJO is valid")
 	public void givenValidMovieDetailsViaPOJO_whenCreatingMovie_thenStatusIs201() {
+		String movieTitle = "Taj Mahal";
 		Crew crew = new Crew("Christopher Nolan", "Hans Zimmer", "Syncopy, Lynda Obst Productions, Legendary Pictures");
 		Cast cast1 = new Cast("Matthew McConaughey", "Joseph Cooper", List.of(
 		        "Saturn Award for Best Actor (Nominee)", 
@@ -209,9 +137,9 @@ public class MovieTests {
 		ReleaseDetails releaseDetails= new ReleaseDetails("English", "United States, United Kingdom");
 		Finance finance = new Finance(165000000L, 773800000L, 47200000L, "USD");
 
-		Movie movie = new Movie("Lovingstellar", crew, List.of(cast1, cast2, cast3), genres, releaseDetails, finance);
+		Movie movie = new Movie(movieTitle, crew, List.of(cast1, cast2, cast3), genres, releaseDetails, finance);
 		Movie moviePayload = new Movie()
-			.setTitle("Amazingstellar")
+			.setTitle(movieTitle)
 			.setCrew(crew)
 			.setCast(List.of(cast1, cast2, cast3))
 			.setGenres(genres)
@@ -221,7 +149,7 @@ public class MovieTests {
 		Movie responseMovie = given(requestSpecification)
 			.body(movie)
 		.when()
-			.post("")
+			.post(Routes.MOVIES)
 		.then()
 			.spec(responseSpecification)
 			.statusCode(201)
@@ -238,40 +166,8 @@ public class MovieTests {
 	    softAssert.assertEquals(responseMovie.getFinance().getBoxOffice(), movie.getFinance().getBoxOffice());
 	    softAssert.assertAll();   
 	}
-
-	//@Test(description = "Ensure that a 400 BAD REQUEST is returned when movie name is missing in the movie creation request")
-	public void givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs400() {
-		String movieTitle = "Boston Boys";
-		Crew crew = new Crew("Christopher Nolan", "Hans Zimmer", "Syncopy, Lynda Obst Productions, Legendary Pictures");
-		Cast cast1 = new Cast("Matthew McConaughey", "Joseph Cooper", List.of(
-		        "Saturn Award for Best Actor (Nominee)", 
-		        "Critics' Choice Movie Award for Best Actor (Nominee)"
-		    ));
-		Cast cast2 = new Cast("Anne Hathaway", "Anne Hathaway", List.of(
-		        "Saturn Award for Best Actress (Nominee)"));
-		Cast cast3 = new Cast("Jessica Chastain", "Murphy Cooper (Adult)", List.of(
-		        "Saturn Award for Best Supporting Actress (Nominee)"));
-		List<String> genres = List.of("Sci-Fi", "Adventure", "Drama");
-		ReleaseDetails releaseDetails= new ReleaseDetails("English", "United States, United Kingdom");
-		Finance finance = new Finance(165000000L, 773800000L, 47200000L, "USD");
-
-		Movie moviePayloadWithoutTitle = new Movie()
-			.setCrew(crew)
-			.setCast(List.of(cast1, cast2, cast3))
-			.setGenres(genres)
-			.setReleaseDetails(releaseDetails)
-			.setFinance(finance);
-
-		given(requestSpecification)
-			.body(moviePayloadWithoutTitle)
-		.when()
-			.post("")
-		.then()
-			.spec(responseSpecification)
-			.statusCode(400);
-	}
 	
-	//@Test(description = "Ensure that movie information is updated when valid movie id is provided")
+	@Test(description = "Ensure that movie information is updated when valid movie id is provided")
 	public void givenValidMovieId_whenUpdatingMovie_thenStatusIs200() {
 		String movieId = "3";
 		String payload = "{\r\n"
@@ -323,14 +219,14 @@ public class MovieTests {
 		given(requestSpecification)
 			.body(payload)
 		.when()
-			.put("/" + movieId)
+			.put(Routes.MOVIES + "/" + movieId)
 		.then()
 			.spec(responseSpecification)
 			.statusCode(200)
 			.body("finance.budget", equalTo(240000000));
 	}
 	
-	//@Test(description = "Ensure that movie information is updated when valid movie id is provided and the payload is from POJO")
+	@Test(description = "Ensure that movie information is updated when valid movie id is provided and the payload is from POJO")
 	public void givenValidMovieIdUsingPOJO_whenUpdatingMovie_thenStatusIs200() {
 		String movieId = "3";
 		String movieTitle = "Lagaan";
@@ -356,7 +252,7 @@ public class MovieTests {
 		Movie responseMovie = given(requestSpecification)
 			.body(moviePayload)
 		.when()
-			.put("/" + movieId)
+			.put(Routes.MOVIES + "/" + movieId)
 		.then()
 			.spec(responseSpecification)
 			.statusCode(200)
@@ -366,34 +262,16 @@ public class MovieTests {
 		assertEquals(responseMovie.getFinance().getBudget(), moviePayload.getFinance().getBudget());
 	}
 
-	//@Test(description = "Ensure that a 200 OK is returned when a valid movie ID is deleted by an authorized user")
+	@Test(description = "Ensure that a 200 OK is returned when a valid movie ID is deleted by an authorized user")
 	public void givenValidMovieId_whenDeletingMovie_thenStatusIs200() {
-		String movieId = "14";
+		String movieId = "16";
 
 		given(requestSpecification)
 		.when()
-			.delete("/" + movieId)
+			.delete(Routes.MOVIES + "/" + movieId)
 		.then()
 			.spec(responseSpecification)
 			.statusCode(200);
-	}
-
-	//@Test(description = "Verify that the health check endpoint returns 200 OK and status 'UP'")
-	public void givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200() {
-		Health health = given()
-			.baseUri("http://localhost:4000/")
-			.basePath("/health")
-			.log().all()
-	.	when()
-			.get()
-		.then()
-			.spec(responseSpecification)
-			.statusCode(200)
-			.body("status", equalTo("UP"))
-			.extract()
-			.as(Health.class);
-
-		System.out.println("Health check status: " + health.getStatus());
 	}
 	
 }

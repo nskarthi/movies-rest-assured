@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.moviedb.tests.MovieTests">
+      <class name="com.moviedb.tests.movies.MovieNegativeTests">
         <methods>
-          <include name="beforeClass"/>
-          <include name="givenValidMovieIdUsingPOJO_whenUpdatingMovie_thenStatusIs200"/>
+          <include name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.moviedb.tests.MovieTests -->
+      </class> <!-- com.moviedb.tests.movies.MovieNegativeTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

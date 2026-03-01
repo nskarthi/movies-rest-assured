@@ -2,27 +2,64 @@ package api.utils;
 
 import static io.restassured.RestAssured.given;
 
+import java.time.Instant;
+
 import io.restassured.http.ContentType;
+import io.restassured.response.Response;
 
 public class AuthManager {
-	private static String token;
+	private static String cachedToken;
+    private static Instant expiryTime;
 
-    // Static function to return the token
-    public static String getToken() {
-        if (token == null) {
-            token = generateNewToken();
+    public static void clearCache() {
+        synchronized (AuthManager.class) {
+            System.out.println("[AUTH] Clearing Token Cache...");
+            cachedToken = null;
+            expiryTime = null;
         }
-        return token;
+    }
+
+    // Static function to return the cachedToken
+    public synchronized static String getToken() {
+        boolean needsRefresh = (cachedToken == null || Instant.now().isAfter(expiryTime.minusSeconds(60)));
+
+        if (needsRefresh) {
+            System.out.println("[AUTH] Token missing/expired. Generating new session...");
+            cachedToken = generateNewToken();
+            expiryTime = getExpiryFromJWT(cachedToken);
+            System.out.println("[AUTH] New Token Generated. Expires at: " + expiryTime);
+        }
+        return cachedToken;
     }
 
     private static String generateNewToken() {
-        return given()
-        	.baseUri("http://localhost:4000")
-            .body("{ \"username\": \"admin\", \"password\": \"admin\" }")
-            .contentType(ContentType.JSON)
-        .when()
-        	.post("/auth/login")
-    	.then()
-    		.extract().path("token");
+        String baseUri = ConfigLoader.getInstance().getBaseUrl();
+        
+        Response response = given()
+                .baseUri(baseUri)
+                .body("{ \"username\": \"admin\", \"password\": \"admin\" }")
+                .contentType(ContentType.JSON)
+            .when()
+                .post("/auth/login");
+
+        if (response.getStatusCode() != 200) {
+            throw new RuntimeException("Failed to login! Status: " + response.getStatusCode() + 
+                                       " Body: " + response.getBody().asString());
+        }
+
+        return response.path("token");
+    }
+
+    private static Instant getExpiryFromJWT(String token) {
+        try {
+            // parts[0]=Header, parts[1]=Payload, parts[2]=Signature
+            String[] parts = token.split("\\.");
+            byte[] decodedBytes = java.util.Base64.getUrlDecoder().decode(parts[1]);
+            long expSeconds = io.restassured.path.json.JsonPath.from(new String(decodedBytes)).getLong("exp");
+            return Instant.ofEpochSecond(expSeconds);
+        } catch (Exception e) {
+            System.err.println("Could not parse JWT Expiry. Defaulting to 1 hour from now.");
+            return Instant.now().plusSeconds(3600);
+        }
     }
 }
