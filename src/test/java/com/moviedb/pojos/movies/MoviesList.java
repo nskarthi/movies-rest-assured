@@ -2,17 +2,28 @@ package com.moviedb.pojos.movies;
 
 import java.util.List;
 
-public class Movies {
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Builder 
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter @Setter
+public class MoviesList {
 	private int page;
 	private int limit;
 	private int total;
 	private int totalPages;
 	private List<Movie> data;
 
-	public Movies() {
+	/*
+	public MoviesList() {
 	}
 
-	public Movies(int page, int limit, int total, int totalPages, List<Movie> data) {
+	public MoviesList(int page, int limit, int total, int totalPages, List<Movie> data) {
 		this.page = page;
 		this.limit = limit;
 		this.total = total;
@@ -24,7 +35,7 @@ public class Movies {
 		return page;
 	}
 
-	public Movies setPage(int page) {
+	public MoviesList setPage(int page) {
 		this.page = page;
 		return this;
 	}
@@ -33,7 +44,7 @@ public class Movies {
 		return limit;
 	}
 
-	public Movies setLimit(int limit) {
+	public MoviesList setLimit(int limit) {
 		this.limit = limit;
 		return this;
 	}
@@ -42,7 +53,7 @@ public class Movies {
 		return total;
 	}
 
-	public Movies setTotal(int total) {
+	public MoviesList setTotal(int total) {
 		this.total = total;
 		return this;
 	}
@@ -51,7 +62,7 @@ public class Movies {
 		return totalPages;
 	}
 
-	public Movies setTotalPages(int totalPages) {
+	public MoviesList setTotalPages(int totalPages) {
 		this.totalPages = totalPages;
 		return this;
 	}
@@ -60,9 +71,9 @@ public class Movies {
 		return data;
 	}
 
-	public Movies setData(List<Movie> data) {
+	public MoviesList setData(List<Movie> data) {
 		this.data = data;
 		return this;
 	}
-
+*/
 }

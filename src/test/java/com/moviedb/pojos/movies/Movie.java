@@ -2,8 +2,21 @@ package com.moviedb.pojos.movies;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Builder 
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter @Setter
+//@Accessors(chain = true) // This makes setters return 'this' instead of 'void'.
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Movie {
 
 	// WRITE_ONLY: This allows Jackson to set the ID when the API response sends it back to you (deserialization),
@@ -18,7 +31,7 @@ public class Movie {
 	private ReleaseDetails releaseDetails;
 	private Finance finance;
 
-	public Movie() {
+/*	public Movie() {
 	}
 
 	// Constructor with the movie id for PUT and DESERIALISATION
@@ -106,5 +119,5 @@ public class Movie {
 		this.finance = finance;
 		return this;
 	}
-
+*/
 }

@@ -9,7 +9,7 @@ import com.moviedb.api.endpoints.Routes;
 import com.moviedb.pojos.health.Health;
 import com.moviedb.tests.BaseTest;
 
-public class HealthTests extends BaseTest {
+public class SystemTests extends BaseTest {
 
 	@Test(description = "Verify that the health check endpoint returns 200 OK and status 'UP'")
 	public void givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200() {

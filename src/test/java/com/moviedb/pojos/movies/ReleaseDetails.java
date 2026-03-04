@@ -1,10 +1,20 @@
 package com.moviedb.pojos.movies;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Builder 
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter @Setter
 public class ReleaseDetails {
 	String language;
 	String country;
 
-	public ReleaseDetails(String language, String country) {
+/*	public ReleaseDetails(String language, String country) {
 		this.language = language;
 		this.country = country;
 	}
@@ -23,5 +33,5 @@ public class ReleaseDetails {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-
+*/
 }

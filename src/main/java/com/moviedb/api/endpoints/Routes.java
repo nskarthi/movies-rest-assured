@@ -5,8 +5,9 @@ public class Routes {
     public static final String MOVIES = "/movies";
     public static final String HEALTH = "/health";
     
-    // Dynamic Resources (Example)
-    public static String movieById(int id) {
-        return MOVIES + "/" + id;
-    }
+    // Sub-paths
+    public static final String MOVIE_BY_ID = MOVIES + "/{id}";
+    public static final String MOVIE_FILTER = MOVIES + "/filter";
+    public static final String MOVIE_SEARCH = MOVIES + "/search";
+
 }

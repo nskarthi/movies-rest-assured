@@ -1,10 +1,21 @@
 package com.moviedb.pojos.movies;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Builder 
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter @Setter
 public class Crew {
 	private String director;
 	private String musicDirector;
 	private String productionCompany;
 
+	/*
 	public Crew() { }
 	
 	public Crew(String director, String musicDirector, String productionCompany) {
@@ -39,5 +50,5 @@ public class Crew {
 		this.productionCompany = productionCompany;
 		return this;
 	}
-
+*/
 }

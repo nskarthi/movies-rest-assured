@@ -2,13 +2,23 @@ package com.moviedb.pojos.movies;
 
 import java.util.List;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Builder 
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter @Setter
 public class Cast {
 	
 	private String actorName;
 	private String role;
 	private List<String> awards;
 
-    public Cast() { }
+/*    public Cast() { }
     
     public Cast(String actorName, String role, List<String> awards) {
 		this.actorName = actorName;
@@ -38,5 +48,5 @@ public class Cast {
 		this.awards = awards;
 		return this;
 	}
-    
+    */
 }

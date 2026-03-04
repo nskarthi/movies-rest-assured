@@ -3,12 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.moviedb.tests.movies.MovieNegativeTests">
+      <class name="com.moviedb.tests.movies.MovieCrudTests">
         <methods>
-          <include name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404"/>
-          <include name="setup"/>
+          <include name="createMovie"/>
+          <include name="patchUpdateMovieTitleSuccessfully"/>
+          <include name="deleteMovie"/>
+          <include name="givenValidMovieDetails_whenCreatingMovie_thenStatusIs201"/>
+          <include name="givenValidMovieId_whenUpdatingMovie_thenStatusIs200"/>
         </methods>
-      </class> <!-- com.moviedb.tests.movies.MovieNegativeTests -->
+      </class> <!-- com.moviedb.tests.movies.MovieCrudTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

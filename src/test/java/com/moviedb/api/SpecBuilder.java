@@ -22,7 +22,6 @@ public class SpecBuilder {
 		// 3. Enable Global Logging on Failure
 		// Shortcut
 	    //RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
-		// The "Explicit" (The Architect's Choice), reason: customization
 		// RestAssured.config = RestAssured.config().logConfig(LogConfig.logConfig()
 		//	    .enableLoggingOfRequestAndResponseIfValidationFails()
 		//	    .blacklistHeader("Authorization"));
