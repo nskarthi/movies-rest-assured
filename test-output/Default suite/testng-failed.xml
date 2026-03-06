@@ -5,11 +5,10 @@
     <classes>
       <class name="com.moviedb.tests.movies.MovieCrudTests">
         <methods>
-          <include name="createMovie"/>
-          <include name="patchUpdateMovieTitleSuccessfully"/>
+          <include name="shouldBeAbleToUpdateAMovie"/>
+          <include name="shouldBeAbleToCreateAMovie"/>
           <include name="deleteMovie"/>
-          <include name="givenValidMovieDetails_whenCreatingMovie_thenStatusIs201"/>
-          <include name="givenValidMovieId_whenUpdatingMovie_thenStatusIs200"/>
+          <include name="movieBuilder"/>
         </methods>
       </class> <!-- com.moviedb.tests.movies.MovieCrudTests -->
     </classes>

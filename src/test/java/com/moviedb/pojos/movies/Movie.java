@@ -7,14 +7,18 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+@Data
 @Builder 
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter @Setter
+@EqualsAndHashCode(exclude = "id") // Exclude 'id' so it doesn't affect equality
 //@Accessors(chain = true) // This makes setters return 'this' instead of 'void'.
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Movie {

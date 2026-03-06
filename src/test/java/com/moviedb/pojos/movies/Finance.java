@@ -2,10 +2,14 @@ package com.moviedb.pojos.movies;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+@Data
+@EqualsAndHashCode
 @Builder 
 @NoArgsConstructor
 @AllArgsConstructor

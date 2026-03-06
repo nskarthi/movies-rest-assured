@@ -1,9 +1,12 @@
 package com.moviedb.actions;
 
+import java.io.File;
 import java.util.HashMap;
+import java.util.List;
 
 import com.moviedb.api.RestResource;
 import com.moviedb.api.endpoints.Routes;
+import com.moviedb.pojos.movies.Movie;
 
 import io.restassured.response.Response;
 
@@ -99,6 +102,15 @@ public class MovieActions {
                 .post(Routes.MOVIES);*/
     }
 
+    public static Response createMultipleMovies(List<Movie> movies) {
+    	return RestResource.performPOST(movies, Routes.MOVIES_BULK);
+/*        return given()
+                .spec(SpecBuilder.getRequestSpecification())
+                .body(movieBody)
+            .when()
+                .post(Routes.MOVIES);*/
+    }
+    
     public static Response updateMovie(int movieId, Object updateBody) {
     	HashMap<String, Object> mapParams = new HashMap<>();
     	mapParams.put("id", movieId);
@@ -133,4 +145,11 @@ public class MovieActions {
 		.when()
 			.delete(Routes.MOVIE_BY_ID);*/
     }
+    
+    //http://localhost:4000/movies/100/poster
+    public static Response uploadMoviePoster(String filePath, int movieId) {
+    	return RestResource.performMultiPartPOST(movieId, "poster", new File(filePath), 
+    			"image/png", Routes.MOVIE_POSTER);
+    }
+    
 }

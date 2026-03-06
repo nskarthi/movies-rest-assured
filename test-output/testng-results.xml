@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-04T07:44:40 EST" name="Default suite" finished-at="2026-03-04T07:44:43 EST" duration-ms="2918">
+  <suite started-at="2026-03-05T20:30:26 EST" name="Default suite" finished-at="2026-03-05T20:30:34 EST" duration-ms="8317">
     <groups>
     </groups>
-    <test started-at="2026-03-04T07:44:40 EST" name="Default test" finished-at="2026-03-04T07:44:43 EST" duration-ms="2918">
+    <test started-at="2026-03-05T20:30:26 EST" name="Default test" finished-at="2026-03-05T20:30:34 EST" duration-ms="8317">
       <class name="com.moviedb.tests.movies.MovieCrudTests">
-        <test-method is-config="true" signature="createMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@3d246ea3]" started-at="2026-03-04T07:44:40 EST" name="createMovie" finished-at="2026-03-04T07:44:40 EST" duration-ms="17" status="PASS">
+        <test-method signature="shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:26 EST" name="shouldBeAbleToCreateAMovie" description="Ensure that new movie is created when movie details provided is valid" finished-at="2026-03-05T20:30:33 EST" duration-ms="6750" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createMovie -->
-        <test-method signature="givenValidMovieDetails_whenCreatingMovie_thenStatusIs201()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@3d246ea3]" started-at="2026-03-04T07:44:40 EST" name="givenValidMovieDetails_whenCreatingMovie_thenStatusIs201" description="Ensure that new movie is created when movie details provided is valid" finished-at="2026-03-04T07:44:43 EST" duration-ms="2663" status="PASS">
+        </test-method> <!-- shouldBeAbleToCreateAMovie -->
+        <test-method is-config="true" signature="deleteMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:33 EST" name="deleteMovie" finished-at="2026-03-05T20:30:33 EST" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- givenValidMovieDetails_whenCreatingMovie_thenStatusIs201 -->
-        <test-method signature="givenValidMovieId_whenUpdatingMovie_thenStatusIs200()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@3d246ea3]" started-at="2026-03-04T07:44:43 EST" name="givenValidMovieId_whenUpdatingMovie_thenStatusIs200" description="Ensure that movie information is updated when valid movie id is provided" finished-at="2026-03-04T07:44:43 EST" depends-on-methods="com.moviedb.tests.movies.MovieCrudTests.givenValidMovieDetails_whenCreatingMovie_thenStatusIs201" duration-ms="67" status="PASS">
+        </test-method> <!-- deleteMovie -->
+        <test-method signature="shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:33 EST" name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" description="Ensure that multiple movies are created in a single create movie request" finished-at="2026-03-05T20:30:33 EST" duration-ms="424" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- givenValidMovieId_whenUpdatingMovie_thenStatusIs200 -->
-        <test-method signature="patchUpdateMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@3d246ea3]" started-at="2026-03-04T07:44:43 EST" name="patchUpdateMovieTitleSuccessfully" description="Verify that a movie title can be partially updated using PATCH" finished-at="2026-03-04T07:44:43 EST" depends-on-methods="com.moviedb.tests.movies.MovieCrudTests.givenValidMovieId_whenUpdatingMovie_thenStatusIs200" duration-ms="71" status="PASS">
+        </test-method> <!-- shouldBeAbleToCreateMultipleMoviesInASingleRequest -->
+        <test-method is-config="true" signature="deleteMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:33 EST" name="deleteMovie" finished-at="2026-03-05T20:30:33 EST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- patchUpdateMovieTitleSuccessfully -->
-        <test-method signature="givenValidMovieId_whenDeletingMovie_thenStatusIs200()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@3d246ea3]" started-at="2026-03-04T07:44:43 EST" name="givenValidMovieId_whenDeletingMovie_thenStatusIs200" description="Ensure that a 200 OK is returned when a valid movie ID is deleted by an authorized user" finished-at="2026-03-04T07:44:43 EST" depends-on-methods="com.moviedb.tests.movies.MovieCrudTests.patchUpdateMovieTitleSuccessfully" duration-ms="29" status="PASS">
+        </test-method> <!-- deleteMovie -->
+        <test-method signature="shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:33 EST" name="shouldBeAbleToUpdateAMovie" description="Ensure that movie information is updated when valid movie id is provided" finished-at="2026-03-05T20:30:33 EST" depends-on-methods="com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToCreateAMovie" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- givenValidMovieId_whenDeletingMovie_thenStatusIs200 -->
-        <test-method is-config="true" signature="deleteMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@3d246ea3]" started-at="2026-03-04T07:44:43 EST" name="deleteMovie" finished-at="2026-03-04T07:44:43 EST" duration-ms="20" status="PASS">
+        </test-method> <!-- shouldBeAbleToUpdateAMovie -->
+        <test-method is-config="true" signature="deleteMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:33 EST" name="deleteMovie" finished-at="2026-03-05T20:30:33 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMovie -->
+        <test-method signature="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:33 EST" name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" description="Verify that a movie title can be partially updated using PATCH" finished-at="2026-03-05T20:30:34 EST" depends-on-methods="com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToUpdateAMovie" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToPatchUpdateAMovieTitleSuccessfully -->
+        <test-method is-config="true" signature="deleteMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:34 EST" name="deleteMovie" finished-at="2026-03-05T20:30:34 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMovie -->
+        <test-method signature="shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:34 EST" name="shouldBeAbleToUploadMoviePosterSuccessfully" description="Verify that movie poster can be uploaded to a movie" finished-at="2026-03-05T20:30:34 EST" depends-on-methods="com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToUploadMoviePosterSuccessfully -->
+        <test-method is-config="true" signature="deleteMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:34 EST" name="deleteMovie" finished-at="2026-03-05T20:30:34 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMovie -->
+        <test-method signature="shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:34 EST" name="shouldBeAbleToDeleteAMovie" description="Ensure that a 200 OK is returned when a valid movie ID is deleted by an authorized user" finished-at="2026-03-05T20:30:34 EST" depends-on-methods="com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToUploadMoviePosterSuccessfully" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToDeleteAMovie -->
+        <test-method is-config="true" signature="deleteMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@4278284b]" started-at="2026-03-05T20:30:34 EST" name="deleteMovie" finished-at="2026-03-05T20:30:34 EST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteMovie -->

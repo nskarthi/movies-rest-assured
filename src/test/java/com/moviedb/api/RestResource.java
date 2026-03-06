@@ -2,6 +2,7 @@ package com.moviedb.api;
 
 import static io.restassured.RestAssured.given;
 
+import java.io.File;
 import java.util.HashMap;
 
 import io.restassured.response.Response;
@@ -64,5 +65,23 @@ public class RestResource {
 		.when()
 			.delete(route);
 	}
-	
+
+	public static Response performMultiPartPOST(int pathParamValue, String controlName, File posterFile, String mimeType, String route) {
+        // 'poster' is the control name (-F 'poster=...')
+        // 'image/png' is the mimeType specified in the curl command
+		// Sample request
+		//  'http://localhost:4000/movies/100/poster' \
+		//  -H 'accept: */*' \
+		//  -H 'Content-Type: multipart/form-data' \
+		//  -F 'poster=@Screenshot.png;type=image/png'
+		return given()
+				.spec(SpecBuilder.getRequestSpecification())
+	            .contentType("multipart/form-data")
+				.header("accept", "*/*")
+				.multiPart(controlName, posterFile, mimeType)
+		.when()
+        	// Rest Assured replaces {id} with the movieId automatically
+			.post(route, pathParamValue);
+	}
+
 }
