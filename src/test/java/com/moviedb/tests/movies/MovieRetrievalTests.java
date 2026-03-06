@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 
 import com.moviedb.actions.MovieActions;
 import com.moviedb.api.SpecBuilder;
+import com.moviedb.listeners.ExtentReportManager;
 import com.moviedb.pojos.movies.Movie;
 import com.moviedb.pojos.movies.MoviesList;
 import com.moviedb.pojos.movies.MoviesSearch;
@@ -19,11 +20,14 @@ public class MovieRetrievalTests {
 		
 	}
 
-	@Test(description = "Verify that a unique movie title returns exactly one movie")
+	@Test(description = "Verify that a unique movie title returns exactly one movie",
+			groups = {"movie_retrieval", "regression", "smoke"})
 	public void searchByMovieTitleReturnsSingleExactMatch() {
 		String movieTitle = "RRR";
+        ExtentReportManager.log("Step 1: MovieActions.getMoviesByTitle(movieTitle)");
 		Response response = MovieActions.getMoviesByTitle(movieTitle);
 
+        ExtentReportManager.log("Step 2: Validating API response");
 		MoviesSearch moviesSearchResponse = response.then()
 				.spec(SpecBuilder.getResponseSpecification())
 				.statusCode(200)
@@ -34,11 +38,14 @@ public class MovieRetrievalTests {
 		assertEquals(moviesSearchResponse.getData().get(0).getTitle(), movieTitle, "Movie title does not match");
 	}
 
-	@Test(description = "Verify search returns all matching movies for a common movie title query")
+	@Test(description = "Verify search returns all matching movies for a common movie title query",
+			groups = {"movie_retrieval", "regression", "smoke"})
 	public void searchByMovieTitleReturnsAllPartialTitleMatchingMovies() {
 		String movieTitle = "a";
+        ExtentReportManager.log("Step 1: MovieActions.getMoviesByTitle(movieTitle)");
 		Response response = MovieActions.getMoviesByTitle(movieTitle);
 		
+        ExtentReportManager.log("Step 2: Validating API response");
 		MoviesSearch moviesSearchResponse = response.then()
 				.spec(SpecBuilder.getResponseSpecification())
 				.statusCode(200)
@@ -49,10 +56,13 @@ public class MovieRetrievalTests {
 		assertTrue(moviesSearchResponse.getData().get(0).getTitle().contains(movieTitle), "Movie title does not contain search parameter");
 	}
 
-    @Test(description = "Verify that the expected movie returns")
+    @Test(description = "Verify that the expected movie returns",
+			groups = {"movie_retrieval", "regression"})
     public void searchByMovieIdReturnsSingleExactMatch() {
+        ExtentReportManager.log("Step 1: MovieActions.getMovieById(2)");
         Response response = MovieActions.getMovieById(2);
 
+        ExtentReportManager.log("Step 2: Validating API response");
         Movie movieResponse = response.then()
         	.spec(SpecBuilder.getResponseSpecification())
         	.statusCode(200)
@@ -62,13 +72,15 @@ public class MovieRetrievalTests {
         assertTrue(movieResponse.getTitle().equals("Inception"), "Movie title mismatch");
     }
     
-    @Test(description = "Verify that the movie list is correctly paginated")
+    @Test(description = "Verify that the movie list is correctly paginated",
+			groups = {"movie_retrieval", "regression"})
     public void listMoviesWithPagination() {
         int page = 1;
         int limit = 100;
-
+        ExtentReportManager.log("Step 1: MovieActions.getAllMovies(page, limit)");
         Response response = MovieActions.getAllMovies(page, limit);
-        
+
+        ExtentReportManager.log("Step 2: Validating API response");
         MoviesList moviesListResponse = response.then()
             .spec(SpecBuilder.getResponseSpecification())
             .extract()
@@ -78,10 +90,13 @@ public class MovieRetrievalTests {
         assertEquals(moviesListResponse.getLimit(), limit, "MoviesList [limit] mismatch");
     }
 
-    @Test(description = "Verify movie list with default pagination")
+    @Test(description = "Verify movie list with default pagination",
+			groups = {"movie_retrieval", "regression"})
     public void listMoviesWithDefaultPagination() {
+        ExtentReportManager.log("Step 1: MovieActions.getAllMovies()");
         Response response = MovieActions.getAllMovies();
         
+        ExtentReportManager.log("Step 2: Validating API response");
         MoviesList moviesListResponse = response.then()
             .spec(SpecBuilder.getResponseSpecification())
             .extract()

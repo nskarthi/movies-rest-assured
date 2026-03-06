@@ -2,6 +2,7 @@ package com.moviedb.tests.movies;
 
 import java.util.List;
 
+import com.moviedb.actions.MovieActions;
 import com.moviedb.pojos.movies.Cast;
 import com.moviedb.pojos.movies.Crew;
 import com.moviedb.pojos.movies.Finance;
@@ -33,5 +34,14 @@ public class MovieData {
 			.releaseDetails(releaseDetails)
 			.finance(finance)
 			.build();
+    }
+    
+    public static Movie createDefaultMovie() {
+        Movie moviePayload = getMoviePayload();
+        return MovieActions.createMovie(moviePayload)
+                .then()
+                .statusCode(201)
+                .extract()
+                .as(Movie.class); // Returns the full object
     }
 }

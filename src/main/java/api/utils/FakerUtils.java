@@ -53,4 +53,9 @@ public class FakerUtils {
 		Faker faker = new Faker();
 		return faker.country().currency();
 	}
+	
+	public static int generateRandomMovieId() {
+		Faker faker = new Faker();
+		return faker.number().numberBetween(500, 50000);
+	}
 }

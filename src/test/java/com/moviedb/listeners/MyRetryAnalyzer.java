@@ -18,7 +18,7 @@ public class MyRetryAnalyzer implements IRetryAnalyzer {
             
             // 2. Check if the failure was specifically due to a 401 status code
             if (throwable != null && isAuthFailure(throwable.getMessage())) {
-                System.out.println("🚨 [RETRY] 401 detected in test: " + result.getName());
+                System.out.println("[RETRY] 401 detected in test: " + result.getName());
                 System.out.println("Retry attempt #" + (count + 1));
                 // 3. Clear cache to force a fresh login on the next attempt
                 AuthManager.clearCache(); 
