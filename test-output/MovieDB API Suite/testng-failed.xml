@@ -5,13 +5,27 @@
     <listener class-name="com.moviedb.listeners.AnnotationTransformer"/>
     <listener class-name="com.moviedb.listeners.ExtentReportManager"/>
   </listeners>
-  <test thread-count="3" parallel="methods" name="Functional Tests(failed)">
+  <test thread-count="3" parallel="methods" name="Movie related tests(failed)">
     <classes>
-      <class name="com.moviedb.tests.system.DatabaseCleanUp">
+      <class name="com.moviedb.tests.movies.MovieRetrievalTests">
         <methods>
-          <include name="globalSetUp"/>
+          <include name="searchByMovieTitleReturnsSingleExactMatch"/>
+          <include name="searchByMovieIdReturnsSingleExactMatch"/>
+          <include name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies"/>
+          <include name="listMoviesWithDefaultPagination"/>
+          <include name="listMoviesWithPagination"/>
         </methods>
-      </class> <!-- com.moviedb.tests.system.DatabaseCleanUp -->
+      </class> <!-- com.moviedb.tests.movies.MovieRetrievalTests -->
+      <class name="com.moviedb.tests.movies.MovieNegativeTests">
+        <methods>
+          <include name="patchUpdateMovieTitleFailure"/>
+          <include name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404"/>
+          <include name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404"/>
+          <include name="givenNoToken_whenRequestingMovies_thenReturns401"/>
+          <include name="givenInvalidToken_whenRequestingMovies_thenReturns401"/>
+          <include name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404"/>
+        </methods>
+      </class> <!-- com.moviedb.tests.movies.MovieNegativeTests -->
       <class name="com.moviedb.tests.movies.MovieCrudTests">
         <methods>
           <include name="shouldBeAbleToUploadMoviePosterSuccessfully"/>
@@ -23,30 +37,20 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.moviedb.tests.movies.MovieCrudTests -->
-      <class name="com.moviedb.tests.movies.MovieNegativeTests">
-        <methods>
-          <include name="patchUpdateMovieTitleFailure"/>
-          <include name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404"/>
-          <include name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404"/>
-          <include name="givenNoToken_whenRequestingMovies_thenReturns401"/>
-          <include name="givenInvalidToken_whenRequestingMovies_thenReturns401"/>
-          <include name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404"/>
-        </methods>
-      </class> <!-- com.moviedb.tests.movies.MovieNegativeTests -->
+    </classes>
+  </test> <!-- Movie related tests(failed) -->
+  <test thread-count="3" parallel="methods" name="System related tests(failed)">
+    <classes>
       <class name="com.moviedb.tests.system.SystemTests">
         <methods>
           <include name="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200"/>
         </methods>
       </class> <!-- com.moviedb.tests.system.SystemTests -->
-      <class name="com.moviedb.tests.movies.MovieRetrievalTests">
+      <class name="com.moviedb.tests.system.DatabaseCleanUp">
         <methods>
-          <include name="searchByMovieTitleReturnsSingleExactMatch"/>
-          <include name="searchByMovieIdReturnsSingleExactMatch"/>
-          <include name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies"/>
-          <include name="listMoviesWithDefaultPagination"/>
-          <include name="listMoviesWithPagination"/>
+          <include name="globalSetUp"/>
         </methods>
-      </class> <!-- com.moviedb.tests.movies.MovieRetrievalTests -->
+      </class> <!-- com.moviedb.tests.system.DatabaseCleanUp -->
     </classes>
-  </test> <!-- Functional Tests(failed) -->
+  </test> <!-- System related tests(failed) -->
 </suite> <!-- Failed suite [MovieDB API Suite] -->

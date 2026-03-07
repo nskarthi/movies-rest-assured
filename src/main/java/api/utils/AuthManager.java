@@ -34,11 +34,15 @@ public class AuthManager {
 
     private static String generateNewToken() {
         String baseUri = ConfigLoader.getInstance().getBaseUrl();
+        String username = ConfigLoader.getInstance().getUserName();
+        String password = ConfigLoader.getInstance().getPassword();
         
         Response response = given()
                 .baseUri(baseUri)
-                .body("{ \"username\": \"admin\", \"password\": \"admin\" }")
+                //example: { "username": "admin", "password": "admin" }
+                .body("{ \"username\": \"" + username + "\", \"password\": \"" + password + "\" }")
                 .contentType(ContentType.JSON)
+				.log().all()
             .when()
                 .post("/auth/login");
 

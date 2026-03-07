@@ -1,5 +1,6 @@
 package com.moviedb.listeners;
 
+import org.apache.logging.log4j.ThreadContext;
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
 import org.testng.ITestListener;
@@ -45,19 +46,31 @@ public class ExtentReportManager implements ITestListener, ISuiteListener {
                 test.assignCategory(group); // Adds each group as a filterable category
             }
         }
-        
+
         // 5. Assign the test object to the current thread
 		methodTest.set(test);
+		
+        // Step 6: This is needed for log4j log line items to include method name
+		// Push the method name into Log4j Thread Context
+        ThreadContext.put("methodName", result.getMethod().getMethodName());
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		methodTest.get().pass("Test Passed successfully");
+        ThreadContext.remove("methodName"); // Clear it after test
 	}
 
 	@Override
+	public void onTestSkipped(ITestResult result) {
+		methodTest.get().info("Test skipped");
+        ThreadContext.remove("methodName"); // Clear it after test
+	}
+	
+	@Override
 	public void onTestFailure(ITestResult result) {
 		methodTest.get().fail(result.getThrowable()); // Automatically logs the error/stacktrace
+        ThreadContext.remove("methodName"); // Clear it after test
 	}
 
     @Override

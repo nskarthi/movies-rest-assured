@@ -2,195 +2,200 @@
 <testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-06T08:27:17 EST" name="MovieDB API Suite" finished-at="2026-03-06T08:27:20 EST" duration-ms="2559">
+  <suite started-at="2026-03-07T07:19:44 EST" name="MovieDB API Suite" finished-at="2026-03-07T07:19:46 EST" duration-ms="1987">
     <groups>
       <group name="movie_negative">
-        <method signature="MovieNegativeTests.givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieNegativeTests.givenInvalidMovieId_whenDeletingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieNegativeTests.givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieNegativeTests.givenInvalidToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenInvalidToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieNegativeTests.givenNoToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenNoToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieNegativeTests.patchUpdateMovieTitleFailure()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="patchUpdateMovieTitleFailure" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.givenInvalidMovieId_whenDeletingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.givenInvalidToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenInvalidToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.givenNoToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenNoToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.patchUpdateMovieTitleFailure()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="patchUpdateMovieTitleFailure" class="com.moviedb.tests.movies.MovieNegativeTests"/>
       </group> <!-- movie_negative -->
       <group name="movie_retrieval">
-        <method signature="MovieRetrievalTests.listMoviesWithDefaultPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="listMoviesWithDefaultPagination" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
-        <method signature="MovieRetrievalTests.listMoviesWithPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="listMoviesWithPagination" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
-        <method signature="MovieRetrievalTests.searchByMovieIdReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="searchByMovieIdReturnsSingleExactMatch" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
-        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsAllPartialTitleMatchingMovies()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
-        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="searchByMovieTitleReturnsSingleExactMatch" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieRetrievalTests.listMoviesWithDefaultPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="listMoviesWithDefaultPagination" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieRetrievalTests.listMoviesWithPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="listMoviesWithPagination" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieRetrievalTests.searchByMovieIdReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="searchByMovieIdReturnsSingleExactMatch" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsAllPartialTitleMatchingMovies()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="searchByMovieTitleReturnsSingleExactMatch" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
       </group> <!-- movie_retrieval -->
-      <group name="movie">
-        <method signature="MovieCrudTests.shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToCreateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToDeleteAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToUpdateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToUploadMoviePosterSuccessfully" class="com.moviedb.tests.movies.MovieCrudTests"/>
-      </group> <!-- movie -->
       <group name="regression">
-        <method signature="MovieCrudTests.shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToCreateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToDeleteAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToUpdateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToUploadMoviePosterSuccessfully" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieNegativeTests.givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieNegativeTests.givenInvalidMovieId_whenDeletingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieNegativeTests.givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieNegativeTests.givenInvalidToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenInvalidToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieNegativeTests.givenNoToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenNoToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieNegativeTests.patchUpdateMovieTitleFailure()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="patchUpdateMovieTitleFailure" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieRetrievalTests.listMoviesWithDefaultPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="listMoviesWithDefaultPagination" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
-        <method signature="MovieRetrievalTests.listMoviesWithPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="listMoviesWithPagination" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
-        <method signature="MovieRetrievalTests.searchByMovieIdReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="searchByMovieIdReturnsSingleExactMatch" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
-        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsAllPartialTitleMatchingMovies()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
-        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="searchByMovieTitleReturnsSingleExactMatch" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToCreateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToDeleteAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToUpdateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToUploadMoviePosterSuccessfully" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieNegativeTests.givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.givenInvalidMovieId_whenDeletingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.givenInvalidToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenInvalidToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.givenNoToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenNoToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.patchUpdateMovieTitleFailure()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="patchUpdateMovieTitleFailure" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieRetrievalTests.listMoviesWithDefaultPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="listMoviesWithDefaultPagination" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieRetrievalTests.listMoviesWithPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="listMoviesWithPagination" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieRetrievalTests.searchByMovieIdReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="searchByMovieIdReturnsSingleExactMatch" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsAllPartialTitleMatchingMovies()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="searchByMovieTitleReturnsSingleExactMatch" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="SystemTests.givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200()[pri:0, instance:com.moviedb.tests.system.SystemTests@5ddea849]" name="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200" class="com.moviedb.tests.system.SystemTests"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="MovieCrudTests.shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToCreateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToDeleteAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieCrudTests.shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" name="shouldBeAbleToUpdateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
-        <method signature="MovieNegativeTests.givenInvalidToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenInvalidToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieNegativeTests.givenNoToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" name="givenNoToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
-        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsAllPartialTitleMatchingMovies()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
-        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" name="searchByMovieTitleReturnsSingleExactMatch" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToCreateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToDeleteAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToUpdateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieNegativeTests.givenInvalidToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenInvalidToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieNegativeTests.givenNoToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenNoToken_whenRequestingMovies_thenReturns401" class="com.moviedb.tests.movies.MovieNegativeTests"/>
+        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsAllPartialTitleMatchingMovies()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="MovieRetrievalTests.searchByMovieTitleReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" name="searchByMovieTitleReturnsSingleExactMatch" class="com.moviedb.tests.movies.MovieRetrievalTests"/>
+        <method signature="SystemTests.givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200()[pri:0, instance:com.moviedb.tests.system.SystemTests@5ddea849]" name="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200" class="com.moviedb.tests.system.SystemTests"/>
       </group> <!-- smoke -->
+      <group name="health_check">
+        <method signature="SystemTests.givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200()[pri:0, instance:com.moviedb.tests.system.SystemTests@5ddea849]" name="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200" class="com.moviedb.tests.system.SystemTests"/>
+      </group> <!-- health_check -->
+      <group name="movie_cruds">
+        <method signature="MovieCrudTests.shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToCreateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToDeleteAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToUpdateAMovie" class="com.moviedb.tests.movies.MovieCrudTests"/>
+        <method signature="MovieCrudTests.shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToUploadMoviePosterSuccessfully" class="com.moviedb.tests.movies.MovieCrudTests"/>
+      </group> <!-- movie_cruds -->
     </groups>
-    <test started-at="2026-03-06T08:27:17 EST" name="Movie related tests" finished-at="2026-03-06T08:27:20 EST" duration-ms="2498">
+    <test started-at="2026-03-07T07:19:44 EST" name="Movie related tests" finished-at="2026-03-07T07:19:46 EST" duration-ms="1919">
       <class name="com.moviedb.tests.movies.MovieRetrievalTests">
-        <test-method signature="listMoviesWithDefaultPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" started-at="2026-03-06T08:27:20 EST" name="listMoviesWithDefaultPagination" description="Verify movie list with default pagination" finished-at="2026-03-06T08:27:20 EST" duration-ms="35" status="PASS">
+        <test-method signature="listMoviesWithDefaultPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T07:19:46 EST" name="listMoviesWithDefaultPagination" description="Verify movie list with default pagination" finished-at="2026-03-07T07:19:46 EST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listMoviesWithDefaultPagination -->
-        <test-method signature="listMoviesWithPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" started-at="2026-03-06T08:27:20 EST" name="listMoviesWithPagination" description="Verify that the movie list is correctly paginated" finished-at="2026-03-06T08:27:20 EST" duration-ms="34" status="PASS">
+        <test-method signature="listMoviesWithPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T07:19:46 EST" name="listMoviesWithPagination" description="Verify that the movie list is correctly paginated" finished-at="2026-03-07T07:19:46 EST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listMoviesWithPagination -->
-        <test-method signature="searchByMovieTitleReturnsAllPartialTitleMatchingMovies()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" started-at="2026-03-06T08:27:20 EST" name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" description="Verify search returns all matching movies for a common movie title query" finished-at="2026-03-06T08:27:20 EST" duration-ms="44" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchByMovieTitleReturnsAllPartialTitleMatchingMovies -->
-        <test-method signature="searchByMovieIdReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" started-at="2026-03-06T08:27:20 EST" name="searchByMovieIdReturnsSingleExactMatch" description="Verify that the expected movie returns" finished-at="2026-03-06T08:27:20 EST" duration-ms="24" status="PASS">
+        <test-method signature="searchByMovieIdReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T07:19:46 EST" name="searchByMovieIdReturnsSingleExactMatch" description="Verify that the expected movie returns" finished-at="2026-03-07T07:19:46 EST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByMovieIdReturnsSingleExactMatch -->
-        <test-method signature="searchByMovieTitleReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@36b4091c]" started-at="2026-03-06T08:27:20 EST" name="searchByMovieTitleReturnsSingleExactMatch" description="Verify that a unique movie title returns exactly one movie" finished-at="2026-03-06T08:27:20 EST" duration-ms="21" status="PASS">
+        <test-method signature="searchByMovieTitleReturnsAllPartialTitleMatchingMovies()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T07:19:46 EST" name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" description="Verify search returns all matching movies for a common movie title query" finished-at="2026-03-07T07:19:46 EST" duration-ms="82" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByMovieTitleReturnsAllPartialTitleMatchingMovies -->
+        <test-method signature="searchByMovieTitleReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T07:19:46 EST" name="searchByMovieTitleReturnsSingleExactMatch" description="Verify that a unique movie title returns exactly one movie" finished-at="2026-03-07T07:19:46 EST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByMovieTitleReturnsSingleExactMatch -->
       </class> <!-- com.moviedb.tests.movies.MovieRetrievalTests -->
       <class name="com.moviedb.tests.movies.MovieNegativeTests">
-        <test-method signature="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" started-at="2026-03-06T08:27:20 EST" name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" description="Ensure that a 400 BAD REQUEST is returned when movie title is missing in the movie creation request" finished-at="2026-03-06T08:27:20 EST" duration-ms="45" status="PASS">
+        <test-method signature="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" description="Ensure that a 400 BAD REQUEST is returned when movie title is missing in the movie creation request" finished-at="2026-03-07T07:19:46 EST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404 -->
-        <test-method signature="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" started-at="2026-03-06T08:27:20 EST" name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404" description="Ensure that a 404 is returned while attempting to delete a non-existent movie" finished-at="2026-03-06T08:27:20 EST" duration-ms="39" status="PASS">
+        <test-method signature="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404" description="Ensure that a 404 is returned while attempting to delete a non-existent movie" finished-at="2026-03-07T07:19:46 EST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenInvalidMovieId_whenDeletingMovie_thenStatusIs404 -->
-        <test-method signature="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" started-at="2026-03-06T08:27:20 EST" name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404" description="Ensure that 404 NOT FOUND is returned when an invalid movie Id is requested" finished-at="2026-03-06T08:27:20 EST" duration-ms="99" status="PASS">
+        <test-method signature="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404" description="Ensure that 404 NOT FOUND is returned when an invalid movie Id is requested" finished-at="2026-03-07T07:19:46 EST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404 -->
-        <test-method signature="givenInvalidToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" started-at="2026-03-06T08:27:20 EST" name="givenInvalidToken_whenRequestingMovies_thenReturns401" description="Verify that an unauthorized user cannot access movies when invalid token is passed" finished-at="2026-03-06T08:27:20 EST" duration-ms="30" status="PASS">
+        <test-method signature="givenInvalidToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="givenInvalidToken_whenRequestingMovies_thenReturns401" description="Verify that an unauthorized user cannot access movies when invalid token is passed" finished-at="2026-03-07T07:19:46 EST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenInvalidToken_whenRequestingMovies_thenReturns401 -->
-        <test-method signature="givenNoToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" started-at="2026-03-06T08:27:20 EST" name="givenNoToken_whenRequestingMovies_thenReturns401" description="Verify that an unauthorized user cannot access movies when no token is passed" finished-at="2026-03-06T08:27:20 EST" duration-ms="17" status="PASS">
+        <test-method signature="givenNoToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="givenNoToken_whenRequestingMovies_thenReturns401" description="Verify that an unauthorized user cannot access movies when no token is passed" finished-at="2026-03-07T07:19:46 EST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenNoToken_whenRequestingMovies_thenReturns401 -->
-        <test-method signature="patchUpdateMovieTitleFailure()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@d771cc9]" started-at="2026-03-06T08:27:20 EST" name="patchUpdateMovieTitleFailure" description="Verify that a non-existent movie&#039;s title cannot be partially updated using PATCH" finished-at="2026-03-06T08:27:20 EST" duration-ms="44" status="PASS">
+        <test-method signature="patchUpdateMovieTitleFailure()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="patchUpdateMovieTitleFailure" description="Verify that a non-existent movie&#039;s title cannot be partially updated using PATCH" finished-at="2026-03-07T07:19:46 EST" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patchUpdateMovieTitleFailure -->
       </class> <!-- com.moviedb.tests.movies.MovieNegativeTests -->
       <class name="com.moviedb.tests.movies.MovieCrudTests">
-        <test-method signature="shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:17 EST" name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" description="Ensure that multiple movies are created in a single create movie request" finished-at="2026-03-06T08:27:19 EST" duration-ms="2022" status="PASS">
+        <test-method signature="shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:44 EST" name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" description="Ensure that multiple movies are created in a single create movie request" finished-at="2026-03-07T07:19:46 EST" duration-ms="1227" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToCreateMultipleMoviesInASingleRequest -->
-        <test-method signature="shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:17 EST" name="shouldBeAbleToCreateAMovie" description="Ensure that new movie is created when movie details provided is valid" finished-at="2026-03-06T08:27:18 EST" duration-ms="1006" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldBeAbleToCreateAMovie -->
-        <test-method signature="shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:17 EST" name="shouldBeAbleToDeleteAMovie" description="Ensure that a 200 OK is returned when a valid movie ID is deleted by an authorized user" finished-at="2026-03-06T08:27:19 EST" duration-ms="1981" status="PASS">
+        <test-method signature="shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:44 EST" name="shouldBeAbleToDeleteAMovie" description="Ensure that a 200 OK is returned when a valid movie ID is deleted by an authorized user" finished-at="2026-03-07T07:19:46 EST" duration-ms="1201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToDeleteAMovie -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:18 EST" name="tearDown" finished-at="2026-03-06T08:27:19 EST" duration-ms="966" status="PASS">
+        <test-method signature="shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:44 EST" name="shouldBeAbleToCreateAMovie" description="Ensure that new movie is created when movie details provided is valid" finished-at="2026-03-07T07:19:46 EST" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToCreateAMovie -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="31" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldBeAbleToCreateAMovie status=SUCCESS method=MovieCrudTests.shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19] output={null}]]]>
+                <![CDATA[[TestResult name=shouldBeAbleToCreateAMovie status=SUCCESS method=MovieCrudTests.shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:19 EST" name="tearDown" finished-at="2026-03-06T08:27:19 EST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=shouldBeAbleToDeleteAMovie status=SUCCESS method=MovieCrudTests.shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:19 EST" name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" description="Verify that a movie title can be partially updated using PATCH" finished-at="2026-03-06T08:27:20 EST" duration-ms="137" status="PASS">
+        <test-method signature="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" description="Verify that a movie title can be partially updated using PATCH" finished-at="2026-03-07T07:19:46 EST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToPatchUpdateAMovieTitleSuccessfully -->
-        <test-method signature="shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:19 EST" name="shouldBeAbleToUpdateAMovie" description="Ensure that movie information is updated when valid movie id is provided" finished-at="2026-03-06T08:27:20 EST" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shouldBeAbleToDeleteAMovie status=SUCCESS method=MovieCrudTests.shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="shouldBeAbleToUpdateAMovie" description="Ensure that movie information is updated when valid movie id is provided" finished-at="2026-03-07T07:19:46 EST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToUpdateAMovie -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:19 EST" name="tearDown" finished-at="2026-03-06T08:27:20 EST" duration-ms="52" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="79" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldBeAbleToCreateMultipleMoviesInASingleRequest status=SUCCESS method=MovieCrudTests.shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19] output={null}]]]>
+                <![CDATA[[TestResult name=shouldBeAbleToCreateMultipleMoviesInASingleRequest status=SUCCESS method=MovieCrudTests.shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:20 EST" name="shouldBeAbleToUploadMoviePosterSuccessfully" description="Verify that movie poster can be uploaded to a movie" finished-at="2026-03-06T08:27:20 EST" duration-ms="333" status="PASS">
+        <test-method signature="shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="shouldBeAbleToUploadMoviePosterSuccessfully" description="Verify that movie poster can be uploaded to a movie" finished-at="2026-03-07T07:19:46 EST" duration-ms="540" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToUploadMoviePosterSuccessfully -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:20 EST" name="tearDown" finished-at="2026-03-06T08:27:20 EST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="27" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldBeAbleToUpdateAMovie status=SUCCESS method=MovieCrudTests.shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19] output={null}]]]>
+                <![CDATA[[TestResult name=shouldBeAbleToUpdateAMovie status=SUCCESS method=MovieCrudTests.shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:20 EST" name="tearDown" finished-at="2026-03-06T08:27:20 EST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="33" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldBeAbleToPatchUpdateAMovieTitleSuccessfully status=SUCCESS method=MovieCrudTests.shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19] output={null}]]]>
+                <![CDATA[[TestResult name=shouldBeAbleToPatchUpdateAMovieTitleSuccessfully status=SUCCESS method=MovieCrudTests.shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19]" started-at="2026-03-06T08:27:20 EST" name="tearDown" finished-at="2026-03-06T08:27:20 EST" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="20" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=shouldBeAbleToUploadMoviePosterSuccessfully status=SUCCESS method=MovieCrudTests.shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@6f19ac19] output={null}]]]>
+                <![CDATA[[TestResult name=shouldBeAbleToUploadMoviePosterSuccessfully status=SUCCESS method=MovieCrudTests.shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2] output={null}]]]>
               </value>
             </param>
           </params>
@@ -199,15 +204,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.moviedb.tests.movies.MovieCrudTests -->
     </test> <!-- Movie related tests -->
-    <test started-at="2026-03-06T08:27:20 EST" name="System related tests" finished-at="2026-03-06T08:27:20 EST" duration-ms="28">
+    <test started-at="2026-03-07T07:19:46 EST" name="System related tests" finished-at="2026-03-07T07:19:46 EST" duration-ms="32">
       <class name="com.moviedb.tests.system.SystemTests">
-        <test-method signature="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200()[pri:0, instance:com.moviedb.tests.system.SystemTests@5f354bcf]" started-at="2026-03-06T08:27:20 EST" name="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200" description="Verify that the health check endpoint returns 200 OK and status &#039;UP&#039;" finished-at="2026-03-06T08:27:20 EST" duration-ms="25" status="PASS">
+        <test-method signature="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200()[pri:0, instance:com.moviedb.tests.system.SystemTests@5ddea849]" started-at="2026-03-07T07:19:46 EST" name="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200" description="Verify that the health check endpoint returns 200 OK and status &#039;UP&#039;" finished-at="2026-03-07T07:19:46 EST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200 -->
       </class> <!-- com.moviedb.tests.system.SystemTests -->
       <class name="com.moviedb.tests.system.DatabaseCleanUp">
-        <test-method is-config="true" signature="globalSetUp()[pri:0, instance:com.moviedb.tests.system.DatabaseCleanUp@6c2c1385]" started-at="2026-03-06T08:27:15 EST" name="globalSetUp" description="Verify that the Database gets reset and 10 default records are re-seeded back" finished-at="2026-03-06T08:27:17 EST" duration-ms="2589" status="PASS">
+        <test-method is-config="true" signature="globalSetUp()[pri:0, instance:com.moviedb.tests.system.DatabaseCleanUp@5e01a982]" started-at="2026-03-07T07:19:41 EST" name="globalSetUp" description="Verify that the Database gets reset and 10 default records are re-seeded back" finished-at="2026-03-07T07:19:44 EST" duration-ms="2972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetUp -->

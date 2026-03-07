@@ -12,6 +12,8 @@ import com.moviedb.pojos.movies.Movie;
 import com.moviedb.pojos.movies.MoviesList;
 import com.moviedb.pojos.movies.MoviesSearch;
 
+import api.contants.StatusCode;
+import api.utils.LogUtils;
 import io.restassured.response.Response;
 
 public class MovieRetrievalTests {
@@ -25,12 +27,16 @@ public class MovieRetrievalTests {
 	public void searchByMovieTitleReturnsSingleExactMatch() {
 		String movieTitle = "RRR";
         ExtentReportManager.log("Step 1: MovieActions.getMoviesByTitle(movieTitle)");
+        LogUtils.getLogger().info("Step 1: MovieActions.getMoviesByTitle(movieTitle)");
+
 		Response response = MovieActions.getMoviesByTitle(movieTitle);
 
         ExtentReportManager.log("Step 2: Validating API response");
+        LogUtils.getLogger().info("Step 2: Validating API response");
+
 		MoviesSearch moviesSearchResponse = response.then()
 				.spec(SpecBuilder.getResponseSpecification())
-				.statusCode(200)
+				.statusCode(StatusCode.CODE_200.getCode())
 				.extract()
 				.as(MoviesSearch.class);
 
@@ -43,12 +49,16 @@ public class MovieRetrievalTests {
 	public void searchByMovieTitleReturnsAllPartialTitleMatchingMovies() {
 		String movieTitle = "a";
         ExtentReportManager.log("Step 1: MovieActions.getMoviesByTitle(movieTitle)");
+        LogUtils.getLogger().info("Step 1: MovieActions.getMoviesByTitle(movieTitle)");
+
 		Response response = MovieActions.getMoviesByTitle(movieTitle);
 		
         ExtentReportManager.log("Step 2: Validating API response");
+        LogUtils.getLogger().info("Step 2: Validating API response");
+
 		MoviesSearch moviesSearchResponse = response.then()
 				.spec(SpecBuilder.getResponseSpecification())
-				.statusCode(200)
+				.statusCode(StatusCode.CODE_200.getCode())
 				.extract()
 				.as(MoviesSearch.class);
 
@@ -60,12 +70,16 @@ public class MovieRetrievalTests {
 			groups = {"movie_retrieval", "regression"})
     public void searchByMovieIdReturnsSingleExactMatch() {
         ExtentReportManager.log("Step 1: MovieActions.getMovieById(2)");
+        LogUtils.getLogger().info("Step 1: MovieActions.getMovieById(2)");
+
         Response response = MovieActions.getMovieById(2);
 
         ExtentReportManager.log("Step 2: Validating API response");
+        LogUtils.getLogger().info("Step 2: Validating API response");
+
         Movie movieResponse = response.then()
         	.spec(SpecBuilder.getResponseSpecification())
-        	.statusCode(200)
+        	.statusCode(StatusCode.CODE_200.getCode())
         	.extract()
         	.as(Movie.class);
 
@@ -78,9 +92,13 @@ public class MovieRetrievalTests {
         int page = 1;
         int limit = 100;
         ExtentReportManager.log("Step 1: MovieActions.getAllMovies(page, limit)");
+        LogUtils.getLogger().info("Step 1: MovieActions.getAllMovies(page, limit)");
+
         Response response = MovieActions.getAllMovies(page, limit);
 
         ExtentReportManager.log("Step 2: Validating API response");
+        LogUtils.getLogger().info("Step 2: Validating API response");
+
         MoviesList moviesListResponse = response.then()
             .spec(SpecBuilder.getResponseSpecification())
             .extract()
@@ -94,9 +112,13 @@ public class MovieRetrievalTests {
 			groups = {"movie_retrieval", "regression"})
     public void listMoviesWithDefaultPagination() {
         ExtentReportManager.log("Step 1: MovieActions.getAllMovies()");
+        LogUtils.getLogger().info("Step 1: MovieActions.getAllMovies()");
+
         Response response = MovieActions.getAllMovies();
         
         ExtentReportManager.log("Step 2: Validating API response");
+        LogUtils.getLogger().info("Step 2: Validating API response");
+
         MoviesList moviesListResponse = response.then()
             .spec(SpecBuilder.getResponseSpecification())
             .extract()

@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Movie Database API Regression</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 6, 2026 08:27:15 AM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 7, 2026 07:19:41 AM</span></a>
 </li>
 </ul>
 </div>
@@ -79,20 +79,20 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">smoke</a><a class="dropdown-item" href="#">Movierelatedtests</a><a class="dropdown-item" href="#">movie_negative</a><a class="dropdown-item" href="#">movie_retrieval</a><a class="dropdown-item" href="#">movie</a><a class="dropdown-item" href="#">regression</a><a class="dropdown-item" href="#">Systemrelatedtests</a>
+<a class="dropdown-item" href="#">smoke</a><a class="dropdown-item" href="#">movie_cruds</a><a class="dropdown-item" href="#">movie_negative</a><a class="dropdown-item" href="#">health_check</a><a class="dropdown-item" href="#">regression</a><a class="dropdown-item" href="#">Systemrelatedtests</a><a class="dropdown-item" href="#">Movierelatedtests</a><a class="dropdown-item" href="#">movie_retrieval</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="1"
+        <li class="test-item"  status="pass" test-id="3"
           author=""
-          tag="Movierelatedtests regression smoke movie"
+          tag="Movierelatedtests movie_cruds regression smoke"
           device="">
           <div class="test-detail">
-            <p class="name">shouldBeAbleToCreateMultipleMoviesInASingleRequest</p>
+            <p class="name">shouldBeAbleToDeleteAMovie</p>
             <p class="text-sm">
-              <span>8:27:17 AM</span> / <span>00:00:02:057</span>
+              <span>7:19:44 AM</span> / <span>00:00:01:190</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -100,20 +100,20 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">shouldBeAbleToCreateMultipleMoviesInASingleRequest</h5>
-<span class='badge badge-success'>03.06.2026 8:27:17 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:02:057</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<h5 class="test-status text-pass">shouldBeAbleToDeleteAMovie</h5>
+<span class='badge badge-success'>03.07.2026 7:19:44 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:01:190</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
 <div class="m-t-15"><span class="badge badge-pill badge-default">Movierelatedtests</span>
+<span class="badge badge-pill badge-default">movie_cruds</span>
 <span class="badge badge-pill badge-default">regression</span>
-<span class="badge badge-pill badge-default">smoke</span>
-<span class="badge badge-pill badge-default">movie</span></div>
-<div class="m-t-10 m-l-5">Ensure that multiple movies are created in a single create movie request</div>
+<span class="badge badge-pill badge-default">smoke</span></div>
+<div class="m-t-10 m-l-5">Ensure that a 200 OK is returned when a valid movie ID is deleted by an authorized user</div>
 </div>
 </div><div class="detail-body mt-4">
 <table class="table table-sm">
@@ -121,51 +121,23 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:17 AM</td>
+        <td>7:19:44 AM</td>
         <td>
-          Step 1: Creating movies
+          Step 1: Creating a default movie
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:19 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 2: Performing assertion on the API response
         </td>
       </tr>
       <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:19 AM</td>
-        <td>
-          Step 3: Adding movieIds to cleanUp list
-        </td>
-      </tr>
-      <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:19 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:19 AM</td>
-        <td>
-          In CleanUp > Cleaned up Movie ID: 13
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
-        <td>
-          In CleanUp > Cleaned up Movie ID: 14
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
-        <td>
-          In CleanUp > Cleaned up Movie ID: 15
         </td>
       </tr>
   </tbody>
@@ -175,72 +147,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="2"
           author=""
-          tag="Movierelatedtests regression smoke movie"
-          device="">
-          <div class="test-detail">
-            <p class="name">shouldBeAbleToDeleteAMovie</p>
-            <p class="text-sm">
-              <span>8:27:17 AM</span> / <span>00:00:01:963</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">shouldBeAbleToDeleteAMovie</h5>
-<span class='badge badge-success'>03.06.2026 8:27:17 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:19 AM</span>
-<span class='badge badge-default'>00:00:01:963</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">Movierelatedtests</span>
-<span class="badge badge-pill badge-default">regression</span>
-<span class="badge badge-pill badge-default">smoke</span>
-<span class="badge badge-pill badge-default">movie</span></div>
-<div class="m-t-10 m-l-5">Ensure that a 200 OK is returned when a valid movie ID is deleted by an authorized user</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:17 AM</td>
-        <td>
-          Step 1: Creating a default movie
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:19 AM</td>
-        <td>
-          Step 2: Performing assertion on the API response
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:19 AM</td>
-        <td>
-          Test Passed successfully
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="3"
-          author=""
-          tag="Movierelatedtests regression smoke movie"
+          tag="Movierelatedtests movie_cruds regression smoke"
           device="">
           <div class="test-detail">
             <p class="name">shouldBeAbleToCreateAMovie</p>
             <p class="text-sm">
-              <span>8:27:17 AM</span> / <span>00:00:01:958</span>
+              <span>7:19:44 AM</span> / <span>00:00:01:175</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -249,18 +161,18 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">shouldBeAbleToCreateAMovie</h5>
-<span class='badge badge-success'>03.06.2026 8:27:17 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:19 AM</span>
-<span class='badge badge-default'>00:00:01:958</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-success'>03.07.2026 7:19:44 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:01:175</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
 <div class="m-t-15"><span class="badge badge-pill badge-default">Movierelatedtests</span>
+<span class="badge badge-pill badge-default">movie_cruds</span>
 <span class="badge badge-pill badge-default">regression</span>
-<span class="badge badge-pill badge-default">smoke</span>
-<span class="badge badge-pill badge-default">movie</span></div>
+<span class="badge badge-pill badge-default">smoke</span></div>
 <div class="m-t-10 m-l-5">Ensure that new movie is created when movie details provided is valid</div>
 </div>
 </div><div class="detail-body mt-4">
@@ -269,44 +181,132 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:17 AM</td>
+        <td>7:19:44 AM</td>
         <td>
           Step 1: Creating a default movie
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:18 AM</td>
+        <td>7:19:45 AM</td>
         <td>
           Step 2: Performing assertion on the API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:18 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 3: Adding movieIds to cleanUp list
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:18 AM</td>
+        <td>7:19:46 AM</td>
         <td>
-          Step 4: Id of the newly created movie is: 11
+          Step 4: Id of the newly created movie is: 12
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:18 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:19 AM</td>
+        <td>7:19:46 AM</td>
         <td>
-          In CleanUp > Cleaned up Movie ID: 11
+          In CleanUp > Cleaned up Movie ID: 12
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="Movierelatedtests movie_cruds regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">shouldBeAbleToCreateMultipleMoviesInASingleRequest</p>
+            <p class="text-sm">
+              <span>7:19:44 AM</span> / <span>00:00:01:303</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">shouldBeAbleToCreateMultipleMoviesInASingleRequest</h5>
+<span class='badge badge-success'>03.07.2026 7:19:44 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:01:303</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Movierelatedtests</span>
+<span class="badge badge-pill badge-default">movie_cruds</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+<div class="m-t-10 m-l-5">Ensure that multiple movies are created in a single create movie request</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:19:44 AM</td>
+        <td>
+          Step 1: Creating movies
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:19:45 AM</td>
+        <td>
+          Step 2: Performing assertion on the API response
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:19:45 AM</td>
+        <td>
+          Step 3: Adding movieIds to cleanUp list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:19:46 AM</td>
+        <td>
+          Test Passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:19:46 AM</td>
+        <td>
+          In CleanUp > Cleaned up Movie ID: 13
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:19:46 AM</td>
+        <td>
+          In CleanUp > Cleaned up Movie ID: 14
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:19:46 AM</td>
+        <td>
+          In CleanUp > Cleaned up Movie ID: 15
         </td>
       </tr>
   </tbody>
@@ -316,12 +316,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="4"
           author=""
-          tag="Movierelatedtests regression movie"
+          tag="Movierelatedtests movie_cruds regression"
           device="">
           <div class="test-detail">
             <p class="name">shouldBeAbleToPatchUpdateAMovieTitleSuccessfully</p>
             <p class="text-sm">
-              <span>8:27:19 AM</span> / <span>00:00:00:158</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:278</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -330,17 +330,17 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">shouldBeAbleToPatchUpdateAMovieTitleSuccessfully</h5>
-<span class='badge badge-success'>03.06.2026 8:27:19 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:158</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:278</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
 <div class="m-t-15"><span class="badge badge-pill badge-default">Movierelatedtests</span>
-<span class="badge badge-pill badge-default">regression</span>
-<span class="badge badge-pill badge-default">movie</span></div>
+<span class="badge badge-pill badge-default">movie_cruds</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 <div class="m-t-10 m-l-5">Verify that a movie title can be partially updated using PATCH</div>
 </div>
 </div><div class="detail-body mt-4">
@@ -349,116 +349,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:19 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: Creating a default movie
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 2: Adding movieIds to cleanUp list
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 3: Performing assertion on the API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
-        <td>
-          In CleanUp > Cleaned up Movie ID: 16
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="5"
-          author=""
-          tag="Movierelatedtests regression smoke movie"
-          device="">
-          <div class="test-detail">
-            <p class="name">shouldBeAbleToUpdateAMovie</p>
-            <p class="text-sm">
-              <span>8:27:19 AM</span> / <span>00:00:00:153</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">shouldBeAbleToUpdateAMovie</h5>
-<span class='badge badge-success'>03.06.2026 8:27:19 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:153</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
-<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
-<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
-<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">Movierelatedtests</span>
-<span class="badge badge-pill badge-default">regression</span>
-<span class="badge badge-pill badge-default">smoke</span>
-<span class="badge badge-pill badge-default">movie</span></div>
-<div class="m-t-10 m-l-5">Ensure that movie information is updated when valid movie id is provided</div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:19 AM</td>
-        <td>
-          Step 1: Creating a default movie
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
-        <td>
-          Step 2: Adding movieIds to cleanUp list
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
-        <td>
-          Step 3: Updating budget for ID: 17
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
-        <td>
-          Step 4: Performing assertion on the API response
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
-        <td>
-          Test Passed successfully
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           In CleanUp > Cleaned up Movie ID: 17
         </td>
@@ -468,14 +387,95 @@
 </div>
           </div>
         </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="Movierelatedtests movie_cruds regression smoke"
+          device="">
+          <div class="test-detail">
+            <p class="name">shouldBeAbleToUpdateAMovie</p>
+            <p class="text-sm">
+              <span>7:19:46 AM</span> / <span>00:00:00:225</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">shouldBeAbleToUpdateAMovie</h5>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:225</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Movierelatedtests</span>
+<span class="badge badge-pill badge-default">movie_cruds</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
+<div class="m-t-10 m-l-5">Ensure that movie information is updated when valid movie id is provided</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:19:46 AM</td>
+        <td>
+          Step 1: Creating a default movie
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:19:46 AM</td>
+        <td>
+          Step 2: Adding movieIds to cleanUp list
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:19:46 AM</td>
+        <td>
+          Step 3: Updating budget for ID: 16
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:19:46 AM</td>
+        <td>
+          Step 4: Performing assertion on the API response
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:19:46 AM</td>
+        <td>
+          Test Passed successfully
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>7:19:46 AM</td>
+        <td>
+          In CleanUp > Cleaned up Movie ID: 16
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
         <li class="test-item"  status="pass" test-id="6"
           author=""
-          tag="Movierelatedtests regression movie"
+          tag="Movierelatedtests movie_cruds regression"
           device="">
           <div class="test-detail">
             <p class="name">shouldBeAbleToUploadMoviePosterSuccessfully</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:350</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:558</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -484,17 +484,17 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">shouldBeAbleToUploadMoviePosterSuccessfully</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:350</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:558</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
 <div class="m-t-15"><span class="badge badge-pill badge-default">Movierelatedtests</span>
-<span class="badge badge-pill badge-default">regression</span>
-<span class="badge badge-pill badge-default">movie</span></div>
+<span class="badge badge-pill badge-default">movie_cruds</span>
+<span class="badge badge-pill badge-default">regression</span></div>
 <div class="m-t-10 m-l-5">Verify that movie poster can be uploaded to a movie</div>
 </div>
 </div><div class="detail-body mt-4">
@@ -503,35 +503,35 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: Creating a default movie
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 2: Adding movieIds to cleanUp list
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 3: Performing assertion on the API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           In CleanUp > Cleaned up Movie ID: 18
         </td>
@@ -548,7 +548,7 @@
           <div class="test-detail">
             <p class="name">givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:045</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:068</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -557,9 +557,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:045</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:068</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -576,21 +576,21 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: Creating a default movie without movie title
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 2: Validating the API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -607,7 +607,7 @@
           <div class="test-detail">
             <p class="name">givenInvalidMovieId_whenDeletingMovie_thenStatusIs404</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:039</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:061</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -616,9 +616,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">givenInvalidMovieId_whenDeletingMovie_thenStatusIs404</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:039</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:061</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -635,28 +635,28 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: Calling FakerUtil's generateRandomMovieId to get a random movieId that does not exist
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
-          Step 2: Attempting to delete the movie with id 23059 which does not exist
+          Step 2: Attempting to delete the movie with id 22324 which does not exist
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 3: Validating API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -673,7 +673,7 @@
           <div class="test-detail">
             <p class="name">givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:098</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:135</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -682,9 +682,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:098</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:135</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -701,21 +701,21 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: Attempting to retrieve the movie with id 200 which does not exist
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 2: Validating the API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -732,7 +732,7 @@
           <div class="test-detail">
             <p class="name">givenInvalidToken_whenRequestingMovies_thenReturns401</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:030</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:037</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -741,9 +741,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">givenInvalidToken_whenRequestingMovies_thenReturns401</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:030</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:037</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -761,14 +761,14 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: Setting up page and limit query params and starting the test
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -785,7 +785,7 @@
           <div class="test-detail">
             <p class="name">givenNoToken_whenRequestingMovies_thenReturns401</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:016</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:017</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -794,9 +794,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">givenNoToken_whenRequestingMovies_thenReturns401</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:016</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:017</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -814,14 +814,14 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: Setting up invalid token and starting the test
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -838,7 +838,7 @@
           <div class="test-detail">
             <p class="name">patchUpdateMovieTitleFailure</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:043</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:059</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -847,9 +847,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">patchUpdateMovieTitleFailure</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:043</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:059</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -866,21 +866,21 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: Calling FakerUtil's generateRandomMovieId to get a random movieId that does not exist
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
-          Step 2: Attempting to PATCH update the title of movie with id 26454 which does not exist
+          Step 2: Attempting to PATCH update the title of movie with id 35685 which does not exist
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -897,7 +897,7 @@
           <div class="test-detail">
             <p class="name">listMoviesWithDefaultPagination</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:034</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:049</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -906,9 +906,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">listMoviesWithDefaultPagination</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:034</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:049</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -925,21 +925,21 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: MovieActions.getAllMovies()
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 2: Validating API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -956,7 +956,7 @@
           <div class="test-detail">
             <p class="name">listMoviesWithPagination</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:033</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:052</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -965,9 +965,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">listMoviesWithPagination</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:033</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:052</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -984,21 +984,21 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: MovieActions.getAllMovies(page, limit)
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 2: Validating API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -1015,7 +1015,7 @@
           <div class="test-detail">
             <p class="name">searchByMovieIdReturnsSingleExactMatch</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:024</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:033</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1024,9 +1024,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">searchByMovieIdReturnsSingleExactMatch</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:024</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:033</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -1043,21 +1043,21 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: MovieActions.getMovieById(2)
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 2: Validating API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -1074,7 +1074,7 @@
           <div class="test-detail">
             <p class="name">searchByMovieTitleReturnsAllPartialTitleMatchingMovies</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:044</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:081</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1083,9 +1083,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">searchByMovieTitleReturnsAllPartialTitleMatchingMovies</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:044</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:081</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -1103,21 +1103,21 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: MovieActions.getMoviesByTitle(movieTitle)
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 2: Validating API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -1134,7 +1134,7 @@
           <div class="test-detail">
             <p class="name">searchByMovieTitleReturnsSingleExactMatch</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:021</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:069</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1143,9 +1143,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">searchByMovieTitleReturnsSingleExactMatch</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:021</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:069</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -1163,21 +1163,21 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: MovieActions.getMoviesByTitle(movieTitle)
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 2: Validating API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -1189,12 +1189,12 @@
         </li>
         <li class="test-item"  status="pass" test-id="18"
           author=""
-          tag="Systemrelatedtests"
+          tag="Systemrelatedtests health_check regression smoke"
           device="">
           <div class="test-detail">
             <p class="name">givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200</p>
             <p class="text-sm">
-              <span>8:27:20 AM</span> / <span>00:00:00:023</span>
+              <span>7:19:46 AM</span> / <span>00:00:00:027</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -1203,15 +1203,18 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200</h5>
-<span class='badge badge-success'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-danger'>03.06.2026 8:27:20 AM</span>
-<span class='badge badge-default'>00:00:00:023</span>
+<span class='badge badge-success'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-danger'>03.07.2026 7:19:46 AM</span>
+<span class='badge badge-default'>00:00:00:027</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
 <span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
 </div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">Systemrelatedtests</span></div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Systemrelatedtests</span>
+<span class="badge badge-pill badge-default">health_check</span>
+<span class="badge badge-pill badge-default">regression</span>
+<span class="badge badge-pill badge-default">smoke</span></div>
 <div class="m-t-10 m-l-5">Verify that the health check endpoint returns 200 OK and status 'UP'</div>
 </div>
 </div><div class="detail-body mt-4">
@@ -1220,21 +1223,21 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 1: Calling Health Check API
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Step 2: Validating API response
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>8:27:20 AM</td>
+        <td>7:19:46 AM</td>
         <td>
           Test Passed successfully
         </td>
@@ -1257,22 +1260,22 @@
 <div class="test-list">
 <div class="test-list-tools">
 <ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
-<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">7</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">8</span></a></li></ul>
 </div>
 <div class="test-list-wrapper scrollable">
 <ul class="test-list-item">
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>8</span>
+<span class='badge log pass-bg'>9</span>
 </span>
 <p class="name">smoke</p>
-<p class="duration text-sm">8 tests</p>
+<p class="duration text-sm">9 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>smoke</h4>
-<span status="pass" class='badge log pass-bg'>8 passed</span>
+<span status="pass" class='badge log pass-bg'>9 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1285,58 +1288,65 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
+<td>07:19:44 AM</td>
 <td>
-<a href="#" class="linked" test-id='3' id='3'>shouldBeAbleToCreateAMovie</a>
+<a href="#" class="linked" test-id='2' id='2'>shouldBeAbleToCreateAMovie</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
+<td>07:19:44 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>shouldBeAbleToCreateMultipleMoviesInASingleRequest</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
+<td>07:19:44 AM</td>
 <td>
-<a href="#" class="linked" test-id='2' id='2'>shouldBeAbleToDeleteAMovie</a>
+<a href="#" class="linked" test-id='3' id='3'>shouldBeAbleToDeleteAMovie</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:19 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='5' id='5'>shouldBeAbleToUpdateAMovie</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='10' id='10'>givenInvalidToken_whenRequestingMovies_thenReturns401</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='11' id='11'>givenNoToken_whenRequestingMovies_thenReturns401</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='16' id='16'>searchByMovieTitleReturnsAllPartialTitleMatchingMovies</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='17' id='17'>searchByMovieTitleReturnsSingleExactMatch</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200</a>
 </td>
 </tr>
 </tbody>
@@ -1346,15 +1356,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>17</span>
+<span class='badge log pass-bg'>6</span>
 </span>
-<p class="name">Movierelatedtests</p>
-<p class="duration text-sm">17 tests</p>
+<p class="name">movie_cruds</p>
+<p class="duration text-sm">6 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>Movierelatedtests</h4>
-<span status="pass" class='badge log pass-bg'>17 passed</span>
+<h4>movie_cruds</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1367,121 +1377,44 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
+<td>07:19:44 AM</td>
 <td>
-<a href="#" class="linked" test-id='2' id='2'>shouldBeAbleToDeleteAMovie</a>
+<a href="#" class="linked" test-id='2' id='2'>shouldBeAbleToCreateAMovie</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
+<td>07:19:44 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>shouldBeAbleToCreateMultipleMoviesInASingleRequest</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
+<td>07:19:44 AM</td>
 <td>
-<a href="#" class="linked" test-id='3' id='3'>shouldBeAbleToCreateAMovie</a>
+<a href="#" class="linked" test-id='3' id='3'>shouldBeAbleToDeleteAMovie</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:19 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='4' id='4'>shouldBeAbleToPatchUpdateAMovieTitleSuccessfully</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:19 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='5' id='5'>shouldBeAbleToUpdateAMovie</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='6' id='6'>shouldBeAbleToUploadMoviePosterSuccessfully</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='7' id='7'>givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='8' id='8'>givenInvalidMovieId_whenDeletingMovie_thenStatusIs404</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='9' id='9'>givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='10' id='10'>givenInvalidToken_whenRequestingMovies_thenReturns401</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='11' id='11'>givenNoToken_whenRequestingMovies_thenReturns401</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='12' id='12'>patchUpdateMovieTitleFailure</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='13' id='13'>listMoviesWithDefaultPagination</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='14' id='14'>listMoviesWithPagination</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='15' id='15'>searchByMovieIdReturnsSingleExactMatch</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='16' id='16'>searchByMovieTitleReturnsAllPartialTitleMatchingMovies</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='17' id='17'>searchByMovieTitleReturnsSingleExactMatch</a>
 </td>
 </tr>
 </tbody>
@@ -1512,42 +1445,42 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='7' id='7'>givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='8' id='8'>givenInvalidMovieId_whenDeletingMovie_thenStatusIs404</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='9' id='9'>givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='10' id='10'>givenInvalidToken_whenRequestingMovies_thenReturns401</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='11' id='11'>givenNoToken_whenRequestingMovies_thenReturns401</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='12' id='12'>patchUpdateMovieTitleFailure</a>
 </td>
@@ -1559,15 +1492,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>5</span>
+<span class='badge log pass-bg'>1</span>
 </span>
-<p class="name">movie_retrieval</p>
-<p class="duration text-sm">5 tests</p>
+<p class="name">health_check</p>
+<p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>movie_retrieval</h4>
-<span status="pass" class='badge log pass-bg'>5 passed</span>
+<h4>health_check</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1580,37 +1513,9 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
-<a href="#" class="linked" test-id='13' id='13'>listMoviesWithDefaultPagination</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='14' id='14'>listMoviesWithPagination</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='15' id='15'>searchByMovieIdReturnsSingleExactMatch</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='16' id='16'>searchByMovieTitleReturnsAllPartialTitleMatchingMovies</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='17' id='17'>searchByMovieTitleReturnsSingleExactMatch</a>
+<a href="#" class="linked" test-id='18' id='18'>givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200</a>
 </td>
 </tr>
 </tbody>
@@ -1620,83 +1525,15 @@
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>6</span>
-</span>
-<p class="name">movie</p>
-<p class="duration text-sm">6 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>movie</h4>
-<span status="pass" class='badge log pass-bg'>6 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
-<td>
-<a href="#" class="linked" test-id='2' id='2'>shouldBeAbleToDeleteAMovie</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
-<td>
-<a href="#" class="linked" test-id='3' id='3'>shouldBeAbleToCreateAMovie</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='1'>shouldBeAbleToCreateMultipleMoviesInASingleRequest</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:19 AM</td>
-<td>
-<a href="#" class="linked" test-id='4' id='4'>shouldBeAbleToPatchUpdateAMovieTitleSuccessfully</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:19 AM</td>
-<td>
-<a href="#" class="linked" test-id='5' id='5'>shouldBeAbleToUpdateAMovie</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
-<td>
-<a href="#" class="linked" test-id='6' id='6'>shouldBeAbleToUploadMoviePosterSuccessfully</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>17</span>
+<span class='badge log pass-bg'>18</span>
 </span>
 <p class="name">regression</p>
-<p class="duration text-sm">17 tests</p>
+<p class="duration text-sm">18 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>regression</h4>
-<span status="pass" class='badge log pass-bg'>17 passed</span>
+<span status="pass" class='badge log pass-bg'>18 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1709,121 +1546,128 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
+<td>07:19:44 AM</td>
 <td>
-<a href="#" class="linked" test-id='3' id='3'>shouldBeAbleToCreateAMovie</a>
+<a href="#" class="linked" test-id='2' id='2'>shouldBeAbleToCreateAMovie</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
+<td>07:19:44 AM</td>
 <td>
 <a href="#" class="linked" test-id='1' id='1'>shouldBeAbleToCreateMultipleMoviesInASingleRequest</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:17 AM</td>
+<td>07:19:44 AM</td>
 <td>
-<a href="#" class="linked" test-id='2' id='2'>shouldBeAbleToDeleteAMovie</a>
+<a href="#" class="linked" test-id='3' id='3'>shouldBeAbleToDeleteAMovie</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:19 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='4' id='4'>shouldBeAbleToPatchUpdateAMovieTitleSuccessfully</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:19 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='5' id='5'>shouldBeAbleToUpdateAMovie</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='6' id='6'>shouldBeAbleToUploadMoviePosterSuccessfully</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='7' id='7'>givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='8' id='8'>givenInvalidMovieId_whenDeletingMovie_thenStatusIs404</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='9' id='9'>givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='10' id='10'>givenInvalidToken_whenRequestingMovies_thenReturns401</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='11' id='11'>givenNoToken_whenRequestingMovies_thenReturns401</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='12' id='12'>patchUpdateMovieTitleFailure</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='13' id='13'>listMoviesWithDefaultPagination</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='14' id='14'>listMoviesWithPagination</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='15' id='15'>searchByMovieIdReturnsSingleExactMatch</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='16' id='16'>searchByMovieTitleReturnsAllPartialTitleMatchingMovies</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='17' id='17'>searchByMovieTitleReturnsSingleExactMatch</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200</a>
 </td>
 </tr>
 </tbody>
@@ -1854,9 +1698,215 @@
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>08:27:20 AM</td>
+<td>07:19:46 AM</td>
 <td>
 <a href="#" class="linked" test-id='18' id='18'>givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>17</span>
+</span>
+<p class="name">Movierelatedtests</p>
+<p class="duration text-sm">17 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Movierelatedtests</h4>
+<span status="pass" class='badge log pass-bg'>17 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>shouldBeAbleToDeleteAMovie</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>shouldBeAbleToCreateAMovie</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:44 AM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>shouldBeAbleToCreateMultipleMoviesInASingleRequest</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>shouldBeAbleToPatchUpdateAMovieTitleSuccessfully</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>shouldBeAbleToUpdateAMovie</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>shouldBeAbleToUploadMoviePosterSuccessfully</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>givenInvalidMovieId_whenDeletingMovie_thenStatusIs404</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>givenInvalidToken_whenRequestingMovies_thenReturns401</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>givenNoToken_whenRequestingMovies_thenReturns401</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>patchUpdateMovieTitleFailure</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>listMoviesWithDefaultPagination</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>listMoviesWithPagination</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>searchByMovieIdReturnsSingleExactMatch</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>searchByMovieTitleReturnsAllPartialTitleMatchingMovies</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>searchByMovieTitleReturnsSingleExactMatch</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">movie_retrieval</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>movie_retrieval</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>listMoviesWithDefaultPagination</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>listMoviesWithPagination</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>searchByMovieIdReturnsSingleExactMatch</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>searchByMovieTitleReturnsAllPartialTitleMatchingMovies</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>07:19:46 AM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>searchByMovieTitleReturnsSingleExactMatch</a>
 </td>
 </tr>
 </tbody>
@@ -1876,13 +1926,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 6, 2026 08:27:15 AM</h3>
+<h3>Mar 7, 2026 07:19:41 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 6, 2026 08:27:20 AM</h3>
+<h3>Mar 7, 2026 07:19:46 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -1952,7 +2002,7 @@
 </div></div>
 <script>
 var timeline = {
-"shouldBeAbleToCreateMultipleMoviesInASingleRequest":2.057,"shouldBeAbleToDeleteAMovie":1.963,"shouldBeAbleToCreateAMovie":1.958,"shouldBeAbleToPatchUpdateAMovieTitleSuccessfully":0.158,"shouldBeAbleToUpdateAMovie":0.153,"shouldBeAbleToUploadMoviePosterSuccessfully":0.35,"givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404":0.045,"givenInvalidMovieId_whenDeletingMovie_thenStatusIs404":0.039,"givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404":0.098,"givenInvalidToken_whenRequestingMovies_thenReturns401":0.03,"givenNoToken_whenRequestingMovies_thenReturns401":0.016,"patchUpdateMovieTitleFailure":0.043,"listMoviesWithDefaultPagination":0.034,"listMoviesWithPagination":0.033,"searchByMovieIdReturnsSingleExactMatch":0.024,"searchByMovieTitleReturnsAllPartialTitleMatchingMovies":0.044,"searchByMovieTitleReturnsSingleExactMatch":0.021,"givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200":0.023
+"shouldBeAbleToDeleteAMovie":1.19,"shouldBeAbleToCreateAMovie":1.175,"shouldBeAbleToCreateMultipleMoviesInASingleRequest":1.303,"shouldBeAbleToPatchUpdateAMovieTitleSuccessfully":0.278,"shouldBeAbleToUpdateAMovie":0.225,"shouldBeAbleToUploadMoviePosterSuccessfully":0.558,"givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404":0.068,"givenInvalidMovieId_whenDeletingMovie_thenStatusIs404":0.061,"givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404":0.135,"givenInvalidToken_whenRequestingMovies_thenReturns401":0.037,"givenNoToken_whenRequestingMovies_thenReturns401":0.017,"patchUpdateMovieTitleFailure":0.059,"listMoviesWithDefaultPagination":0.049,"listMoviesWithPagination":0.052,"searchByMovieIdReturnsSingleExactMatch":0.033,"searchByMovieTitleReturnsAllPartialTitleMatchingMovies":0.081,"searchByMovieTitleReturnsSingleExactMatch":0.069,"givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200":0.027
 };
 </script>
 <div class="row">
@@ -1963,15 +2013,15 @@ var timeline = {
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
 <td>smoke</td>
-<td>8</td>
+<td>9</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
 <td>100%</td>
 </tr>
 <tr>
-<td>Movierelatedtests</td>
-<td>17</td>
+<td>movie_cruds</td>
+<td>6</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -1986,16 +2036,8 @@ var timeline = {
 <td>100%</td>
 </tr>
 <tr>
-<td>movie_retrieval</td>
-<td>5</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
-<td>movie</td>
-<td>6</td>
+<td>health_check</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -2003,7 +2045,7 @@ var timeline = {
 </tr>
 <tr>
 <td>regression</td>
-<td>17</td>
+<td>18</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
@@ -2012,6 +2054,22 @@ var timeline = {
 <tr>
 <td>Systemrelatedtests</td>
 <td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Movierelatedtests</td>
+<td>17</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>movie_retrieval</td>
+<td>5</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>

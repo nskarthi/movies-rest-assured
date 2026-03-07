@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Properties>
+		<Property name="basePath">logs</Property>
+	</Properties>
+	<Appenders>
+		<!-- 1. Console Appender (for your IDE terminal) -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %highlight{%-5level}{ERROR=red, WARN=yellow, INFO=green} [%X{methodName}] (%logger{36}: %L) - %msg%n" />
+		</Console>
+		<!-- 2. Rolling File Appender (saves to a file) -->
+		<RollingFile name="FileAppender"
+			fileName="${basePath}/automation.log"
+			filePattern="${basePath}/automation-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level [%X{methodName}] (%logger{36}: %L) - %msg%n" />
+			<Policies>
+				<!-- Starts new file at 10MB -->
+				<SizeBasedTriggeringPolicy size="10 MB" />
+				 <!-- Starts new file every day -->
+				<TimeBasedTriggeringPolicy />
+			</Policies>
+			<!-- Keeps only the last 5 old log files -->
+			<!-- <DefaultRolloverStrategy max="5" /> -->
+			<!-- Tjos DefaultRolloverStrategy is even advanced -->
+			<DefaultRolloverStrategy>
+				<!-- Deletes any log file in the "logs" folder older than 7 days -->
+				<Delete basePath="${basePath}" maxDepth="1">
+					<IfFileName glob="automation-*.log.gz" />
+					<IfLastModified age="7d" />
+				</Delete>
+			</DefaultRolloverStrategy>
+		</RollingFile>
+
+	</Appenders>
+	<Loggers>
+		<!-- Detailed logs only for YOUR classes -->
+		<Logger name="com.rest.logging_a" level="all" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="com.rest.logging_b" level="error" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<!-- General logs for everything else -->
+		<!-- Change "error" to "debug" to see all your messages -->
+		<Root level="debug">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileAppender" />
+		</Root>
+	</Loggers>
+</Configuration>

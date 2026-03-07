@@ -26,6 +26,14 @@ public class ConfigLoader {
     }
 
     public String getBaseUrl() {
-        return properties.getProperty("baseUrl");
+        return properties.getProperty("dev.baseUrl");
+    }
+    
+    public String getUserName() {
+        return properties.getProperty("dev.username");
+    }
+    
+    public String getPassword() {
+        return properties.getProperty("dev.password");
     }
 }
