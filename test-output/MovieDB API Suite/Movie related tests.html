@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Mar 07 07:19:44 EST 2026</td>
+<td>Started on:</td><td>Sat Mar 07 09:06:24 EST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1919 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2087 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,60 +76,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.moviedb.tests.movies.MovieNegativeTests.givenNoToken_whenRequestingMovies_thenReturns401()'><b>givenNoToken_whenRequestingMovies_thenReturns401</b><br>Test class: com.moviedb.tests.movies.MovieNegativeTests<br>Test method: Verify that an unauthorized user cannot access movies when no token is passed</td>
+<td title='com.moviedb.tests.movies.MovieNegativeTests.patchUpdateMovieTitleFailure()'><b>patchUpdateMovieTitleFailure</b><br>Test class: com.moviedb.tests.movies.MovieNegativeTests<br>Test method: Verify that a non-existent movie's title cannot be partially updated using PATCH</td>
 <td></td>
 <td>0</td>
 <td>com.moviedb.tests.movies.MovieNegativeTests@37efd131</td></tr>
+<tr>
+<td title='com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToCreateAMovie()'><b>shouldBeAbleToCreateAMovie</b><br>Test class: com.moviedb.tests.movies.MovieCrudTests<br>Test method: Ensure that new movie is created when movie details provided is valid</td>
+<td></td>
+<td>1</td>
+<td>com.moviedb.tests.movies.MovieCrudTests@2072acb2</td></tr>
 <tr>
 <td title='com.moviedb.tests.movies.MovieNegativeTests.givenInvalidMovieId_whenDeletingMovie_thenStatusIs404()'><b>givenInvalidMovieId_whenDeletingMovie_thenStatusIs404</b><br>Test class: com.moviedb.tests.movies.MovieNegativeTests<br>Test method: Ensure that a 404 is returned while attempting to delete a non-existent movie</td>
 <td></td>
 <td>0</td>
 <td>com.moviedb.tests.movies.MovieNegativeTests@37efd131</td></tr>
 <tr>
-<td title='com.moviedb.tests.movies.MovieNegativeTests.givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404()'><b>givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404</b><br>Test class: com.moviedb.tests.movies.MovieNegativeTests<br>Test method: Ensure that a 400 BAD REQUEST is returned when movie title is missing in the movie creation request</td>
-<td></td>
-<td>0</td>
-<td>com.moviedb.tests.movies.MovieNegativeTests@37efd131</td></tr>
-<tr>
-<td title='com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()'><b>shouldBeAbleToPatchUpdateAMovieTitleSuccessfully</b><br>Test class: com.moviedb.tests.movies.MovieCrudTests<br>Test method: Verify that a movie title can be partially updated using PATCH</td>
-<td></td>
-<td>0</td>
-<td>com.moviedb.tests.movies.MovieCrudTests@2072acb2</td></tr>
-<tr>
 <td title='com.moviedb.tests.movies.MovieRetrievalTests.listMoviesWithDefaultPagination()'><b>listMoviesWithDefaultPagination</b><br>Test class: com.moviedb.tests.movies.MovieRetrievalTests<br>Test method: Verify movie list with default pagination</td>
 <td></td>
 <td>0</td>
 <td>com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b</td></tr>
 <tr>
-<td title='com.moviedb.tests.movies.MovieNegativeTests.givenInvalidToken_whenRequestingMovies_thenReturns401()'><b>givenInvalidToken_whenRequestingMovies_thenReturns401</b><br>Test class: com.moviedb.tests.movies.MovieNegativeTests<br>Test method: Verify that an unauthorized user cannot access movies when invalid token is passed</td>
+<td title='com.moviedb.tests.movies.MovieRetrievalTests.searchByMovieTitleReturnsSingleExactMatch()'><b>searchByMovieTitleReturnsSingleExactMatch</b><br>Test class: com.moviedb.tests.movies.MovieRetrievalTests<br>Test method: Verify that a unique movie title returns exactly one movie</td>
 <td></td>
 <td>0</td>
-<td>com.moviedb.tests.movies.MovieNegativeTests@37efd131</td></tr>
-<tr>
-<td title='com.moviedb.tests.movies.MovieNegativeTests.givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404()'><b>givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404</b><br>Test class: com.moviedb.tests.movies.MovieNegativeTests<br>Test method: Ensure that 404 NOT FOUND is returned when an invalid movie Id is requested</td>
-<td></td>
-<td>0</td>
-<td>com.moviedb.tests.movies.MovieNegativeTests@37efd131</td></tr>
-<tr>
-<td title='com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToUploadMoviePosterSuccessfully()'><b>shouldBeAbleToUploadMoviePosterSuccessfully</b><br>Test class: com.moviedb.tests.movies.MovieCrudTests<br>Test method: Verify that movie poster can be uploaded to a movie</td>
-<td></td>
-<td>0</td>
-<td>com.moviedb.tests.movies.MovieCrudTests@2072acb2</td></tr>
-<tr>
-<td title='com.moviedb.tests.movies.MovieNegativeTests.patchUpdateMovieTitleFailure()'><b>patchUpdateMovieTitleFailure</b><br>Test class: com.moviedb.tests.movies.MovieNegativeTests<br>Test method: Verify that a non-existent movie's title cannot be partially updated using PATCH</td>
-<td></td>
-<td>0</td>
-<td>com.moviedb.tests.movies.MovieNegativeTests@37efd131</td></tr>
-<tr>
-<td title='com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToCreateMultipleMoviesInASingleRequest()'><b>shouldBeAbleToCreateMultipleMoviesInASingleRequest</b><br>Test class: com.moviedb.tests.movies.MovieCrudTests<br>Test method: Ensure that multiple movies are created in a single create movie request</td>
-<td></td>
-<td>1</td>
-<td>com.moviedb.tests.movies.MovieCrudTests@2072acb2</td></tr>
-<tr>
-<td title='com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToUpdateAMovie()'><b>shouldBeAbleToUpdateAMovie</b><br>Test class: com.moviedb.tests.movies.MovieCrudTests<br>Test method: Ensure that movie information is updated when valid movie id is provided</td>
-<td></td>
-<td>0</td>
-<td>com.moviedb.tests.movies.MovieCrudTests@2072acb2</td></tr>
+<td>com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b</td></tr>
 <tr>
 <td title='com.moviedb.tests.movies.MovieRetrievalTests.searchByMovieTitleReturnsAllPartialTitleMatchingMovies()'><b>searchByMovieTitleReturnsAllPartialTitleMatchingMovies</b><br>Test class: com.moviedb.tests.movies.MovieRetrievalTests<br>Test method: Verify search returns all matching movies for a common movie title query</td>
 <td></td>
@@ -141,12 +111,7 @@ function toggleAllBoxes() {
 <td>1</td>
 <td>com.moviedb.tests.movies.MovieCrudTests@2072acb2</td></tr>
 <tr>
-<td title='com.moviedb.tests.movies.MovieRetrievalTests.listMoviesWithPagination()'><b>listMoviesWithPagination</b><br>Test class: com.moviedb.tests.movies.MovieRetrievalTests<br>Test method: Verify that the movie list is correctly paginated</td>
-<td></td>
-<td>0</td>
-<td>com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b</td></tr>
-<tr>
-<td title='com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToCreateAMovie()'><b>shouldBeAbleToCreateAMovie</b><br>Test class: com.moviedb.tests.movies.MovieCrudTests<br>Test method: Ensure that new movie is created when movie details provided is valid</td>
+<td title='com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToCreateMultipleMoviesInASingleRequest()'><b>shouldBeAbleToCreateMultipleMoviesInASingleRequest</b><br>Test class: com.moviedb.tests.movies.MovieCrudTests<br>Test method: Ensure that multiple movies are created in a single create movie request</td>
 <td></td>
 <td>1</td>
 <td>com.moviedb.tests.movies.MovieCrudTests@2072acb2</td></tr>
@@ -156,10 +121,45 @@ function toggleAllBoxes() {
 <td>0</td>
 <td>com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b</td></tr>
 <tr>
-<td title='com.moviedb.tests.movies.MovieRetrievalTests.searchByMovieTitleReturnsSingleExactMatch()'><b>searchByMovieTitleReturnsSingleExactMatch</b><br>Test class: com.moviedb.tests.movies.MovieRetrievalTests<br>Test method: Verify that a unique movie title returns exactly one movie</td>
+<td title='com.moviedb.tests.movies.MovieNegativeTests.givenNoToken_whenRequestingMovies_thenReturns401()'><b>givenNoToken_whenRequestingMovies_thenReturns401</b><br>Test class: com.moviedb.tests.movies.MovieNegativeTests<br>Test method: Verify that an unauthorized user cannot access movies when no token is passed</td>
+<td></td>
+<td>0</td>
+<td>com.moviedb.tests.movies.MovieNegativeTests@37efd131</td></tr>
+<tr>
+<td title='com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToUpdateAMovie()'><b>shouldBeAbleToUpdateAMovie</b><br>Test class: com.moviedb.tests.movies.MovieCrudTests<br>Test method: Ensure that movie information is updated when valid movie id is provided</td>
+<td></td>
+<td>0</td>
+<td>com.moviedb.tests.movies.MovieCrudTests@2072acb2</td></tr>
+<tr>
+<td title='com.moviedb.tests.movies.MovieRetrievalTests.listMoviesWithPagination()'><b>listMoviesWithPagination</b><br>Test class: com.moviedb.tests.movies.MovieRetrievalTests<br>Test method: Verify that the movie list is correctly paginated</td>
 <td></td>
 <td>0</td>
 <td>com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b</td></tr>
+<tr>
+<td title='com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToUploadMoviePosterSuccessfully()'><b>shouldBeAbleToUploadMoviePosterSuccessfully</b><br>Test class: com.moviedb.tests.movies.MovieCrudTests<br>Test method: Verify that movie poster can be uploaded to a movie</td>
+<td></td>
+<td>0</td>
+<td>com.moviedb.tests.movies.MovieCrudTests@2072acb2</td></tr>
+<tr>
+<td title='com.moviedb.tests.movies.MovieCrudTests.shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()'><b>shouldBeAbleToPatchUpdateAMovieTitleSuccessfully</b><br>Test class: com.moviedb.tests.movies.MovieCrudTests<br>Test method: Verify that a movie title can be partially updated using PATCH</td>
+<td></td>
+<td>0</td>
+<td>com.moviedb.tests.movies.MovieCrudTests@2072acb2</td></tr>
+<tr>
+<td title='com.moviedb.tests.movies.MovieNegativeTests.givenInvalidToken_whenRequestingMovies_thenReturns401()'><b>givenInvalidToken_whenRequestingMovies_thenReturns401</b><br>Test class: com.moviedb.tests.movies.MovieNegativeTests<br>Test method: Verify that an unauthorized user cannot access movies when invalid token is passed</td>
+<td></td>
+<td>0</td>
+<td>com.moviedb.tests.movies.MovieNegativeTests@37efd131</td></tr>
+<tr>
+<td title='com.moviedb.tests.movies.MovieNegativeTests.givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404()'><b>givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404</b><br>Test class: com.moviedb.tests.movies.MovieNegativeTests<br>Test method: Ensure that a 400 BAD REQUEST is returned when movie title is missing in the movie creation request</td>
+<td></td>
+<td>0</td>
+<td>com.moviedb.tests.movies.MovieNegativeTests@37efd131</td></tr>
+<tr>
+<td title='com.moviedb.tests.movies.MovieNegativeTests.givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404()'><b>givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404</b><br>Test class: com.moviedb.tests.movies.MovieNegativeTests<br>Test method: Ensure that 404 NOT FOUND is returned when an invalid movie Id is requested</td>
+<td></td>
+<td>0</td>
+<td>com.moviedb.tests.movies.MovieNegativeTests@37efd131</td></tr>
 </table><p>
 </body>
 </html>

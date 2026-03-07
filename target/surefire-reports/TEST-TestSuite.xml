@@ -1,0 +1,3117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.453" tests="18" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Learnings\RestAssured\MovieDatabase\target\test-classes;D:\Learnings\RestAssured\MovieDatabase\target\classes;C:\Users\KSG\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\KSG\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\KSG\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\KSG\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\KSG\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\KSG\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\KSG\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\KSG\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\KSG\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\KSG\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\KSG\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\KSG\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\KSG\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\KSG\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\KSG\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\KSG\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\KSG\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\KSG\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\KSG\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\KSG\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\KSG\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\KSG\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\KSG\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.0\jackson-databind-2.20.0.jar;C:\Users\KSG\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\KSG\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.0\jackson-core-2.20.0.jar;C:\Users\KSG\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.3\log4j-slf4j2-impl-2.25.3.jar;C:\Users\KSG\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\KSG\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\KSG\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\KSG\.m2\repository\org\skyscreamer\jsonassert\2.0-rc1\jsonassert-2.0-rc1.jar;C:\Users\KSG\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\KSG\.m2\repository\org\projectlombok\lombok\1.18.38\lombok-1.18.38.jar;C:\Users\KSG\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\KSG\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\KSG\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\KSG\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\KSG\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\KSG\AppData\Local\Temp\surefire5044908168489977540\surefirebooter16966367186308758404.jar C:\Users\KSG\AppData\Local\Temp\surefire5044908168489977540 2026-03-07T09-05-48_370-jvmRun1 surefire3878992918527231591tmp surefire_018148813544070853848tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Learnings\RestAssured\MovieDatabase\target\test-classes;D:\Learnings\RestAssured\MovieDatabase\target\classes;C:\Users\KSG\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\KSG\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\KSG\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\KSG\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\KSG\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\KSG\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\KSG\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\KSG\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\KSG\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\KSG\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\KSG\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\KSG\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\KSG\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\KSG\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\KSG\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\KSG\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\KSG\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\KSG\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\KSG\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\KSG\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\KSG\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\KSG\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\KSG\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.0\jackson-databind-2.20.0.jar;C:\Users\KSG\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\KSG\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.0\jackson-core-2.20.0.jar;C:\Users\KSG\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.3\log4j-slf4j2-impl-2.25.3.jar;C:\Users\KSG\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\KSG\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\KSG\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\KSG\.m2\repository\org\skyscreamer\jsonassert\2.0-rc1\jsonassert-2.0-rc1.jar;C:\Users\KSG\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\KSG\.m2\repository\org\projectlombok\lombok\1.18.38\lombok-1.18.38.jar;C:\Users\KSG\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\KSG\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\KSG\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\KSG\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\KSG\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\KSG"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Learnings\RestAssured\MovieDatabase"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\KSG\AppData\Local\Temp\surefire5044908168489977540\surefirebooter16966367186308758404.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="KSG"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\KSG\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KSG\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="D:\Learnings\RestAssured\MovieDatabase"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="env" value="dev"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-15.0.2\bin;D:\Softwares\maven\apache-maven-3.6.3-bin\bin;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;D:\Softwares\Appium\android_sdk\platform-tools;D:\Softwares\Appium\android_sdk\tools;D:\Softwares\Appium\android_sdk\tools\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\KSG\AppData\Roaming\npm;D:\Softwares\Appium\android_sdk\cmdline-tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Softwares\maven\apache-maven-3.6.3-bin\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\KSG\scoop\shims;C:\Users\KSG\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\KSG\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\KSG\AppData\Local\Microsoft\WindowsApps;C:\Users\KSG\.dotnet\tools;C:\Users\KSG\AppData\Local\Programs\Fiddler;C:\Users\KSG\.dotnet\tools;C:\Users\KSG\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;;C:\Users\KSG\AppData\Roaming\npm;C:\Users\KSG\AppData\Local\Microsoft\WindowsApps;C:\Users\KSG\AppData\Local\Programs\Antigravity\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="shouldBeAbleToCreateAMovie" classname="com.moviedb.tests.movies.MovieCrudTests" time="1.251">
+    <system-out><![CDATA[09:05:49.883 [main] &amp#27;[36mDEBUG&amp#27;[m [] (org.testng.TestNG: 82) - suiteXmlPath: "D:\Learnings\RestAssured\MovieDatabase\testng.xml"
+[INFO] Step 1: Resetting DB for Regression
+09:05:50.398 [main] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.system.DatabaseCleanUp: 21) - Step 1: Resetting DB for Regression
+--- Global Setup: Resetting DB for Regression ---
+[AUTH] Token missing/expired. Generating new session...
+Request method:	POST
+Request URI:	http://localhost:4000/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "admin",
+    "password": "admin"
+}
+[AUTH] New Token Generated. Expires at: 2026-03-08T14:05:51Z
+Request method:	DELETE
+Request URI:	http://localhost:4000/internal/reset
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+[INFO] Step 2: Validating API response
+09:05:52.426 [main] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.system.DatabaseCleanUp: 27) - Step 2: Validating API response
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 109
+ETag: W/"6d-+LU5n1nPQDis6pia7hG5RJfK7XU"
+Date: Sat, 07 Mar 2026 14:05:52 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "message": "Database reset successfully. 10 seed movies re-inserted.",
+    "timestamp": "2026-03-07T14:05:52.424Z"
+}
+09:05:52.528 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 34) - Step 1: Creating a default movie
+09:05:52.528 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToDeleteAMovie] (com.moviedb.tests.movies.MovieCrudTests: 215) - Step 1: Creating a default movie
+09:05:52.528 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 71) - Step 1: Creating movies
+Request method:	POST
+Request URI:	http://localhost:4000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "The Wind's Twelve Quarters",
+    "crew": {
+        "director": "Klimt",
+        "musicDirector": "Michelangelo",
+        "productionCompany": "Monahan Group"
+    },
+    "cast": [
+        {
+            "actorName": "Raphael",
+            "role": "Durer",
+            "awards": [
+                "Institute",
+                "Institute"
+            ]
+        },
+        {
+            "actorName": "Edward Hopper",
+            "role": "Pissarro",
+            "awards": [
+                "College"
+            ]
+        },
+        {
+            "actorName": "Vettriano",
+            "role": "Rubens",
+            "awards": [
+                "Academy"
+            ]
+        }
+    ],
+    "genres": [
+        "Fanfiction",
+        "Fiction narrative",
+        "Fanfiction"
+    ],
+    "releaseDetails": {
+        "language": "Sao Tome and Principe",
+        "country": "Vanuatu"
+    },
+    "finance": {
+        "budget": 40850000,
+        "boxOffice": 63580000,
+        "profit": 44840000,
+        "currency": "Singapore Dollar"
+    }
+}
+Request method:	POST
+Request URI:	http://localhost:4000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "The Mermaids Singing",
+    "crew": {
+        "director": "Dali",
+        "musicDirector": "Cezanne",
+        "productionCompany": "Toy, Dickens and Durgan"
+    },
+    "cast": [
+        {
+            "actorName": "Durer",
+            "role": "Diego Rivera",
+            "awards": [
+                "College",
+                "University"
+            ]
+        },
+        {
+            "actorName": "Dali",
+            "role": "Raphael",
+            "awards": [
+                "Academy"
+            ]
+        },
+        {
+            "actorName": "Pissarro",
+            "role": "Paul Klee",
+            "awards": [
+                "Institute"
+            ]
+        }
+    ],
+    "genres": [
+        "Narrative nonfiction",
+        "Mystery",
+        "Historical fiction"
+    ],
+    "releaseDetails": {
+        "language": "Djibouti",
+        "country": "Lesotho"
+    },
+    "finance": {
+        "budget": 59130000,
+        "boxOffice": 83780000,
+        "profit": 82340000,
+        "currency": "Netherlands Antillean Guilder"
+    }
+}
+Request method:	POST
+Request URI:	http://localhost:4000/movies/bulk
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+[
+    {
+        "title": "A Summer Bird-Cage",
+        "crew": {
+            "director": "Magritte",
+            "musicDirector": "Warhol",
+            "productionCompany": "Dicki and Sons"
+        },
+        "cast": [
+            {
+                "actorName": "Degas",
+                "role": "Picasso",
+                "awards": [
+                    "Academy",
+                    "College"
+                ]
+            },
+            {
+                "actorName": "Titian",
+                "role": "Winslow Homer",
+                "awards": [
+                    "Academy"
+                ]
+            },
+            {
+                "actorName": "Cassatt",
+                "role": "Bernini",
+                "awards": [
+                    "Academy"
+                ]
+            }
+        ],
+        "genres": [
+            "Mythology",
+            "Legend",
+            "Humor"
+        ],
+        "releaseDetails": {
+            "language": "Guinea",
+            "country": "Namibia"
+        },
+        "finance": {
+            "budget": 55540000,
+            "boxOffice": 85710000,
+            "profit": 51310000,
+            "currency": "Ethiopian Birr"
+        }
+    },
+    {
+        "title": "Where Angels Fear to Tread",
+        "crew": {
+            "director": "Ansel Adams",
+            "musicDirector": "Vincent",
+            "productionCompany": "Fay and Sons"
+        },
+        "cast": [
+            {
+                "actorName": "Edward Hopper",
+                "role": "Bernini",
+                "awards": [
+                    "University",
+                    "Institute"
+                ]
+            },
+            {
+                "actorName": "Paul Klee",
+                "role": "Caravaggio",
+                "awards": [
+                    "Academy"
+                ]
+            },
+            {
+                "actorName": "Rothko",
+                "role": "Diego Rivera",
+                "awards": [
+                    "University"
+                ]
+            }
+        ],
+        "genres": [
+            "Crime/Detective",
+            "Folklore",
+            "Classic"
+        ],
+        "releaseDetails": {
+            "language": "Oman",
+            "country": "Trinidad and Tobago"
+        },
+        "finance": {
+            "budget": 71370000,
+            "boxOffice": 67700000,
+            "profit": 45350000,
+            "currency": "Swiss Franc"
+        }
+    },
+    {
+        "title": "The Parliament of Man",
+        "crew": {
+            "director": "Renoir",
+            "musicDirector": "Klimt",
+            "productionCompany": "Brekke, Crona and Hettinger"
+        },
+        "cast": [
+            {
+                "actorName": "Botticelli",
+                "role": "Gauguin",
+                "awards": [
+                    "Academy",
+                    "Institute"
+                ]
+            },
+            {
+                "actorName": "Ansel Adams",
+                "role": "Kandinsky",
+                "awards": [
+                    "University"
+                ]
+            },
+            {
+                "actorName": "Ansel Adams",
+                "role": "Durer",
+                "awards": [
+                    "College"
+                ]
+            }
+        ],
+        "genres": [
+            "Fanfiction",
+            "Fiction narrative",
+            "Speech"
+        ],
+        "releaseDetails": {
+            "language": "Serbia",
+            "country": "Jamaica"
+        },
+        "finance": {
+            "budget": 84410000,
+            "boxOffice": 10970000,
+            "profit": 63050000,
+            "currency": "CFA Franc BCEAO"
+        }
+    }
+]
+09:05:53.177 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 40) - Step 2: Performing assertion on the API response
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 586
+ETag: W/"24a-FMUsBRHeehg5x97+XLF28ChBud0"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 11,
+    "title": "The Wind's Twelve Quarters",
+    "crew": {
+        "director": "Klimt",
+        "musicDirector": "Michelangelo",
+        "productionCompany": "Monahan Group"
+    },
+    "cast": [
+        {
+            "actorName": "Raphael",
+            "role": "Durer",
+            "awards": [
+                "Institute",
+                "Institute"
+            ]
+        },
+        {
+            "actorName": "Edward Hopper",
+            "role": "Pissarro",
+            "awards": [
+                "College"
+            ]
+        },
+        {
+            "actorName": "Vettriano",
+            "role": "Rubens",
+            "awards": [
+                "Academy"
+            ]
+        }
+    ],
+    "genres": [
+        "Fanfiction",
+        "Fiction narrative",
+        "Fanfiction"
+    ],
+    "releaseDetails": {
+        "language": "Sao Tome and Principe",
+        "country": "Vanuatu"
+    },
+    "finance": {
+        "budget": 40850000,
+        "boxOffice": 63580000,
+        "profit": 44840000,
+        "currency": "Singapore Dollar"
+    }
+}
+09:05:53.228 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 51) - Step 3: Adding movieIds to cleanUp list
+09:05:53.229 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 58) - Step 4: Id of the newly created movie is: 11
+Id of the newly created movie is: 11
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToDeleteAMovie" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.015">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	http://localhost:4000/movies/12
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=12
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://localhost:4000/movies/11
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=11
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+09:05:53.440 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 81) - Step 2: Performing assertion on the API response
+09:05:53.444 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToDeleteAMovie] (com.moviedb.tests.movies.MovieCrudTests: 223) - Step 2: Performing assertion on the API response
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 51
+ETag: W/"33-0Wsg/ugXX/2qIX3nh9yFwlWcvBw"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "message": "Movie with id 12 deleted successfully"
+}
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 1718
+ETag: W/"6b6-mRxDAt0Hx518Bso78WHvFOGLxr0"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "inserted": 3,
+    "data": [
+        {
+            "id": 13,
+            "title": "A Summer Bird-Cage",
+            "crew": {
+                "director": "Magritte",
+                "musicDirector": "Warhol",
+                "productionCompany": "Dicki and Sons"
+            },
+            "cast": [
+                {
+                    "actorName": "Degas",
+                    "role": "Picasso",
+                    "awards": [
+                        "Academy",
+                        "College"
+                    ]
+                },
+                {
+                    "actorName": "Titian",
+                    "role": "Winslow Homer",
+                    "awards": [
+                        "Academy"
+                    ]
+                },
+                {
+                    "actorName": "Cassatt",
+                    "role": "Bernini",
+                    "awards": [
+                        "Academy"
+                    ]
+                }
+            ],
+            "genres": [
+                "Mythology",
+                "Legend",
+                "Humor"
+            ],
+            "releaseDetails": {
+                "language": "Guinea",
+                "country": "Namibia"
+            },
+            "finance": {
+                "budget": 55540000,
+                "boxOffice": 85710000,
+                "profit": 51310000,
+                "currency": "Ethiopian Birr"
+            }
+        },
+        {
+            "id": 14,
+            "title": "Where Angels Fear to Tread",
+            "crew": {
+                "director": "Ansel Adams",
+                "musicDirector": "Vincent",
+                "productionCompany": "Fay and Sons"
+            },
+            "cast": [
+                {
+                    "actorName": "Edward Hopper",
+                    "role": "Bernini",
+                    "awards": [
+                        "University",
+                        "Institute"
+                    ]
+                },
+                {
+                    "actorName": "Paul Klee",
+                    "role": "Caravaggio",
+                    "awards": [
+                        "Academy"
+                    ]
+                },
+                {
+                    "actorName": "Rothko",
+                    "role": "Diego Rivera",
+                    "awards": [
+                        "University"
+                    ]
+                }
+            ],
+            "genres": [
+                "Crime/Detective",
+                "Folklore",
+                "Classic"
+            ],
+            "releaseDetails": {
+                "language": "Oman",
+                "country": "Trinidad and Tobago"
+            },
+            "finance": {
+                "budget": 71370000,
+                "boxOffice": 67700000,
+                "profit": 45350000,
+                "currency": "Swiss Franc"
+            }
+        },
+        {
+            "id": 15,
+            "title": "The Parliament of Man",
+            "crew": {
+                "director": "Renoir",
+                "musicDirector": "Klimt",
+                "productionCompany": "Brekke, Crona and Hettinger"
+            },
+            "cast": [
+                {
+                    "actorName": "Botticelli",
+                    "role": "Gauguin",
+                    "awards": [
+                        "Academy",
+                        "Institute"
+                    ]
+                },
+                {
+                    "actorName": "Ansel Adams",
+                    "role": "Kandinsky",
+                    "awards": [
+                        "University"
+                    ]
+                },
+                {
+                    "actorName": "Ansel Adams",
+                    "role": "Durer",
+                    "awards": [
+                        "College"
+                    ]
+                }
+            ],
+            "genres": [
+                "Fanfiction",
+                "Fiction narrative",
+                "Speech"
+            ],
+            "releaseDetails": {
+                "language": "Serbia",
+                "country": "Jamaica"
+            },
+            "finance": {
+                "budget": 84410000,
+                "boxOffice": 10970000,
+                "profit": 63050000,
+                "currency": "CFA Franc BCEAO"
+            }
+        }
+    ]
+}
+09:05:53.449 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 11
+Cleaned up Movie ID: 11
+09:05:53.456 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 151) - Step 1: Creating a default movie
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.232">
+    <system-out><![CDATA[09:05:53.468 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 111) - Step 1: Creating a default movie
+09:05:53.485 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 89) - Step 3: Adding movieIds to cleanUp list"
+Request method:	POST
+Request URI:	http://localhost:4000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Tender Is the Night",
+    "crew": {
+        "director": "El Greco",
+        "musicDirector": "Picasso",
+        "productionCompany": "Anderson-Watsica"
+    },
+    "cast": [
+        {
+            "actorName": "Donatello",
+            "role": "Gauguin",
+            "awards": [
+                "College",
+                "Academy"
+            ]
+        },
+        {
+            "actorName": "Paul Klee",
+            "role": "Renoir",
+            "awards": [
+                "University"
+            ]
+        },
+        {
+            "actorName": "Edward Hopper",
+            "role": "Ansel Adams",
+            "awards": [
+                "Academy"
+            ]
+        }
+    ],
+    "genres": [
+        "Humor",
+        "Historical fiction",
+        "Fiction narrative"
+    ],
+    "releaseDetails": {
+        "language": "India",
+        "country": "Pakistan"
+    },
+    "finance": {
+        "budget": 42560000,
+        "boxOffice": 36130000,
+        "profit": 89180000,
+        "currency": "Azerbaijan Manat"
+    }
+}
+Request method:	POST
+Request URI:	http://localhost:4000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "The Lathe of Heaven",
+    "crew": {
+        "director": "Degas",
+        "musicDirector": "Michelangelo",
+        "productionCompany": "Windler and Sons"
+    },
+    "cast": [
+        {
+            "actorName": "Rubens",
+            "role": "Pissarro",
+            "awards": [
+                "College",
+                "University"
+            ]
+        },
+        {
+            "actorName": "Chagall",
+            "role": "Rothko",
+            "awards": [
+                "University"
+            ]
+        },
+        {
+            "actorName": "Da Vinci",
+            "role": "Chagall",
+            "awards": [
+                "University"
+            ]
+        }
+    ],
+    "genres": [
+        "Fiction narrative",
+        "Fairy tale",
+        "Reference book"
+    ],
+    "releaseDetails": {
+        "language": "Libya",
+        "country": "Russian Federation"
+    },
+    "finance": {
+        "budget": 26430000,
+        "boxOffice": 12780000,
+        "profit": 36340000,
+        "currency": "CFA Franc BCEAO"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToUpdateAMovie" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.629">
+    <system-out><![CDATA[09:05:53.591 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 158) - Step 2: Adding movieIds to cleanUp list
+09:05:53.592 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 169) - Step 3: Performing assertion on the API response
+09:05:53.593 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 118) - Step 2: Adding movieIds to cleanUp list
+09:05:53.594 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 125) - Step 3: Updating budget for ID: 17
+Request method:	DELETE
+Request URI:	http://localhost:4000/movies/13
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=13
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PATCH
+Request URI:	http://localhost:4000/movies/16
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=16
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Life Is Beautiful"
+}
+Request method:	PUT
+Request URI:	http://localhost:4000/movies/17
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=17
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "The Lathe of Heaven",
+    "crew": {
+        "director": "Degas",
+        "musicDirector": "Michelangelo",
+        "productionCompany": "Windler and Sons"
+    },
+    "cast": [
+        {
+            "actorName": "Rubens",
+            "role": "Pissarro",
+            "awards": [
+                "College",
+                "University"
+            ]
+        },
+        {
+            "actorName": "Chagall",
+            "role": "Rothko",
+            "awards": [
+                "University"
+            ]
+        },
+        {
+            "actorName": "Da Vinci",
+            "role": "Chagall",
+            "awards": [
+                "University"
+            ]
+        }
+    ],
+    "genres": [
+        "Fiction narrative",
+        "Fairy tale",
+        "Reference book"
+    ],
+    "releaseDetails": {
+        "language": "Libya",
+        "country": "Russian Federation"
+    },
+    "finance": {
+        "budget": 265000000,
+        "boxOffice": 12780000,
+        "profit": 36340000,
+        "currency": "CFA Franc BCEAO"
+    }
+}
+09:05:53.609 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 13
+Cleaned up Movie ID: 13
+Request method:	DELETE
+Request URI:	http://localhost:4000/movies/14
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=14
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 572
+ETag: W/"23c-aBju3VZhNLJgmcNQsLUxKWDwNuM"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 16,
+    "title": "Life Is Beautiful",
+    "crew": {
+        "director": "El Greco",
+        "musicDirector": "Picasso",
+        "productionCompany": "Anderson-Watsica"
+    },
+    "cast": [
+        {
+            "actorName": "Donatello",
+            "role": "Gauguin",
+            "awards": [
+                "College",
+                "Academy"
+            ]
+        },
+        {
+            "actorName": "Paul Klee",
+            "role": "Renoir",
+            "awards": [
+                "University"
+            ]
+        },
+        {
+            "actorName": "Edward Hopper",
+            "role": "Ansel Adams",
+            "awards": [
+                "Academy"
+            ]
+        }
+    ],
+    "genres": [
+        "Humor",
+        "Historical fiction",
+        "Fiction narrative"
+    ],
+    "releaseDetails": {
+        "language": "India",
+        "country": "Pakistan"
+    },
+    "finance": {
+        "budget": 42560000,
+        "boxOffice": 36130000,
+        "profit": 89180000,
+        "currency": "Azerbaijan Manat"
+    }
+}
+09:05:53.623 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 131) - Step 4: Performing assertion on the API response
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 580
+ETag: W/"244-1FRzcInY/o5BUGexhktHnf2JZAI"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 17,
+    "title": "The Lathe of Heaven",
+    "crew": {
+        "director": "Degas",
+        "musicDirector": "Michelangelo",
+        "productionCompany": "Windler and Sons"
+    },
+    "cast": [
+        {
+            "actorName": "Rubens",
+            "role": "Pissarro",
+            "awards": [
+                "College",
+                "University"
+            ]
+        },
+        {
+            "actorName": "Chagall",
+            "role": "Rothko",
+            "awards": [
+                "University"
+            ]
+        },
+        {
+            "actorName": "Da Vinci",
+            "role": "Chagall",
+            "awards": [
+                "University"
+            ]
+        }
+    ],
+    "genres": [
+        "Fiction narrative",
+        "Fairy tale",
+        "Reference book"
+    ],
+    "releaseDetails": {
+        "language": "Libya",
+        "country": "Russian Federation"
+    },
+    "finance": {
+        "budget": 265000000,
+        "boxOffice": 12780000,
+        "profit": 36340000,
+        "currency": "CFA Franc BCEAO"
+    }
+}
+09:05:53.631 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 14
+Cleaned up Movie ID: 14
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.68">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	http://localhost:4000/movies/15
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=15
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	http://localhost:4000/movies/17
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=17
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToUploadMoviePosterSuccessfully" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.87">
+    <system-out><![CDATA[image/png
+2882
+]]></system-out>
+  </testcase>
+  <testcase name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.084">
+    <system-out><![CDATA[09:05:53.656 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 15
+Cleaned up Movie ID: 15
+09:05:53.659 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 183) - Step 1: Creating a default movie
+09:05:53.660 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 17
+Cleaned up Movie ID: 17
+09:05:53.663 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 92) - Step 1: Creating a default movie without movie title
+09:05:53.663 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 116) - Step 2: Validating the API response
+Request method:	DELETE
+Request URI:	http://localhost:4000/movies/16
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=16
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	http://localhost:4000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "crew": {
+        "director": "Christopher Nolan",
+        "musicDirector": "Hans Zimmer",
+        "productionCompany": "Syncopy, Lynda Obst Productions, Legendary Pictures"
+    },
+    "cast": [
+        {
+            "actorName": "Matthew McConaughey",
+            "role": "Joseph Cooper",
+            "awards": [
+                "Saturn Award for Best Actor (Nominee)",
+                "Critics' Choice Movie Award for Best Actor (Nominee)"
+            ]
+        },
+        {
+            "actorName": "Anne Hathaway",
+            "role": "Anne Hathaway",
+            "awards": [
+                "Saturn Award for Best Actress (Nominee)"
+            ]
+        },
+        {
+            "actorName": "Jessica Chastain",
+            "role": "Murphy Cooper (Adult)",
+            "awards": [
+                "Saturn Award for Best Supporting Actress (Nominee)"
+            ]
+        }
+    ],
+    "genres": [
+        "Sci-Fi",
+        "Adventure",
+        "Drama"
+    ],
+    "releaseDetails": {
+        "language": "English",
+        "country": "United States, United Kingdom"
+    },
+    "finance": {
+        "budget": 165000000,
+        "boxOffice": 773800000,
+        "profit": 47200000,
+        "currency": "USD"
+    }
+}
+09:05:53.690 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 16
+Cleaned up Movie ID: 16
+HTTP/1.1 400 Bad Request
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 146
+ETag: W/"92-yrk1mYcoULqosBpW1VQQoPebuWI"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "timestamp": "2026-03-07T14:05:53.690Z",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "Field \"title\" is required and must be a non-empty string"
+}
+09:05:53.693 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 130) - Step 1: Calling FakerUtil's generateRandomMovieId to get a random movieId that does not exist
+09:05:53.694 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 135) - Step 2: Attempting to delete the movie with id 45262 which does not exist
+Request method:	DELETE
+Request URI:	http://localhost:4000/movies/45262
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=45262
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+09:05:53.712 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 140) - 
+]]></system-out>
+  </testcase>
+  <testcase name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.093">
+    <system-out><![CDATA[09:05:53.721 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 72) - Step 1: Attempting to retrieve the movie with id 200 which does not exist
+Request method:	POST
+Request URI:	http://localhost:4000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Time To Murder And Create",
+    "crew": {
+        "director": "Chagall",
+        "musicDirector": "Bernini",
+        "productionCompany": "Pacocha, Stroman and Abshire"
+    },
+    "cast": [
+        {
+            "actorName": "Dali",
+            "role": "Rubens",
+            "awards": [
+                "University",
+                "University"
+            ]
+        },
+        {
+            "actorName": "Joan Miro",
+            "role": "Degas",
+            "awards": [
+                "Institute"
+            ]
+        },
+        {
+            "actorName": "Matisse",
+            "role": "Rubens",
+            "awards": [
+                "Institute"
+            ]
+        }
+    ],
+    "genres": [
+        "Suspense/Thriller",
+        "Narrative nonfiction",
+        "Humor"
+    ],
+    "releaseDetails": {
+        "language": "Venezuela (Bolivarian Republic of)",
+        "country": "Singapore"
+    },
+    "finance": {
+        "budget": 60750000,
+        "boxOffice": 86690000,
+        "profit": 47300000,
+        "currency": "Euro"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="givenInvalidToken_whenRequestingMovies_thenReturns401" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.042">
+    <system-out><![CDATA[09:05:53.744 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidToken_whenRequestingMovies_thenReturns401] (com.moviedb.tests.movies.MovieNegativeTests: 53) - Step 1: Setting up page and limit query params and starting the test
+Request method:	GET
+Request URI:	http://localhost:4000/movies?page=1&limit=100
+Proxy:			<none>
+Request params:	<none>
+Query params:	page=1
+				limit=100
+Form params:	<none>
+Path params:	<none>
+Headers:		Content-Type=application/json
+				Authorization=Bearer SPECIAL_TEST_TOKEN
+				Accept=*/*
+				Content-Type=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+09:05:53.759 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 189) - Step 2: Adding movieIds to cleanUp list
+]]></system-out>
+  </testcase>
+  <testcase name="givenNoToken_whenRequestingMovies_thenReturns401" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.03">
+    <system-out><![CDATA[09:05:53.773 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenNoToken_whenRequestingMovies_thenReturns401] (com.moviedb.tests.movies.MovieNegativeTests: 35) - Step 1: Setting up invalid token and starting the test
+Request method:	GET
+Request URI:	http://localhost:4000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Content-Type=application/json
+				Authorization=
+				Accept=*/*
+				Content-Type=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="patchUpdateMovieTitleFailure" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.346">
+    <system-out><![CDATA[09:05:53.788 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [patchUpdateMovieTitleFailure] (com.moviedb.tests.movies.MovieNegativeTests: 152) - Step 1: Calling FakerUtil's generateRandomMovieId to get a random movieId that does not exist
+09:05:53.789 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [patchUpdateMovieTitleFailure] (com.moviedb.tests.movies.MovieNegativeTests: 161) - Step 2: Attempting to PATCH update the title of movie with id 38013 which does not exist
+Request method:	POST
+Request URI:	http://localhost:4000/movies/18/poster
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				accept=*/*
+				Content-Type=multipart/form-data
+Cookies:		<none>
+Multiparts:		------------
+				Content-Disposition: form-data; name = poster; filename = Screenshot.png
+				Content-Type: image/png
+
+				�PNG
+				&amp#26;
+&amp#0;&amp#0;&amp#0;IHDR&amp#0;&amp#0;&amp#1;&amp#31;&amp#0;&amp#0;&amp#0;Q&amp#8;&amp#6;&amp#0;&amp#0;&amp#0;�r��&amp#0;&amp#0;&amp#0;&amp#1;sRGB&amp#0;��&amp#28;�&amp#0;&amp#0;&amp#0;&amp#4;gAMA&amp#0;&amp#0;��&amp#11;�a&amp#5;&amp#0;&amp#0;&amp#0;	pHYs&amp#0;&amp#0;&amp#14;�&amp#0;&amp#0;&amp#14;�&amp#1;�o�d&amp#0;&amp#0;
+�IDATx^��Qh[�&amp#29;&amp#6;��#4�&amp#2;&amp#30;qh&amp#11;uIi��`�&amp#22;bC&amp#30;|A&amp#5;]�Ad�&amp#16;�&amp#12;Fh��;h��!��P�<�6��&amp#20;H���:�Ty(؅&amp#6;+P3&amp#7;&amp#22;�@
+�C�&amp#20;(!&amp#15;&amp#1;�H9v�����&amp#29;IGY�&amp#31;��\�H�m��9�&amp#30;KmE&amp#5;DDM�v�޽b>�ׇDD�u��a������ӧK#&amp#31;&amp#22;��jJ����&\�ߨ&amp#3;"��k+�|&&&�o�>\�rE���~&amp#30;>|�H$Rn��Oy�U&amp#17;>\�!�F�~�zU�p�EDF0|��&amp#8;�&amp#15;&amp#17;&amp#25;Qs��СC�Eϻݻw#���#���|6����)�{�z뭷��ӳ������U�暟��x&amp#28;r�&amp#15;&amp#17;&amp#25;��!"#&amp#24;>Dd&amp#4;Ç��`�&amp#16;�&amp#17;&amp#12;&amp#31;"2��CDF0|��&amp#8;�&amp#15;&amp#17;&amp#25;��!"#&amp#24;>Dd&amp#4;Ç��`�&amp#16;�&amp#17;&amp#12;&amp#31;"2��CDF0|��&amp#8;�&amp#15;&amp#17;&amp#25;��!"#Z&|b�&amp#26;���3՚&amp#19;ӷ�&amp#21;CzM�[K����w���&amp#12;��ٔ,��������~��>����'\���1��u�*�����z�sW�q0"\&amp#30;�����Hu��&amp#14;a殾\���G�%&amp#30;������#8b&amp#15;cl"���&amp#31;�&amp#27;ؙ��a�&amp#21;�G[���~֝|��vR#���&amp#6;��&amp#15;y��
+��v���&amp#12;&amp#28;� ���aI�+�q�Y�m�&amp#21;&amp#23;�ݮ&amp#16;�}���&amp#6;����GS��&amp#6;dc�og��,��/����~���&amp#8;R�w&amp#18;By$��P�G�&amp#28;��r��zZ&|Vg&amp#19;���\&amp#11;O��&amp#5;�r]��U�˴G�^�Z�>?�k�*�&amp#4;�],�a���ѣ�����v����&amp#16;/i&amp#31;�5��MPX&amp#24;��&amp#25;�>6G���&amp#30;>և�m��E�U���M��_�E=&amp#23;�^qqYߛbq��py͊&amp#21;��鉵tQMt�>Rm�zjڵ޹�>)�1Y�?����&amp#1;�6:O��l��d�&amp#18;�nԁQu�^k���B_U����u�b1]�&amp#11;}&amp#2;��i}&amp#27;�&amp#19;�����&amp#24;w�~ק��\]���&amp#7;�P���x�e��^�66Woq�G�Y���d�t��U��7��O���,��;u�Rn!S5�Z�w�&amp#17;̺;&amp#25;d~��u�&amp#12;&amp#22;}^��&^Ͷ����H�ׇ�&amp#20;�QS�1��j��F�떐H����&amp#22;�&amp#15;���(����b�"HV��ך�T?I
+�s��&amp#18;1&amp#12;&amp#12;&amp#6;�&amp#30;&amp#11;�?ɋ�&amp#27;�uT��~
+�X&amp#3;�&amp#14;X8�i&amp#28;��>ء/��b���kO��HxC]���l��&amp#7;{:z��P~���S�j�&amp#30;�'&amp#0;�&amp#15;��}��u�B&amp#22;��MO��jT#�&amp#3;U��V.Hg�w�E��}��?��PZ�&amp#25;���*�k6F����F%1���ڷ��2�I$j�9r&amp#23;&amp#28;&amp#4;ZN��@�$�&amp#18;&amp#19;O-c�G�.&amp#12;�>&amp#30;�đ����|򡤁0|H�+
+�&amp#3;9&amp#5;�nd�k�&amp#19;�Y�g&amp#4;�qK��M�~� ��d����՘�&amp#25;2g�1r���Z/{�&amp#17;>���q5��&amp#20;�T�⫐B�&amp#16;=&amp#7;�Х�O&amp#21;�RS�F�D���!_�1���&amp#27;*pVJ�<\�&amp#14;fI��td-,�&amp#21;�VlX��ѳ���Gp�=���&amp#4;&amp#27;&amp#21;�V1s�&amp#28;�f��t���g��ZaiY޾�&amp#20;�HRZ��?I ~\&amp#31;lv)��������&amp#16;!�}��ť&amp#26;����ߚB�&amp#1;&amp#21;&amp#7;��TK=�N##M�Cbheԫo)~27|�&amp#11;�&amp#22;��u��&amp#2;r�������#<�ֽ�38&amp#21;��&amp#24;�5RiO�&amp#24;�rȉÕ\yoO5&amp#27;�`/���Z�&amp#11;�jkm�x�§#���8)V&amp#18;�&amp#29;�&amp#1;Ԑ��^�&amp#30;�Q�ȯx-#dc�n{�&amp#11;.�7&amp#22;�w�*�&amp#15;�w���#����7+b&amp#11;S&amp#6;s
+&amp#11;�&amp#24;�X}�&amp#16;&amp#11;��N&amp#28;��Jy�I;�W&amp#28;8���٠
+&amp#31;&amp#21;�&amp#29;'����&amp#25;�i�=?&amp#28;��&amp#22;B�z}�&amp#24;�:&amp#24;�Fz�a8<��Ai��&amp#26;1]H���&amp#15;+���7&amp#20;=�g1����K���!��ZE��&amp#26;q��f��Г3��&amp#23;a,�C&amp#2;�@����&amp#11;�_�H	;��J!���޶���^�ߗ�zoL�o]&amp#29;�&amp#22;���9��n�����{9%O��Ք�]�n�������A}�l��aY7+u`����!��?���&amp#24;�N�&amp#15;�C��(�:~rp�ԷU�����&amp#31;G0&amp#18;���Q��&amp#31;y��ֿ:�׉J���*L&amp#14;<�Z&amp#16;=�&amp#3;j�&amp#29;����y�(j��&amp#25;�.&amp#11;��'a��&amp#11;&amp#26;���v�݉No���&amp#16;G�'��]+�&amp#29;��%w)�T���ⴋjPO�c��`��������������t&amp#29;���{g<�'{���G1}�&amp#18;F&amp#12;t�<��"���z�x&amp#2;����8r&amp#12;}��s�پ�|�쾋���H&amp#31;�&amp#15;�ԥ����rw��.i�&amp#3;Q&amp#21;Z�mX�gi$>lƉ�G�/��@䜸~S�:{�Z&amp#21;���p���_N�*P
+��<�m2�&amp#15;����B&amp#29;��xw'�-D&amp#3;L�:&amp#7;���y!D/L"^���{.�*���&amp#24;���������>^G�pʳ_�<e��ޣ���&amp#22;����&amp#0;z`۵�EU��w��&amp#11;ך����{2&amp#24;{GXį(���h�b����\��&amp#12;&amp#18;�&amp#19;&amp#25;�m��)�B�Lܳ`�+oo�&amp#15;&amp#23;�K�O�3|(�&amp#30;5���bl]&amp#20;�`�*K4<��&amp#26;J�߻'��㘹�����&amp#16;��IL{���f
+Iio����-��g�^��%'�{�Y&amp#24;>�&amp#30;&amp#16;&amp#17;a&amp#17;T�/O�xR���&amp#3;�������ɮ:-������&amp#19;������&amp#7;-���4��&amp#28;��S&amp#23;�_e0w��&amp#17;��O��8p
+��?xn�ק�u�[)��u�&amp#16;�OC�A�	���T&amp#31;�֮^����&amp#11;���\⥥o&amp#17;�'����	�&amp#11;��D}�D��*&amp#28;Gru&amp#25;�O{ԣ�㱋�ey��sb&amp#8;�V�&amp#29;&amp#25;BL|��!1��Ii�0|(0+�w�ʂ��&amp#23;L�r�Ȃ�w�A�Q�_���&amp#5;�㠚&amp#18;Eb&amp#24;US��{k�Ϸӈ&amp#29;�y3�Y&amp#23;	�]�C���2��D�>��i�{~���Qeե���*Q}�mT��e0|��&amp#8;�&amp#15;&amp#17;&amp#25;��!"#&amp#24;>Dd&amp#4;Ç��`�&amp#16;�&amp#17;&amp#12;&amp#31;"2��CDF0|��&amp#8;�&amp#15;&amp#17;&amp#25;��!"#&amp#24;>Dd&amp#4;Ç��`�&amp#16;�&amp#17;&amp#12;&amp#31;"2��CDF0|��&amp#8;�&amp#15;&amp#17;&amp#25;��!"#�Jo ?11�}��!���&amp#20;�C�&amp#14;�&amp#22;=�v�ލl��'Uҋ����D"����
+&amp#14;&amp#31;>\;|����&amp#20;>�v&amp#17;�&amp#17;&amp#12;&amp#31;"2��CDFT��\�rE���~&amp#30;>|X���q�,&amp#22;�Ռ��%&amp#19;�Qm���K���&amp#7;�����^y�&amp#21;���K�&amp#31;B��!�#��&amp#0;&amp#0;&amp#0;&amp#0;IEND�B`�
+Body:			<none>
+Request method:	GET
+Request URI:	http://localhost:4000/movies/200
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=200
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PATCH
+Request URI:	http://localhost:4000/movies/38013
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=38013
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "The Parasite"
+}
+09:05:53.807 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 77) - Step 2: Validating the API response
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 113
+ETag: W/"71-rstNPxhs+yQqwlnEtW7LMwQqtsc"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "timestamp": "2026-03-07T14:05:53.806Z",
+    "status": 404,
+    "error": "Not Found",
+    "message": "Movie with id 200 not found"
+}
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 115
+ETag: W/"73-JAE5ZBWB1wkccy/8NEkPxsHkALs"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "timestamp": "2026-03-07T14:05:53.811Z",
+    "status": 404,
+    "error": "Not Found",
+    "message": "Movie with id 38013 not found"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.035">
+    <system-out><![CDATA[09:05:53.845 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [listMoviesWithDefaultPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 115) - Step 1: MovieActions.getAllMovies()
+Request method:	GET
+Request URI:	http://localhost:4000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="listMoviesWithDefaultPagination" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="1.751">
+    <system-out><![CDATA[09:05:53.857 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [listMoviesWithPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 95) - Step 1: MovieActions.getAllMovies(page, limit)
+Request method:	GET
+Request URI:	http://localhost:4000/movies?limit=100&page=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	limit=100
+				page=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+09:05:53.867 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [listMoviesWithDefaultPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 120) - Step 2: Validating API response
+09:05:53.876 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [listMoviesWithPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 100) - Step 2: Validating API response
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 6399
+ETag: W/"18ff-K96RzlkAufW47GM8z3yyzJg14gE"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "page": 1,
+    "limit": 10,
+    "total": 11,
+    "totalPages": 2,
+    "data": [
+        {
+            "id": 1,
+            "title": "The Dark Knight",
+            "crew": {
+                "director": "Christopher Nolan",
+                "musicDirector": "Hans Zimmer",
+                "productionCompany": "Warner Bros. Pictures"
+            },
+            "cast": [
+                {
+                    "actorName": "Christian Bale",
+                    "role": "Bruce Wayne / Batman",
+                    "awards": [
+                        "Saturn Award for Best Actor"
+                    ]
+                },
+                {
+                    "actorName": "Heath Ledger",
+                    "role": "The Joker",
+                    "awards": [
+                        "Academy Award for Best Supporting Actor",
+                        "BAFTA Award for Best Actor in a Supporting Role"
+                    ]
+                },
+                {
+                    "actorName": "Aaron Eckhart",
+                    "role": "Harvey Dent / Two-Face",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Crime",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDetails": {
+                "language": "English",
+                "country": "USA"
+            },
+            "finance": {
+                "budget": 185000000,
+                "boxOffice": 1006000000,
+                "profit": 821000000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Inception",
+            "crew": {
+                "director": "Christopher Nolan",
+                "musicDirector": "Hans Zimmer",
+                "productionCompany": "Legendary Entertainment"
+            },
+            "cast": [
+                {
+                    "actorName": "Leonardo DiCaprio",
+                    "role": "Dom Cobb",
+                    "awards": [
+                        "Academy Award for Best Actor (The Revenant)"
+                    ]
+                },
+                {
+                    "actorName": "Joseph Gordon-Levitt",
+                    "role": "Arthur",
+                    "awards": [
+                        "Independent Spirit Award"
+                    ]
+                },
+                {
+                    "actorName": "Elliot Page",
+                    "role": "Ariadne",
+                    "awards": [
+                        "Academy Award for Best Picture (Nominee)"
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Sci-Fi",
+                "Thriller"
+            ],
+            "releaseDetails": {
+                "language": "English",
+                "country": "USA"
+            },
+            "finance": {
+                "budget": 160000000,
+                "boxOffice": 837000000,
+                "profit": 677000000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 3,
+            "title": "Lagaan",
+            "crew": {
+                "director": "Ashutosh Gowariker",
+                "musicDirector": "A.R. Rahman",
+                "productionCompany": "Aamir Khan Productions"
+            },
+            "cast": [
+                {
+                    "actorName": "Aamir Khan",
+                    "role": "Bhuvan",
+                    "awards": [
+                        "Filmfare Award for Best Actor"
+                    ]
+                },
+                {
+                    "actorName": "Gracy Singh",
+                    "role": "Gauri",
+                    "awards": [
+                        "IIFA Award for Best Actress"
+                    ]
+                },
+                {
+                    "actorName": "Rachel Shelley",
+                    "role": "Elizabeth Russell",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Drama",
+                "Musical",
+                "Sport"
+            ],
+            "releaseDetails": {
+                "language": "Hindi",
+                "country": "India"
+            },
+            "finance": {
+                "budget": 250000000,
+                "boxOffice": 659000000,
+                "profit": 409000000,
+                "currency": "INR"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Parasite",
+            "crew": {
+                "director": "Bong Joon-ho",
+                "musicDirector": "Jung Jae-il",
+                "productionCompany": "Barunson E&A"
+            },
+            "cast": [
+                {
+                    "actorName": "Song Kang-ho",
+                    "role": "Kim Ki-taek",
+                    "awards": [
+                        "Screen Actors Guild Award for Outstanding Cast"
+                    ]
+                },
+                {
+                    "actorName": "Cho Yeo-jeong",
+                    "role": "Park Yeon-gyo",
+                    "awards": [
+                        "Blue Dragon Film Award for Best Actress"
+                    ]
+                },
+                {
+                    "actorName": "Park So-dam",
+                    "role": "Kim Ki-jung",
+                    "awards": [
+                        "Korean Association of Film Critics Award"
+                    ]
+                }
+            ],
+            "genres": [
+                "Comedy",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDetails": {
+                "language": "Korean",
+                "country": "South Korea"
+            },
+            "finance": {
+                "budget": 11400000,
+                "boxOffice": 263000000,
+                "profit": 251600000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Dangal",
+            "crew": {
+                "director": "Nitesh Tiwari",
+                "musicDirector": "Pritam",
+                "productionCompany": "Aamir Khan Productions"
+            },
+            "cast": [
+                {
+                    "actorName": "Aamir Khan",
+                    "role": "Mahavir Singh Phogat",
+                    "awards": [
+                        "Filmfare Award for Best Actor"
+                    ]
+                },
+                {
+                    "actorName": "Fatima Sana Shaikh",
+                    "role": "Geeta Phogat",
+                    "awards": [
+                        "Zee Cine Award for Best Female Debut"
+                    ]
+                },
+                {
+                    "actorName": "Sanya Malhotra",
+                    "role": "Babita Kumari",
+                    "awards": [
+                        "Filmfare Award for Best Female Debut"
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Biography",
+                "Drama",
+                "Sport"
+            ],
+            "releaseDetails": {
+                "language": "Hindi",
+                "country": "India"
+            },
+            "finance": {
+                "budget": 700000000,
+                "boxOffice": 2100000000,
+                "profit": 1400000000,
+                "currency": "INR"
+            }
+        },
+        {
+            "id": 6,
+            "title": "Interstellar",
+            "crew": {
+                "director": "Christopher Nolan",
+                "musicDirector": "Hans Zimmer",
+                "productionCompany": "Paramount Pictures"
+            },
+            "cast": [
+                {
+                    "actorName": "Matthew McConaughey",
+                    "role": "Joseph Cooper",
+                    "awards": [
+                        "Academy Award for Best Actor (Dallas Buyers Club)"
+                    ]
+                },
+                {
+                    "actorName": "Anne Hathaway",
+                    "role": "Dr. Amelia Brand",
+                    "awards": [
+                        "Academy Award for Best Supporting Actress (Les Misérables)"
+                    ]
+                },
+                {
+                    "actorName": "Jessica Chastain",
+                    "role": "Murph (adult)",
+                    "awards": [
+                        "Golden Globe Award for Best Actress"
+                    ]
+                }
+            ],
+            "genres": [
+                "Adventure",
+                "Drama",
+                "Sci-Fi"
+            ],
+            "releaseDetails": {
+                "language": "English",
+                "country": "USA"
+            },
+            "finance": {
+                "budget": 165000000,
+                "boxOffice": 730000000,
+                "profit": 565000000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 7,
+            "title": "Spirited Away",
+            "crew": {
+                "director": "Hayao Miyazaki",
+                "musicDirector": "Joe Hisaishi",
+                "productionCompany": "Studio Ghibli"
+            },
+            "cast": [
+                {
+                    "actorName": "Rumi Hiiragi",
+                    "role": "Chihiro Ogino",
+                    "awards": [
+                        
+                    ]
+                },
+                {
+                    "actorName": "Miyu Irino",
+                    "role": "Haku",
+                    "awards": [
+                        
+                    ]
+                },
+                {
+                    "actorName": "Mari Natsuki",
+                    "role": "Yubaba / Zeniba",
+                    "awards": [
+                        "Japan Academy Prize for Outstanding Performance"
+                    ]
+                }
+            ],
+            "genres": [
+                "Animation",
+                "Adventure",
+                "Fantasy"
+            ],
+            "releaseDetails": {
+                "language": "Japanese",
+                "country": "Japan"
+            },
+            "finance": {
+                "budget": 19000000,
+                "boxOffice": 395800000,
+                "profit": 376800000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 8,
+            "title": "The Shawshank Redemption",
+            "crew": {
+                "director": "Frank Darabont",
+                "musicDirector": "Thomas Newman",
+                "productionCompany": "Castle Rock Entertainment"
+            },
+            "cast": [
+                {
+                    "actorName": "Tim Robbins",
+                    "role": "Andy Dufresne",
+                    "awards": [
+                        "Screen Actors Guild Award Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Morgan Freeman",
+                    "role": "Ellis Boyd \"Red\" Redding",
+                    "awards": [
+                        "Academy Award for Best Actor Nominee",
+                        "Golden Globe Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Bob Gunton",
+                    "role": "Warden Samuel Norton",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Drama"
+            ],
+            "releaseDetails": {
+                "language": "English",
+                "country": "USA"
+            },
+            "finance": {
+                "budget": 25000000,
+                "boxOffice": 58300000,
+                "profit": 33300000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 9,
+            "title": "RRR",
+            "crew": {
+                "director": "S.S. Rajamouli",
+                "musicDirector": "M.M. Keeravani",
+                "productionCompany": "DVV Entertainment"
+            },
+            "cast": [
+                {
+                    "actorName": "N.T. Rama Rao Jr.",
+                    "role": "Komaram Bheem",
+                    "awards": [
+                        "Filmfare Award for Best Actor (Telugu)"
+                    ]
+                },
+                {
+                    "actorName": "Ram Charan",
+                    "role": "Alluri Sitarama Raju",
+                    "awards": [
+                        "Filmfare Award for Best Actor (Telugu) Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Alia Bhatt",
+                    "role": "Sita",
+                    "awards": [
+                        "Filmfare Award for Best Actress"
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Drama",
+                "Epic"
+            ],
+            "releaseDetails": {
+                "language": "Telugu",
+                "country": "India"
+            },
+            "finance": {
+                "budget": 5500000000,
+                "boxOffice": 12000000000,
+                "profit": 6500000000,
+                "currency": "INR"
+            }
+        },
+        {
+            "id": 10,
+            "title": "Amélie",
+            "crew": {
+                "director": "Jean-Pierre Jeunet",
+                "musicDirector": "Yann Tiersen",
+                "productionCompany": "UGC Images"
+            },
+            "cast": [
+                {
+                    "actorName": "Audrey Tautou",
+                    "role": "Amélie Poulain",
+                    "awards": [
+                        "César Award for Best Actress Nominee",
+                        "BAFTA Award Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Mathieu Kassovitz",
+                    "role": "Nino Quincampoix",
+                    "awards": [
+                        "César Award for Best Director (La Haine)"
+                    ]
+                },
+                {
+                    "actorName": "Rufus",
+                    "role": "Raphaël Poulain",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Comedy",
+                "Romance"
+            ],
+            "releaseDetails": {
+                "language": "French",
+                "country": "France"
+            },
+            "finance": {
+                "budget": 10000000,
+                "boxOffice": 174200000,
+                "profit": 164200000,
+                "currency": "EUR"
+            }
+        }
+    ]
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 7001
+ETag: W/"1b59-s5KU0SzA+R+NCs5iYZewgfNpaN8"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "page": 1,
+    "limit": 100,
+    "total": 11,
+    "totalPages": 1,
+    "data": [
+        {
+            "id": 1,
+            "title": "The Dark Knight",
+            "crew": {
+                "director": "Christopher Nolan",
+                "musicDirector": "Hans Zimmer",
+                "productionCompany": "Warner Bros. Pictures"
+            },
+            "cast": [
+                {
+                    "actorName": "Christian Bale",
+                    "role": "Bruce Wayne / Batman",
+                    "awards": [
+                        "Saturn Award for Best Actor"
+                    ]
+                },
+                {
+                    "actorName": "Heath Ledger",
+                    "role": "The Joker",
+                    "awards": [
+                        "Academy Award for Best Supporting Actor",
+                        "BAFTA Award for Best Actor in a Supporting Role"
+                    ]
+                },
+                {
+                    "actorName": "Aaron Eckhart",
+                    "role": "Harvey Dent / Two-Face",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Crime",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDetails": {
+                "language": "English",
+                "country": "USA"
+            },
+            "finance": {
+                "budget": 185000000,
+                "boxOffice": 1006000000,
+                "profit": 821000000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 2,
+            "title": "Inception",
+            "crew": {
+                "director": "Christopher Nolan",
+                "musicDirector": "Hans Zimmer",
+                "productionCompany": "Legendary Entertainment"
+            },
+            "cast": [
+                {
+                    "actorName": "Leonardo DiCaprio",
+                    "role": "Dom Cobb",
+                    "awards": [
+                        "Academy Award for Best Actor (The Revenant)"
+                    ]
+                },
+                {
+                    "actorName": "Joseph Gordon-Levitt",
+                    "role": "Arthur",
+                    "awards": [
+                        "Independent Spirit Award"
+                    ]
+                },
+                {
+                    "actorName": "Elliot Page",
+                    "role": "Ariadne",
+                    "awards": [
+                        "Academy Award for Best Picture (Nominee)"
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Sci-Fi",
+                "Thriller"
+            ],
+            "releaseDetails": {
+                "language": "English",
+                "country": "USA"
+            },
+            "finance": {
+                "budget": 160000000,
+                "boxOffice": 837000000,
+                "profit": 677000000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 3,
+            "title": "Lagaan",
+            "crew": {
+                "director": "Ashutosh Gowariker",
+                "musicDirector": "A.R. Rahman",
+                "productionCompany": "Aamir Khan Productions"
+            },
+            "cast": [
+                {
+                    "actorName": "Aamir Khan",
+                    "role": "Bhuvan",
+                    "awards": [
+                        "Filmfare Award for Best Actor"
+                    ]
+                },
+                {
+                    "actorName": "Gracy Singh",
+                    "role": "Gauri",
+                    "awards": [
+                        "IIFA Award for Best Actress"
+                    ]
+                },
+                {
+                    "actorName": "Rachel Shelley",
+                    "role": "Elizabeth Russell",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Drama",
+                "Musical",
+                "Sport"
+            ],
+            "releaseDetails": {
+                "language": "Hindi",
+                "country": "India"
+            },
+            "finance": {
+                "budget": 250000000,
+                "boxOffice": 659000000,
+                "profit": 409000000,
+                "currency": "INR"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Parasite",
+            "crew": {
+                "director": "Bong Joon-ho",
+                "musicDirector": "Jung Jae-il",
+                "productionCompany": "Barunson E&A"
+            },
+            "cast": [
+                {
+                    "actorName": "Song Kang-ho",
+                    "role": "Kim Ki-taek",
+                    "awards": [
+                        "Screen Actors Guild Award for Outstanding Cast"
+                    ]
+                },
+                {
+                    "actorName": "Cho Yeo-jeong",
+                    "role": "Park Yeon-gyo",
+                    "awards": [
+                        "Blue Dragon Film Award for Best Actress"
+                    ]
+                },
+                {
+                    "actorName": "Park So-dam",
+                    "role": "Kim Ki-jung",
+                    "awards": [
+                        "Korean Association of Film Critics Award"
+                    ]
+                }
+            ],
+            "genres": [
+                "Comedy",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDetails": {
+                "language": "Korean",
+                "country": "South Korea"
+            },
+            "finance": {
+                "budget": 11400000,
+                "boxOffice": 263000000,
+                "profit": 251600000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Dangal",
+            "crew": {
+                "director": "Nitesh Tiwari",
+                "musicDirector": "Pritam",
+                "productionCompany": "Aamir Khan Productions"
+            },
+            "cast": [
+                {
+                    "actorName": "Aamir Khan",
+                    "role": "Mahavir Singh Phogat",
+                    "awards": [
+                        "Filmfare Award for Best Actor"
+                    ]
+                },
+                {
+                    "actorName": "Fatima Sana Shaikh",
+                    "role": "Geeta Phogat",
+                    "awards": [
+                        "Zee Cine Award for Best Female Debut"
+                    ]
+                },
+                {
+                    "actorName": "Sanya Malhotra",
+                    "role": "Babita Kumari",
+                    "awards": [
+                        "Filmfare Award for Best Female Debut"
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Biography",
+                "Drama",
+                "Sport"
+            ],
+            "releaseDetails": {
+                "language": "Hindi",
+                "country": "India"
+            },
+            "finance": {
+                "budget": 700000000,
+                "boxOffice": 2100000000,
+                "profit": 1400000000,
+                "currency": "INR"
+            }
+        },
+        {
+            "id": 6,
+            "title": "Interstellar",
+            "crew": {
+                "director": "Christopher Nolan",
+                "musicDirector": "Hans Zimmer",
+                "productionCompany": "Paramount Pictures"
+            },
+            "cast": [
+                {
+                    "actorName": "Matthew McConaughey",
+                    "role": "Joseph Cooper",
+                    "awards": [
+                        "Academy Award for Best Actor (Dallas Buyers Club)"
+                    ]
+                },
+                {
+                    "actorName": "Anne Hathaway",
+                    "role": "Dr. Amelia Brand",
+                    "awards": [
+                        "Academy Award for Best Supporting Actress (Les Misérables)"
+                    ]
+                },
+                {
+                    "actorName": "Jessica Chastain",
+                    "role": "Murph (adult)",
+                    "awards": [
+                        "Golden Globe Award for Best Actress"
+                    ]
+                }
+            ],
+            "genres": [
+                "Adventure",
+                "Drama",
+                "Sci-Fi"
+            ],
+            "releaseDetails": {
+                "language": "English",
+                "country": "USA"
+            },
+            "finance": {
+                "budget": 165000000,
+                "boxOffice": 730000000,
+                "profit": 565000000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 7,
+            "title": "Spirited Away",
+            "crew": {
+                "director": "Hayao Miyazaki",
+                "musicDirector": "Joe Hisaishi",
+                "productionCompany": "Studio Ghibli"
+            },
+            "cast": [
+                {
+                    "actorName": "Rumi Hiiragi",
+                    "role": "Chihiro Ogino",
+                    "awards": [
+                        
+                    ]
+                },
+                {
+                    "actorName": "Miyu Irino",
+                    "role": "Haku",
+                    "awards": [
+                        
+                    ]
+                },
+                {
+                    "actorName": "Mari Natsuki",
+                    "role": "Yubaba / Zeniba",
+                    "awards": [
+                        "Japan Academy Prize for Outstanding Performance"
+                    ]
+                }
+            ],
+            "genres": [
+                "Animation",
+                "Adventure",
+                "Fantasy"
+            ],
+            "releaseDetails": {
+                "language": "Japanese",
+                "country": "Japan"
+            },
+            "finance": {
+                "budget": 19000000,
+                "boxOffice": 395800000,
+                "profit": 376800000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 8,
+            "title": "The Shawshank Redemption",
+            "crew": {
+                "director": "Frank Darabont",
+                "musicDirector": "Thomas Newman",
+                "productionCompany": "Castle Rock Entertainment"
+            },
+            "cast": [
+                {
+                    "actorName": "Tim Robbins",
+                    "role": "Andy Dufresne",
+                    "awards": [
+                        "Screen Actors Guild Award Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Morgan Freeman",
+                    "role": "Ellis Boyd \"Red\" Redding",
+                    "awards": [
+                        "Academy Award for Best Actor Nominee",
+                        "Golden Globe Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Bob Gunton",
+                    "role": "Warden Samuel Norton",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Drama"
+            ],
+            "releaseDetails": {
+                "language": "English",
+                "country": "USA"
+            },
+            "finance": {
+                "budget": 25000000,
+                "boxOffice": 58300000,
+                "profit": 33300000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 9,
+            "title": "RRR",
+            "crew": {
+                "director": "S.S. Rajamouli",
+                "musicDirector": "M.M. Keeravani",
+                "productionCompany": "DVV Entertainment"
+            },
+            "cast": [
+                {
+                    "actorName": "N.T. Rama Rao Jr.",
+                    "role": "Komaram Bheem",
+                    "awards": [
+                        "Filmfare Award for Best Actor (Telugu)"
+                    ]
+                },
+                {
+                    "actorName": "Ram Charan",
+                    "role": "Alluri Sitarama Raju",
+                    "awards": [
+                        "Filmfare Award for Best Actor (Telugu) Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Alia Bhatt",
+                    "role": "Sita",
+                    "awards": [
+                        "Filmfare Award for Best Actress"
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Drama",
+                "Epic"
+            ],
+            "releaseDetails": {
+                "language": "Telugu",
+                "country": "India"
+            },
+            "finance": {
+                "budget": 5500000000,
+                "boxOffice": 12000000000,
+                "profit": 6500000000,
+                "currency": "INR"
+            }
+        },
+        {
+            "id": 10,
+            "title": "Amélie",
+            "crew": {
+                "director": "Jean-Pierre Jeunet",
+                "musicDirector": "Yann Tiersen",
+                "productionCompany": "UGC Images"
+            },
+            "cast": [
+                {
+                    "actorName": "Audrey Tautou",
+                    "role": "Amélie Poulain",
+                    "awards": [
+                        "César Award for Best Actress Nominee",
+                        "BAFTA Award Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Mathieu Kassovitz",
+                    "role": "Nino Quincampoix",
+                    "awards": [
+                        "César Award for Best Director (La Haine)"
+                    ]
+                },
+                {
+                    "actorName": "Rufus",
+                    "role": "Raphaël Poulain",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Comedy",
+                "Romance"
+            ],
+            "releaseDetails": {
+                "language": "French",
+                "country": "France"
+            },
+            "finance": {
+                "budget": 10000000,
+                "boxOffice": 174200000,
+                "profit": 164200000,
+                "currency": "EUR"
+            }
+        },
+        {
+            "id": 18,
+            "title": "Time To Murder And Create",
+            "crew": {
+                "director": "Chagall",
+                "musicDirector": "Bernini",
+                "productionCompany": "Pacocha, Stroman and Abshire"
+            },
+            "cast": [
+                {
+                    "actorName": "Dali",
+                    "role": "Rubens",
+                    "awards": [
+                        "University",
+                        "University"
+                    ]
+                },
+                {
+                    "actorName": "Joan Miro",
+                    "role": "Degas",
+                    "awards": [
+                        "Institute"
+                    ]
+                },
+                {
+                    "actorName": "Matisse",
+                    "role": "Rubens",
+                    "awards": [
+                        "Institute"
+                    ]
+                }
+            ],
+            "genres": [
+                "Suspense/Thriller",
+                "Narrative nonfiction",
+                "Humor"
+            ],
+            "releaseDetails": {
+                "language": "Venezuela (Bolivarian Republic of)",
+                "country": "Singapore"
+            },
+            "finance": {
+                "budget": 60750000,
+                "boxOffice": 86690000,
+                "profit": 47300000,
+                "currency": "Euro"
+            }
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="listMoviesWithPagination" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0.011">
+    <system-out><![CDATA[09:05:53.895 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieIdReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 73) - Step 1: MovieActions.getMovieById(2)
+]]></system-out>
+  </testcase>
+  <testcase name="searchByMovieIdReturnsSingleExactMatch" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0.19">
+    <system-out><![CDATA[09:05:53.898 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsAllPartialTitleMatchingMovies] (com.moviedb.tests.movies.MovieRetrievalTests: 52) - Step 1: MovieActions.getMoviesByTitle(movieTitle)
+09:05:53.899 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 198) - Step 3: Performing assertion on the API response
+Request method:	GET
+Request URI:	http://localhost:4000/movies/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=2
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 201 Created
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 162
+ETag: W/"a2-VrkeKh2gOGaNawoFuzI27APcZlQ"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "message": "Poster uploaded successfully",
+    "movieId": 18,
+    "poster": {
+        "filename": "poster-2e736330-1aba-4423-9901-cde7edc2dd83.png",
+        "mimetype": "image/png",
+        "size": 2882
+    }
+}
+Request method:	GET
+Request URI:	http://localhost:4000/movies/search?name=a
+Proxy:			<none>
+Request params:	<none>
+Query params:	name=a
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+09:05:53.912 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieIdReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 78) - Step 2: Validating API response
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 637
+ETag: W/"27d-g2mFXAkSGZGIc0nwPZh3Pl9+kPI"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "id": 2,
+    "title": "Inception",
+    "crew": {
+        "director": "Christopher Nolan",
+        "musicDirector": "Hans Zimmer",
+        "productionCompany": "Legendary Entertainment"
+    },
+    "cast": [
+        {
+            "actorName": "Leonardo DiCaprio",
+            "role": "Dom Cobb",
+            "awards": [
+                "Academy Award for Best Actor (The Revenant)"
+            ]
+        },
+        {
+            "actorName": "Joseph Gordon-Levitt",
+            "role": "Arthur",
+            "awards": [
+                "Independent Spirit Award"
+            ]
+        },
+        {
+            "actorName": "Elliot Page",
+            "role": "Ariadne",
+            "awards": [
+                "Academy Award for Best Picture (Nominee)"
+            ]
+        }
+    ],
+    "genres": [
+        "Action",
+        "Sci-Fi",
+        "Thriller"
+    ],
+    "releaseDetails": {
+        "language": "English",
+        "country": "USA"
+    },
+    "finance": {
+        "budget": 160000000,
+        "boxOffice": 837000000,
+        "profit": 677000000,
+        "currency": "USD"
+    }
+}
+09:05:53.918 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsAllPartialTitleMatchingMovies] (com.moviedb.tests.movies.MovieRetrievalTests: 57) - Step 2: Validating API response
+]]></system-out>
+  </testcase>
+  <testcase name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0.757">
+    <system-out><![CDATA[09:05:53.923 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 30) - Step 1: MovieActions.getMoviesByTitle(movieTitle)
+Request method:	GET
+Request URI:	http://localhost:4000/movies/search?name=RRR
+Proxy:			<none>
+Request params:	<none>
+Query params:	name=RRR
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 5687
+ETag: W/"1637-G6IPON5fc5IqWSjHI/GxF5W2R9w"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "total": 9,
+    "data": [
+        {
+            "id": 1,
+            "title": "The Dark Knight",
+            "crew": {
+                "director": "Christopher Nolan",
+                "musicDirector": "Hans Zimmer",
+                "productionCompany": "Warner Bros. Pictures"
+            },
+            "cast": [
+                {
+                    "actorName": "Christian Bale",
+                    "role": "Bruce Wayne / Batman",
+                    "awards": [
+                        "Saturn Award for Best Actor"
+                    ]
+                },
+                {
+                    "actorName": "Heath Ledger",
+                    "role": "The Joker",
+                    "awards": [
+                        "Academy Award for Best Supporting Actor",
+                        "BAFTA Award for Best Actor in a Supporting Role"
+                    ]
+                },
+                {
+                    "actorName": "Aaron Eckhart",
+                    "role": "Harvey Dent / Two-Face",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Crime",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDetails": {
+                "language": "English",
+                "country": "USA"
+            },
+            "finance": {
+                "budget": 185000000,
+                "boxOffice": 1006000000,
+                "profit": 821000000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 3,
+            "title": "Lagaan",
+            "crew": {
+                "director": "Ashutosh Gowariker",
+                "musicDirector": "A.R. Rahman",
+                "productionCompany": "Aamir Khan Productions"
+            },
+            "cast": [
+                {
+                    "actorName": "Aamir Khan",
+                    "role": "Bhuvan",
+                    "awards": [
+                        "Filmfare Award for Best Actor"
+                    ]
+                },
+                {
+                    "actorName": "Gracy Singh",
+                    "role": "Gauri",
+                    "awards": [
+                        "IIFA Award for Best Actress"
+                    ]
+                },
+                {
+                    "actorName": "Rachel Shelley",
+                    "role": "Elizabeth Russell",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Drama",
+                "Musical",
+                "Sport"
+            ],
+            "releaseDetails": {
+                "language": "Hindi",
+                "country": "India"
+            },
+            "finance": {
+                "budget": 250000000,
+                "boxOffice": 659000000,
+                "profit": 409000000,
+                "currency": "INR"
+            }
+        },
+        {
+            "id": 4,
+            "title": "Parasite",
+            "crew": {
+                "director": "Bong Joon-ho",
+                "musicDirector": "Jung Jae-il",
+                "productionCompany": "Barunson E&A"
+            },
+            "cast": [
+                {
+                    "actorName": "Song Kang-ho",
+                    "role": "Kim Ki-taek",
+                    "awards": [
+                        "Screen Actors Guild Award for Outstanding Cast"
+                    ]
+                },
+                {
+                    "actorName": "Cho Yeo-jeong",
+                    "role": "Park Yeon-gyo",
+                    "awards": [
+                        "Blue Dragon Film Award for Best Actress"
+                    ]
+                },
+                {
+                    "actorName": "Park So-dam",
+                    "role": "Kim Ki-jung",
+                    "awards": [
+                        "Korean Association of Film Critics Award"
+                    ]
+                }
+            ],
+            "genres": [
+                "Comedy",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDetails": {
+                "language": "Korean",
+                "country": "South Korea"
+            },
+            "finance": {
+                "budget": 11400000,
+                "boxOffice": 263000000,
+                "profit": 251600000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 5,
+            "title": "Dangal",
+            "crew": {
+                "director": "Nitesh Tiwari",
+                "musicDirector": "Pritam",
+                "productionCompany": "Aamir Khan Productions"
+            },
+            "cast": [
+                {
+                    "actorName": "Aamir Khan",
+                    "role": "Mahavir Singh Phogat",
+                    "awards": [
+                        "Filmfare Award for Best Actor"
+                    ]
+                },
+                {
+                    "actorName": "Fatima Sana Shaikh",
+                    "role": "Geeta Phogat",
+                    "awards": [
+                        "Zee Cine Award for Best Female Debut"
+                    ]
+                },
+                {
+                    "actorName": "Sanya Malhotra",
+                    "role": "Babita Kumari",
+                    "awards": [
+                        "Filmfare Award for Best Female Debut"
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Biography",
+                "Drama",
+                "Sport"
+            ],
+            "releaseDetails": {
+                "language": "Hindi",
+                "country": "India"
+            },
+            "finance": {
+                "budget": 700000000,
+                "boxOffice": 2100000000,
+                "profit": 1400000000,
+                "currency": "INR"
+            }
+        },
+        {
+            "id": 6,
+            "title": "Interstellar",
+            "crew": {
+                "director": "Christopher Nolan",
+                "musicDirector": "Hans Zimmer",
+                "productionCompany": "Paramount Pictures"
+            },
+            "cast": [
+                {
+                    "actorName": "Matthew McConaughey",
+                    "role": "Joseph Cooper",
+                    "awards": [
+                        "Academy Award for Best Actor (Dallas Buyers Club)"
+                    ]
+                },
+                {
+                    "actorName": "Anne Hathaway",
+                    "role": "Dr. Amelia Brand",
+                    "awards": [
+                        "Academy Award for Best Supporting Actress (Les Misérables)"
+                    ]
+                },
+                {
+                    "actorName": "Jessica Chastain",
+                    "role": "Murph (adult)",
+                    "awards": [
+                        "Golden Globe Award for Best Actress"
+                    ]
+                }
+            ],
+            "genres": [
+                "Adventure",
+                "Drama",
+                "Sci-Fi"
+            ],
+            "releaseDetails": {
+                "language": "English",
+                "country": "USA"
+            },
+            "finance": {
+                "budget": 165000000,
+                "boxOffice": 730000000,
+                "profit": 565000000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 7,
+            "title": "Spirited Away",
+            "crew": {
+                "director": "Hayao Miyazaki",
+                "musicDirector": "Joe Hisaishi",
+                "productionCompany": "Studio Ghibli"
+            },
+            "cast": [
+                {
+                    "actorName": "Rumi Hiiragi",
+                    "role": "Chihiro Ogino",
+                    "awards": [
+                        
+                    ]
+                },
+                {
+                    "actorName": "Miyu Irino",
+                    "role": "Haku",
+                    "awards": [
+                        
+                    ]
+                },
+                {
+                    "actorName": "Mari Natsuki",
+                    "role": "Yubaba / Zeniba",
+                    "awards": [
+                        "Japan Academy Prize for Outstanding Performance"
+                    ]
+                }
+            ],
+            "genres": [
+                "Animation",
+                "Adventure",
+                "Fantasy"
+            ],
+            "releaseDetails": {
+                "language": "Japanese",
+                "country": "Japan"
+            },
+            "finance": {
+                "budget": 19000000,
+                "boxOffice": 395800000,
+                "profit": 376800000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 8,
+            "title": "The Shawshank Redemption",
+            "crew": {
+                "director": "Frank Darabont",
+                "musicDirector": "Thomas Newman",
+                "productionCompany": "Castle Rock Entertainment"
+            },
+            "cast": [
+                {
+                    "actorName": "Tim Robbins",
+                    "role": "Andy Dufresne",
+                    "awards": [
+                        "Screen Actors Guild Award Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Morgan Freeman",
+                    "role": "Ellis Boyd \"Red\" Redding",
+                    "awards": [
+                        "Academy Award for Best Actor Nominee",
+                        "Golden Globe Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Bob Gunton",
+                    "role": "Warden Samuel Norton",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Drama"
+            ],
+            "releaseDetails": {
+                "language": "English",
+                "country": "USA"
+            },
+            "finance": {
+                "budget": 25000000,
+                "boxOffice": 58300000,
+                "profit": 33300000,
+                "currency": "USD"
+            }
+        },
+        {
+            "id": 10,
+            "title": "Amélie",
+            "crew": {
+                "director": "Jean-Pierre Jeunet",
+                "musicDirector": "Yann Tiersen",
+                "productionCompany": "UGC Images"
+            },
+            "cast": [
+                {
+                    "actorName": "Audrey Tautou",
+                    "role": "Amélie Poulain",
+                    "awards": [
+                        "César Award for Best Actress Nominee",
+                        "BAFTA Award Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Mathieu Kassovitz",
+                    "role": "Nino Quincampoix",
+                    "awards": [
+                        "César Award for Best Director (La Haine)"
+                    ]
+                },
+                {
+                    "actorName": "Rufus",
+                    "role": "Raphaël Poulain",
+                    "awards": [
+                        
+                    ]
+                }
+            ],
+            "genres": [
+                "Comedy",
+                "Romance"
+            ],
+            "releaseDetails": {
+                "language": "French",
+                "country": "France"
+            },
+            "finance": {
+                "budget": 10000000,
+                "boxOffice": 174200000,
+                "profit": 164200000,
+                "currency": "EUR"
+            }
+        },
+        {
+            "id": 18,
+            "title": "Time To Murder And Create",
+            "crew": {
+                "director": "Chagall",
+                "musicDirector": "Bernini",
+                "productionCompany": "Pacocha, Stroman and Abshire"
+            },
+            "cast": [
+                {
+                    "actorName": "Dali",
+                    "role": "Rubens",
+                    "awards": [
+                        "University",
+                        "University"
+                    ]
+                },
+                {
+                    "actorName": "Joan Miro",
+                    "role": "Degas",
+                    "awards": [
+                        "Institute"
+                    ]
+                },
+                {
+                    "actorName": "Matisse",
+                    "role": "Rubens",
+                    "awards": [
+                        "Institute"
+                    ]
+                }
+            ],
+            "genres": [
+                "Suspense/Thriller",
+                "Narrative nonfiction",
+                "Humor"
+            ],
+            "releaseDetails": {
+                "language": "Venezuela (Bolivarian Republic of)",
+                "country": "Singapore"
+            },
+            "finance": {
+                "budget": 60750000,
+                "boxOffice": 86690000,
+                "profit": 47300000,
+                "currency": "Euro"
+            }
+        }
+    ]
+}
+]]></system-out>
+  </testcase>
+  <testcase name="searchByMovieTitleReturnsSingleExactMatch" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0.869">
+    <system-out><![CDATA[09:05:53.940 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 35) - Step 2: Validating API response
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 659
+ETag: W/"293-lp/06KZtB45xeBeZgEXF224nLEY"
+Date: Sat, 07 Mar 2026 14:05:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "total": 1,
+    "data": [
+        {
+            "id": 9,
+            "title": "RRR",
+            "crew": {
+                "director": "S.S. Rajamouli",
+                "musicDirector": "M.M. Keeravani",
+                "productionCompany": "DVV Entertainment"
+            },
+            "cast": [
+                {
+                    "actorName": "N.T. Rama Rao Jr.",
+                    "role": "Komaram Bheem",
+                    "awards": [
+                        "Filmfare Award for Best Actor (Telugu)"
+                    ]
+                },
+                {
+                    "actorName": "Ram Charan",
+                    "role": "Alluri Sitarama Raju",
+                    "awards": [
+                        "Filmfare Award for Best Actor (Telugu) Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Alia Bhatt",
+                    "role": "Sita",
+                    "awards": [
+                        "Filmfare Award for Best Actress"
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Drama",
+                "Epic"
+            ],
+            "releaseDetails": {
+                "language": "Telugu",
+                "country": "India"
+            },
+            "finance": {
+                "budget": 5500000000,
+                "boxOffice": 12000000000,
+                "profit": 6500000000,
+                "currency": "INR"
+            }
+        }
+    ]
+}
+poster-2e736330-1aba-4423-9901-cde7edc2dd83.png
+]]></system-out>
+  </testcase>
+  <testcase name="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200" classname="com.moviedb.tests.system.SystemTests" time="0.063">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	http://localhost:4000/movies/18
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=18
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+09:05:53.989 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 18
+Cleaned up Movie ID: 18
+09:05:54.025 [TestNG-test-System related tests-1] &amp#27;[32mINFO &amp#27;[m [givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200] (com.moviedb.tests.system.SystemTests: 21) - Step 1: Calling Health Check API
+Request method:	GET
+Request URI:	http://localhost:4000/health
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+09:05:54.039 [TestNG-test-System related tests-1] &amp#27;[32mINFO &amp#27;[m [givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200] (com.moviedb.tests.system.SystemTests: 26) - Step 2: Validating API response
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+ETag: W/"36-2EN/2QzuSWtfep8KtGb8KKpDWRI"
+Date: Sat, 07 Mar 2026 14:05:54 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "status": "UP",
+    "timestamp": "2026-03-07T14:05:54.037Z"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-07T07:19:44 EST" name="MovieDB API Suite" finished-at="2026-03-07T07:19:46 EST" duration-ms="1987">
+  <suite started-at="2026-03-07T09:06:24 EST" name="MovieDB API Suite" finished-at="2026-03-07T09:06:26 EST" duration-ms="2154">
     <groups>
       <group name="movie_negative">
         <method signature="MovieNegativeTests.givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" class="com.moviedb.tests.movies.MovieNegativeTests"/>
@@ -62,69 +62,69 @@
         <method signature="MovieCrudTests.shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" name="shouldBeAbleToUploadMoviePosterSuccessfully" class="com.moviedb.tests.movies.MovieCrudTests"/>
       </group> <!-- movie_cruds -->
     </groups>
-    <test started-at="2026-03-07T07:19:44 EST" name="Movie related tests" finished-at="2026-03-07T07:19:46 EST" duration-ms="1919">
+    <test started-at="2026-03-07T09:06:24 EST" name="Movie related tests" finished-at="2026-03-07T09:06:26 EST" duration-ms="2087">
       <class name="com.moviedb.tests.movies.MovieRetrievalTests">
-        <test-method signature="listMoviesWithDefaultPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T07:19:46 EST" name="listMoviesWithDefaultPagination" description="Verify movie list with default pagination" finished-at="2026-03-07T07:19:46 EST" duration-ms="50" status="PASS">
+        <test-method signature="listMoviesWithDefaultPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T09:06:26 EST" name="listMoviesWithDefaultPagination" description="Verify movie list with default pagination" finished-at="2026-03-07T09:06:26 EST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listMoviesWithDefaultPagination -->
-        <test-method signature="listMoviesWithPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T07:19:46 EST" name="listMoviesWithPagination" description="Verify that the movie list is correctly paginated" finished-at="2026-03-07T07:19:46 EST" duration-ms="53" status="PASS">
+        <test-method signature="listMoviesWithPagination()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T09:06:26 EST" name="listMoviesWithPagination" description="Verify that the movie list is correctly paginated" finished-at="2026-03-07T09:06:26 EST" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- listMoviesWithPagination -->
-        <test-method signature="searchByMovieIdReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T07:19:46 EST" name="searchByMovieIdReturnsSingleExactMatch" description="Verify that the expected movie returns" finished-at="2026-03-07T07:19:46 EST" duration-ms="34" status="PASS">
+        <test-method signature="searchByMovieIdReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T09:06:26 EST" name="searchByMovieIdReturnsSingleExactMatch" description="Verify that the expected movie returns" finished-at="2026-03-07T09:06:26 EST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByMovieIdReturnsSingleExactMatch -->
-        <test-method signature="searchByMovieTitleReturnsAllPartialTitleMatchingMovies()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T07:19:46 EST" name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" description="Verify search returns all matching movies for a common movie title query" finished-at="2026-03-07T07:19:46 EST" duration-ms="82" status="PASS">
+        <test-method signature="searchByMovieTitleReturnsAllPartialTitleMatchingMovies()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T09:06:26 EST" name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" description="Verify search returns all matching movies for a common movie title query" finished-at="2026-03-07T09:06:26 EST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByMovieTitleReturnsAllPartialTitleMatchingMovies -->
-        <test-method signature="searchByMovieTitleReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T07:19:46 EST" name="searchByMovieTitleReturnsSingleExactMatch" description="Verify that a unique movie title returns exactly one movie" finished-at="2026-03-07T07:19:46 EST" duration-ms="70" status="PASS">
+        <test-method signature="searchByMovieTitleReturnsSingleExactMatch()[pri:0, instance:com.moviedb.tests.movies.MovieRetrievalTests@7e7b159b]" started-at="2026-03-07T09:06:26 EST" name="searchByMovieTitleReturnsSingleExactMatch" description="Verify that a unique movie title returns exactly one movie" finished-at="2026-03-07T09:06:26 EST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByMovieTitleReturnsSingleExactMatch -->
       </class> <!-- com.moviedb.tests.movies.MovieRetrievalTests -->
       <class name="com.moviedb.tests.movies.MovieNegativeTests">
-        <test-method signature="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" description="Ensure that a 400 BAD REQUEST is returned when movie title is missing in the movie creation request" finished-at="2026-03-07T07:19:46 EST" duration-ms="69" status="PASS">
+        <test-method signature="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T09:06:25 EST" name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" description="Ensure that a 400 BAD REQUEST is returned when movie title is missing in the movie creation request" finished-at="2026-03-07T09:06:25 EST" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404 -->
-        <test-method signature="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404" description="Ensure that a 404 is returned while attempting to delete a non-existent movie" finished-at="2026-03-07T07:19:46 EST" duration-ms="61" status="PASS">
+        <test-method signature="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T09:06:25 EST" name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404" description="Ensure that a 404 is returned while attempting to delete a non-existent movie" finished-at="2026-03-07T09:06:25 EST" duration-ms="48" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenInvalidMovieId_whenDeletingMovie_thenStatusIs404 -->
-        <test-method signature="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404" description="Ensure that 404 NOT FOUND is returned when an invalid movie Id is requested" finished-at="2026-03-07T07:19:46 EST" duration-ms="136" status="PASS">
+        <test-method signature="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T09:06:25 EST" name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404" description="Ensure that 404 NOT FOUND is returned when an invalid movie Id is requested" finished-at="2026-03-07T09:06:26 EST" duration-ms="139" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404 -->
-        <test-method signature="givenInvalidToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="givenInvalidToken_whenRequestingMovies_thenReturns401" description="Verify that an unauthorized user cannot access movies when invalid token is passed" finished-at="2026-03-07T07:19:46 EST" duration-ms="39" status="PASS">
+        <test-method signature="givenInvalidToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T09:06:25 EST" name="givenInvalidToken_whenRequestingMovies_thenReturns401" description="Verify that an unauthorized user cannot access movies when invalid token is passed" finished-at="2026-03-07T09:06:25 EST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenInvalidToken_whenRequestingMovies_thenReturns401 -->
-        <test-method signature="givenNoToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="givenNoToken_whenRequestingMovies_thenReturns401" description="Verify that an unauthorized user cannot access movies when no token is passed" finished-at="2026-03-07T07:19:46 EST" duration-ms="18" status="PASS">
+        <test-method signature="givenNoToken_whenRequestingMovies_thenReturns401()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T09:06:25 EST" name="givenNoToken_whenRequestingMovies_thenReturns401" description="Verify that an unauthorized user cannot access movies when no token is passed" finished-at="2026-03-07T09:06:25 EST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenNoToken_whenRequestingMovies_thenReturns401 -->
-        <test-method signature="patchUpdateMovieTitleFailure()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T07:19:46 EST" name="patchUpdateMovieTitleFailure" description="Verify that a non-existent movie&#039;s title cannot be partially updated using PATCH" finished-at="2026-03-07T07:19:46 EST" duration-ms="59" status="PASS">
+        <test-method signature="patchUpdateMovieTitleFailure()[pri:0, instance:com.moviedb.tests.movies.MovieNegativeTests@37efd131]" started-at="2026-03-07T09:06:25 EST" name="patchUpdateMovieTitleFailure" description="Verify that a non-existent movie&#039;s title cannot be partially updated using PATCH" finished-at="2026-03-07T09:06:26 EST" duration-ms="53" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patchUpdateMovieTitleFailure -->
       </class> <!-- com.moviedb.tests.movies.MovieNegativeTests -->
       <class name="com.moviedb.tests.movies.MovieCrudTests">
-        <test-method signature="shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:44 EST" name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" description="Ensure that multiple movies are created in a single create movie request" finished-at="2026-03-07T07:19:46 EST" duration-ms="1227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldBeAbleToCreateMultipleMoviesInASingleRequest -->
-        <test-method signature="shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:44 EST" name="shouldBeAbleToDeleteAMovie" description="Ensure that a 200 OK is returned when a valid movie ID is deleted by an authorized user" finished-at="2026-03-07T07:19:46 EST" duration-ms="1201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- shouldBeAbleToDeleteAMovie -->
-        <test-method signature="shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:44 EST" name="shouldBeAbleToCreateAMovie" description="Ensure that new movie is created when movie details provided is valid" finished-at="2026-03-07T07:19:46 EST" duration-ms="1146" status="PASS">
+        <test-method signature="shouldBeAbleToCreateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:24 EST" name="shouldBeAbleToCreateAMovie" description="Ensure that new movie is created when movie details provided is valid" finished-at="2026-03-07T09:06:25 EST" duration-ms="1014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToCreateAMovie -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="31" status="PASS">
+        <test-method signature="shouldBeAbleToDeleteAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:24 EST" name="shouldBeAbleToDeleteAMovie" description="Ensure that a 200 OK is returned when a valid movie ID is deleted by an authorized user" finished-at="2026-03-07T09:06:25 EST" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToDeleteAMovie -->
+        <test-method signature="shouldBeAbleToCreateMultipleMoviesInASingleRequest()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:24 EST" name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" description="Ensure that multiple movies are created in a single create movie request" finished-at="2026-03-07T09:06:25 EST" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToCreateMultipleMoviesInASingleRequest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:25 EST" name="tearDown" finished-at="2026-03-07T09:06:25 EST" duration-ms="27" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -135,11 +135,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" description="Verify that a movie title can be partially updated using PATCH" finished-at="2026-03-07T07:19:46 EST" duration-ms="246" status="PASS">
+        <test-method signature="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:25 EST" name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" description="Verify that a movie title can be partially updated using PATCH" finished-at="2026-03-07T09:06:25 EST" duration-ms="468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToPatchUpdateAMovieTitleSuccessfully -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:25 EST" name="tearDown" finished-at="2026-03-07T09:06:25 EST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,11 +150,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="shouldBeAbleToUpdateAMovie" description="Ensure that movie information is updated when valid movie id is provided" finished-at="2026-03-07T07:19:46 EST" duration-ms="201" status="PASS">
+        <test-method signature="shouldBeAbleToUpdateAMovie()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:25 EST" name="shouldBeAbleToUpdateAMovie" description="Ensure that movie information is updated when valid movie id is provided" finished-at="2026-03-07T09:06:25 EST" duration-ms="434" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToUpdateAMovie -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:25 EST" name="tearDown" finished-at="2026-03-07T09:06:25 EST" duration-ms="365" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,11 +165,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="shouldBeAbleToUploadMoviePosterSuccessfully" description="Verify that movie poster can be uploaded to a movie" finished-at="2026-03-07T07:19:46 EST" duration-ms="540" status="PASS">
+        <test-method signature="shouldBeAbleToUploadMoviePosterSuccessfully()[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:25 EST" name="shouldBeAbleToUploadMoviePosterSuccessfully" description="Verify that movie poster can be uploaded to a movie" finished-at="2026-03-07T09:06:26 EST" duration-ms="554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- shouldBeAbleToUploadMoviePosterSuccessfully -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="27" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:25 EST" name="tearDown" finished-at="2026-03-07T09:06:25 EST" duration-ms="23" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -180,7 +180,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:25 EST" name="tearDown" finished-at="2026-03-07T09:06:25 EST" duration-ms="21" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +191,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T07:19:46 EST" name="tearDown" finished-at="2026-03-07T07:19:46 EST" duration-ms="20" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.moviedb.tests.movies.MovieCrudTests@2072acb2]" started-at="2026-03-07T09:06:26 EST" name="tearDown" finished-at="2026-03-07T09:06:26 EST" duration-ms="17" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,15 +204,15 @@
         </test-method> <!-- tearDown -->
       </class> <!-- com.moviedb.tests.movies.MovieCrudTests -->
     </test> <!-- Movie related tests -->
-    <test started-at="2026-03-07T07:19:46 EST" name="System related tests" finished-at="2026-03-07T07:19:46 EST" duration-ms="32">
+    <test started-at="2026-03-07T09:06:26 EST" name="System related tests" finished-at="2026-03-07T09:06:26 EST" duration-ms="34">
       <class name="com.moviedb.tests.system.SystemTests">
-        <test-method signature="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200()[pri:0, instance:com.moviedb.tests.system.SystemTests@5ddea849]" started-at="2026-03-07T07:19:46 EST" name="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200" description="Verify that the health check endpoint returns 200 OK and status &#039;UP&#039;" finished-at="2026-03-07T07:19:46 EST" duration-ms="29" status="PASS">
+        <test-method signature="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200()[pri:0, instance:com.moviedb.tests.system.SystemTests@5ddea849]" started-at="2026-03-07T09:06:26 EST" name="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200" description="Verify that the health check endpoint returns 200 OK and status &#039;UP&#039;" finished-at="2026-03-07T09:06:26 EST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200 -->
       </class> <!-- com.moviedb.tests.system.SystemTests -->
       <class name="com.moviedb.tests.system.DatabaseCleanUp">
-        <test-method is-config="true" signature="globalSetUp()[pri:0, instance:com.moviedb.tests.system.DatabaseCleanUp@5e01a982]" started-at="2026-03-07T07:19:41 EST" name="globalSetUp" description="Verify that the Database gets reset and 10 default records are re-seeded back" finished-at="2026-03-07T07:19:44 EST" duration-ms="2972" status="PASS">
+        <test-method is-config="true" signature="globalSetUp()[pri:0, instance:com.moviedb.tests.system.DatabaseCleanUp@5e01a982]" started-at="2026-03-07T09:06:21 EST" name="globalSetUp" description="Verify that the Database gets reset and 10 default records are re-seeded back" finished-at="2026-03-07T09:06:24 EST" duration-ms="2855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- globalSetUp -->
