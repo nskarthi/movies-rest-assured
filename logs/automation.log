@@ -616,3 +616,55 @@
 09:06:26.317 [TestNG-test-Movie related tests-2] INFO  [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 18
 09:06:26.357 [TestNG-test-System related tests-1] INFO  [givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200] (com.moviedb.tests.system.SystemTests: 21) - Step 1: Calling Health Check API
 09:06:26.370 [TestNG-test-System related tests-1] INFO  [givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200] (com.moviedb.tests.system.SystemTests: 26) - Step 2: Validating API response
+18:38:18.077 [main] DEBUG [] (org.testng.TestNG: 82) - suiteXmlPath: "D:\Learnings\RestAssured\MovieDatabase\testng.xml"
+18:38:18.658 [main] INFO  [] (com.moviedb.tests.system.DatabaseCleanUp: 21) - Step 1: Resetting DB for Regression
+18:38:20.609 [main] INFO  [] (com.moviedb.tests.system.DatabaseCleanUp: 27) - Step 2: Validating API response
+18:38:20.729 [TestNG-test-Movie related tests-1] INFO  [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 34) - Step 1: Creating a default movie
+18:38:20.740 [TestNG-test-Movie related tests-2] INFO  [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 71) - Step 1: Creating movies
+18:38:20.740 [TestNG-test-Movie related tests-3] INFO  [shouldBeAbleToDeleteAMovie] (com.moviedb.tests.movies.MovieCrudTests: 215) - Step 1: Creating a default movie
+18:38:21.426 [TestNG-test-Movie related tests-1] INFO  [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 40) - Step 2: Performing assertion on the API response
+18:38:21.430 [TestNG-test-Movie related tests-2] INFO  [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 81) - Step 2: Performing assertion on the API response
+18:38:21.465 [TestNG-test-Movie related tests-2] INFO  [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 89) - Step 3: Adding movieIds to cleanUp list"
+18:38:21.477 [TestNG-test-Movie related tests-1] INFO  [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 51) - Step 3: Adding movieIds to cleanUp list
+18:38:21.477 [TestNG-test-Movie related tests-1] INFO  [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 58) - Step 4: Id of the newly created movie is: 12
+18:38:21.510 [TestNG-test-Movie related tests-3] INFO  [shouldBeAbleToDeleteAMovie] (com.moviedb.tests.movies.MovieCrudTests: 223) - Step 2: Performing assertion on the API response
+18:38:21.513 [TestNG-test-Movie related tests-1] INFO  [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 12
+18:38:21.513 [TestNG-test-Movie related tests-1] INFO  [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 151) - Step 1: Creating a default movie
+18:38:21.535 [TestNG-test-Movie related tests-3] INFO  [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 111) - Step 1: Creating a default movie
+18:38:21.593 [TestNG-test-Movie related tests-2] INFO  [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 13
+18:38:21.622 [TestNG-test-Movie related tests-2] INFO  [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 14
+18:38:21.647 [TestNG-test-Movie related tests-2] INFO  [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 15
+18:38:21.647 [TestNG-test-Movie related tests-2] INFO  [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 183) - Step 1: Creating a default movie
+18:38:21.677 [TestNG-test-Movie related tests-1] INFO  [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 158) - Step 2: Adding movieIds to cleanUp list
+18:38:21.679 [TestNG-test-Movie related tests-1] INFO  [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 169) - Step 3: Performing assertion on the API response
+18:38:21.693 [TestNG-test-Movie related tests-3] INFO  [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 118) - Step 2: Adding movieIds to cleanUp list
+18:38:21.693 [TestNG-test-Movie related tests-3] INFO  [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 125) - Step 3: Updating budget for ID: 17
+18:38:21.720 [TestNG-test-Movie related tests-3] INFO  [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 131) - Step 4: Performing assertion on the API response
+18:38:21.753 [TestNG-test-Movie related tests-3] INFO  [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 17
+18:38:21.757 [TestNG-test-Movie related tests-3] INFO  [givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 92) - Step 1: Creating a default movie without movie title
+18:38:21.759 [TestNG-test-Movie related tests-3] INFO  [givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 116) - Step 2: Validating the API response
+18:38:21.771 [TestNG-test-Movie related tests-1] INFO  [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 16
+18:38:21.773 [TestNG-test-Movie related tests-1] INFO  [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 130) - Step 1: Calling FakerUtil's generateRandomMovieId to get a random movieId that does not exist
+18:38:21.775 [TestNG-test-Movie related tests-1] INFO  [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 135) - Step 2: Attempting to delete the movie with id 21168 which does not exist
+18:38:21.775 [TestNG-test-Movie related tests-2] INFO  [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 189) - Step 2: Adding movieIds to cleanUp list
+18:38:21.792 [TestNG-test-Movie related tests-1] INFO  [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 140) - 
+18:38:21.813 [TestNG-test-Movie related tests-3] INFO  [givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 72) - Step 1: Attempting to retrieve the movie with id 200 which does not exist
+18:38:21.823 [TestNG-test-Movie related tests-1] INFO  [givenInvalidToken_whenRequestingMovies_thenReturns401] (com.moviedb.tests.movies.MovieNegativeTests: 53) - Step 1: Setting up page and limit query params and starting the test
+18:38:21.856 [TestNG-test-Movie related tests-1] INFO  [givenNoToken_whenRequestingMovies_thenReturns401] (com.moviedb.tests.movies.MovieNegativeTests: 35) - Step 1: Setting up invalid token and starting the test
+18:38:21.871 [TestNG-test-Movie related tests-1] INFO  [patchUpdateMovieTitleFailure] (com.moviedb.tests.movies.MovieNegativeTests: 152) - Step 1: Calling FakerUtil's generateRandomMovieId to get a random movieId that does not exist
+18:38:21.873 [TestNG-test-Movie related tests-1] INFO  [patchUpdateMovieTitleFailure] (com.moviedb.tests.movies.MovieNegativeTests: 161) - Step 2: Attempting to PATCH update the title of movie with id 41972 which does not exist
+18:38:21.889 [TestNG-test-Movie related tests-3] INFO  [givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 77) - Step 2: Validating the API response
+18:38:21.918 [TestNG-test-Movie related tests-1] INFO  [listMoviesWithDefaultPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 115) - Step 1: MovieActions.getAllMovies()
+18:38:21.928 [TestNG-test-Movie related tests-3] INFO  [listMoviesWithPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 95) - Step 1: MovieActions.getAllMovies(page, limit)
+18:38:21.936 [TestNG-test-Movie related tests-1] INFO  [listMoviesWithDefaultPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 120) - Step 2: Validating API response
+18:38:21.944 [TestNG-test-Movie related tests-3] INFO  [listMoviesWithPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 100) - Step 2: Validating API response
+18:38:21.965 [TestNG-test-Movie related tests-2] INFO  [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 198) - Step 3: Performing assertion on the API response
+18:38:21.965 [TestNG-test-Movie related tests-1] INFO  [searchByMovieIdReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 73) - Step 1: MovieActions.getMovieById(2)
+18:38:21.966 [TestNG-test-Movie related tests-3] INFO  [searchByMovieTitleReturnsAllPartialTitleMatchingMovies] (com.moviedb.tests.movies.MovieRetrievalTests: 52) - Step 1: MovieActions.getMoviesByTitle(movieTitle)
+18:38:21.970 [TestNG-test-Movie related tests-1] INFO  [searchByMovieIdReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 78) - Step 2: Validating API response
+18:38:21.987 [TestNG-test-Movie related tests-1] INFO  [searchByMovieTitleReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 30) - Step 1: MovieActions.getMoviesByTitle(movieTitle)
+18:38:22.011 [TestNG-test-Movie related tests-3] INFO  [searchByMovieTitleReturnsAllPartialTitleMatchingMovies] (com.moviedb.tests.movies.MovieRetrievalTests: 57) - Step 2: Validating API response
+18:38:22.014 [TestNG-test-Movie related tests-1] INFO  [searchByMovieTitleReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 35) - Step 2: Validating API response
+18:38:22.033 [TestNG-test-Movie related tests-2] INFO  [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 18
+18:38:22.064 [TestNG-test-System related tests-1] INFO  [givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200] (com.moviedb.tests.system.SystemTests: 21) - Step 1: Calling Health Check API
+18:38:22.081 [TestNG-test-System related tests-1] INFO  [givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200] (com.moviedb.tests.system.SystemTests: 26) - Step 2: Validating API response

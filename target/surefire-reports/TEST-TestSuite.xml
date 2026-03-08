@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.453" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.449" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\KSG\AppData\Local\Temp\surefire5044908168489977540\surefirebooter16966367186308758404.jar C:\Users\KSG\AppData\Local\Temp\surefire5044908168489977540 2026-03-07T09-05-48_370-jvmRun1 surefire3878992918527231591tmp surefire_018148813544070853848tmp"/>
+    <property name="sun.java.command" value="C:\Users\KSG\AppData\Local\Temp\surefire5574915854459193347\surefirebooter12584729783318291893.jar C:\Users\KSG\AppData\Local\Temp\surefire5574915854459193347 2026-03-07T18-38-16_029-jvmRun1 surefire3039958445271193271tmp surefire_07881721391051412951tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Learnings\RestAssured\MovieDatabase\target\test-classes;D:\Learnings\RestAssured\MovieDatabase\target\classes;C:\Users\KSG\.m2\repository\io\rest-assured\rest-assured\5.5.6\rest-assured-5.5.6.jar;C:\Users\KSG\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\KSG\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\KSG\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\KSG\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\KSG\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\KSG\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\KSG\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\KSG\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\KSG\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\KSG\.m2\repository\io\rest-assured\json-path\5.5.6\json-path-5.5.6.jar;C:\Users\KSG\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\KSG\.m2\repository\io\rest-assured\rest-assured-common\5.5.6\rest-assured-common-5.5.6.jar;C:\Users\KSG\.m2\repository\io\rest-assured\xml-path\5.5.6\xml-path-5.5.6.jar;C:\Users\KSG\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\KSG\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\KSG\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\KSG\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\KSG\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\KSG\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\KSG\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\KSG\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\KSG\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.0\jackson-databind-2.20.0.jar;C:\Users\KSG\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\KSG\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.0\jackson-core-2.20.0.jar;C:\Users\KSG\.m2\repository\org\apache\logging\log4j\log4j-slf4j2-impl\2.25.3\log4j-slf4j2-impl-2.25.3.jar;C:\Users\KSG\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\KSG\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.3\log4j-core-2.25.3.jar;C:\Users\KSG\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.3\log4j-api-2.25.3.jar;C:\Users\KSG\.m2\repository\org\skyscreamer\jsonassert\2.0-rc1\jsonassert-2.0-rc1.jar;C:\Users\KSG\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\KSG\.m2\repository\org\projectlombok\lombok\1.18.38\lombok-1.18.38.jar;C:\Users\KSG\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\KSG\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\KSG\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\KSG\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\KSG\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\KSG\AppData\Local\Temp\surefire5044908168489977540\surefirebooter16966367186308758404.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\KSG\AppData\Local\Temp\surefire5574915854459193347\surefirebooter12584729783318291893.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.2+7-27"/>
@@ -49,17 +49,17 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="env" value="dev"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-15.0.2\bin;D:\Softwares\maven\apache-maven-3.6.3-bin\bin;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;D:\Softwares\Appium\android_sdk\platform-tools;D:\Softwares\Appium\android_sdk\tools;D:\Softwares\Appium\android_sdk\tools\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\KSG\AppData\Roaming\npm;D:\Softwares\Appium\android_sdk\cmdline-tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Softwares\maven\apache-maven-3.6.3-bin\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\KSG\scoop\shims;C:\Users\KSG\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\KSG\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\KSG\AppData\Local\Microsoft\WindowsApps;C:\Users\KSG\.dotnet\tools;C:\Users\KSG\AppData\Local\Programs\Fiddler;C:\Users\KSG\.dotnet\tools;C:\Users\KSG\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;;C:\Users\KSG\AppData\Roaming\npm;C:\Users\KSG\AppData\Local\Microsoft\WindowsApps;C:\Users\KSG\AppData\Local\Programs\Antigravity\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Softwares/eclipse/eclipse-java-2024-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741/jre/bin/server;D:/Softwares/eclipse/eclipse-java-2024-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.9.v20251105-0741/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-15.0.2\bin;D:\Softwares\maven\apache-maven-3.6.3-bin\bin;C:\Program Files\PuTTY\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;D:\Softwares\Appium\android_sdk\platform-tools;D:\Softwares\Appium\android_sdk\tools;D:\Softwares\Appium\android_sdk\tools\bin;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Users\KSG\AppData\Roaming\npm;D:\Softwares\Appium\android_sdk\cmdline-tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Softwares\maven\apache-maven-3.6.3-bin\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\KSG\scoop\shims;C:\Users\KSG\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\KSG\AppData\Local\Programs\Python\Python39\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\KSG\AppData\Local\Microsoft\WindowsApps;C:\Users\KSG\.dotnet\tools;C:\Users\KSG\AppData\Local\Programs\Fiddler;C:\Users\KSG\.dotnet\tools;C:\Users\KSG\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;;C:\Users\KSG\AppData\Roaming\npm;C:\Users\KSG\AppData\Local\Microsoft\WindowsApps;C:\Users\KSG\AppData\Local\Programs\Antigravity\bin;D:\Softwares\eclipse\eclipse-java-2024-12-R-win32-x86_64\eclipse;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="15.0.2+7-27"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="shouldBeAbleToCreateAMovie" classname="com.moviedb.tests.movies.MovieCrudTests" time="1.251">
-    <system-out><![CDATA[09:05:49.883 [main] &amp#27;[36mDEBUG&amp#27;[m [] (org.testng.TestNG: 82) - suiteXmlPath: "D:\Learnings\RestAssured\MovieDatabase\testng.xml"
+  <testcase name="shouldBeAbleToCreateAMovie" classname="com.moviedb.tests.movies.MovieCrudTests" time="1.638">
+    <system-out><![CDATA[18:38:18.077 [main] &amp#27;[36mDEBUG&amp#27;[m [] (org.testng.TestNG: 82) - suiteXmlPath: "D:\Learnings\RestAssured\MovieDatabase\testng.xml"
 [INFO] Step 1: Resetting DB for Regression
-09:05:50.398 [main] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.system.DatabaseCleanUp: 21) - Step 1: Resetting DB for Regression
+18:38:18.658 [main] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.system.DatabaseCleanUp: 21) - Step 1: Resetting DB for Regression
 --- Global Setup: Resetting DB for Regression ---
 [AUTH] Token missing/expired. Generating new session...
 Request method:	POST
@@ -78,7 +78,7 @@ Body:
     "username": "admin",
     "password": "admin"
 }
-[AUTH] New Token Generated. Expires at: 2026-03-08T14:05:51Z
+[AUTH] New Token Generated. Expires at: 2026-03-08T23:38:19Z
 Request method:	DELETE
 Request URI:	http://localhost:4000/internal/reset
 Proxy:			<none>
@@ -86,31 +86,31 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 [INFO] Step 2: Validating API response
-09:05:52.426 [main] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.system.DatabaseCleanUp: 27) - Step 2: Validating API response
+18:38:20.609 [main] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.system.DatabaseCleanUp: 27) - Step 2: Validating API response
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 109
-ETag: W/"6d-+LU5n1nPQDis6pia7hG5RJfK7XU"
-Date: Sat, 07 Mar 2026 14:05:52 GMT
+ETag: W/"6d-5/bSeZ4AQ8RN1/ab4zQJIPKV4W0"
+Date: Sat, 07 Mar 2026 23:38:20 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 {
     "message": "Database reset successfully. 10 seed movies re-inserted.",
-    "timestamp": "2026-03-07T14:05:52.424Z"
+    "timestamp": "2026-03-07T23:38:20.601Z"
 }
-09:05:52.528 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 34) - Step 1: Creating a default movie
-09:05:52.528 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToDeleteAMovie] (com.moviedb.tests.movies.MovieCrudTests: 215) - Step 1: Creating a default movie
-09:05:52.528 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 71) - Step 1: Creating movies
+18:38:20.729 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 34) - Step 1: Creating a default movie
+18:38:20.740 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 71) - Step 1: Creating movies
+18:38:20.740 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToDeleteAMovie] (com.moviedb.tests.movies.MovieCrudTests: 215) - Step 1: Creating a default movie
 Request method:	POST
 Request URI:	http://localhost:4000/movies
 Proxy:			<none>
@@ -118,57 +118,57 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "title": "The Wind's Twelve Quarters",
+    "title": "This Side of Paradise",
     "crew": {
-        "director": "Klimt",
-        "musicDirector": "Michelangelo",
-        "productionCompany": "Monahan Group"
+        "director": "Vettriano",
+        "musicDirector": "Caravaggio",
+        "productionCompany": "Luettgen, Emmerich and Reilly"
     },
     "cast": [
         {
-            "actorName": "Raphael",
-            "role": "Durer",
+            "actorName": "Donatello",
+            "role": "Da Vinci",
             "awards": [
-                "Institute",
+                "College",
+                "University"
+            ]
+        },
+        {
+            "actorName": "Caravaggio",
+            "role": "Caravaggio",
+            "awards": [
                 "Institute"
             ]
         },
         {
-            "actorName": "Edward Hopper",
-            "role": "Pissarro",
-            "awards": [
-                "College"
-            ]
-        },
-        {
-            "actorName": "Vettriano",
-            "role": "Rubens",
+            "actorName": "Rembrandt",
+            "role": "Manet",
             "awards": [
                 "Academy"
             ]
         }
     ],
     "genres": [
-        "Fanfiction",
-        "Fiction narrative",
-        "Fanfiction"
+        "Textbook",
+        "Mythology",
+        "Suspense/Thriller"
     ],
     "releaseDetails": {
-        "language": "Sao Tome and Principe",
-        "country": "Vanuatu"
+        "language": "Burkina Faso",
+        "country": "Guinea-Bissau"
     },
     "finance": {
-        "budget": 40850000,
-        "boxOffice": 63580000,
-        "profit": 44840000,
-        "currency": "Singapore Dollar"
+        "budget": 45400000,
+        "boxOffice": 25780000,
+        "profit": 39240000,
+        "currency": "Ouguiya"
     }
 }
 Request method:	POST
@@ -178,57 +178,57 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "title": "The Mermaids Singing",
+    "title": "By Grand Central Station I Sat Down and Wept",
     "crew": {
-        "director": "Dali",
-        "musicDirector": "Cezanne",
-        "productionCompany": "Toy, Dickens and Durgan"
+        "director": "Pollock",
+        "musicDirector": "Vettriano",
+        "productionCompany": "Stroman-Koelpin"
     },
     "cast": [
         {
-            "actorName": "Durer",
-            "role": "Diego Rivera",
+            "actorName": "Chagall",
+            "role": "Joan Miro",
             "awards": [
-                "College",
-                "University"
+                "Academy",
+                "Institute"
             ]
         },
         {
-            "actorName": "Dali",
-            "role": "Raphael",
+            "actorName": "Donatello",
+            "role": "Munch",
+            "awards": [
+                "College"
+            ]
+        },
+        {
+            "actorName": "Klimt",
+            "role": "Rothko",
             "awards": [
                 "Academy"
-            ]
-        },
-        {
-            "actorName": "Pissarro",
-            "role": "Paul Klee",
-            "awards": [
-                "Institute"
             ]
         }
     ],
     "genres": [
-        "Narrative nonfiction",
-        "Mystery",
-        "Historical fiction"
+        "Metafiction",
+        "Folklore",
+        "Suspense/Thriller"
     ],
     "releaseDetails": {
-        "language": "Djibouti",
-        "country": "Lesotho"
+        "language": "Monaco",
+        "country": "Sudan"
     },
     "finance": {
-        "budget": 59130000,
-        "boxOffice": 83780000,
-        "profit": 82340000,
-        "currency": "Netherlands Antillean Guilder"
+        "budget": 11010000,
+        "boxOffice": 41280000,
+        "profit": 39460000,
+        "currency": "CFA Franc BEAC"
     }
 }
 Request method:	POST
@@ -238,7 +238,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -246,260 +246,214 @@ Multiparts:		<none>
 Body:
 [
     {
-        "title": "A Summer Bird-Cage",
+        "title": "By Grand Central Station I Sat Down and Wept",
         "crew": {
-            "director": "Magritte",
-            "musicDirector": "Warhol",
-            "productionCompany": "Dicki and Sons"
+            "director": "Manet",
+            "musicDirector": "Vettriano",
+            "productionCompany": "Steuber-Mueller"
         },
         "cast": [
             {
-                "actorName": "Degas",
-                "role": "Picasso",
+                "actorName": "Ansel Adams",
+                "role": "Raphael",
                 "awards": [
                     "Academy",
+                    "University"
+                ]
+            },
+            {
+                "actorName": "Cezanne",
+                "role": "Rembrandt",
+                "awards": [
                     "College"
                 ]
             },
             {
-                "actorName": "Titian",
-                "role": "Winslow Homer",
+                "actorName": "Manet",
+                "role": "Seurat",
                 "awards": [
-                    "Academy"
-                ]
-            },
-            {
-                "actorName": "Cassatt",
-                "role": "Bernini",
-                "awards": [
-                    "Academy"
-                ]
-            }
-        ],
-        "genres": [
-            "Mythology",
-            "Legend",
-            "Humor"
-        ],
-        "releaseDetails": {
-            "language": "Guinea",
-            "country": "Namibia"
-        },
-        "finance": {
-            "budget": 55540000,
-            "boxOffice": 85710000,
-            "profit": 51310000,
-            "currency": "Ethiopian Birr"
-        }
-    },
-    {
-        "title": "Where Angels Fear to Tread",
-        "crew": {
-            "director": "Ansel Adams",
-            "musicDirector": "Vincent",
-            "productionCompany": "Fay and Sons"
-        },
-        "cast": [
-            {
-                "actorName": "Edward Hopper",
-                "role": "Bernini",
-                "awards": [
-                    "University",
                     "Institute"
-                ]
-            },
-            {
-                "actorName": "Paul Klee",
-                "role": "Caravaggio",
-                "awards": [
-                    "Academy"
-                ]
-            },
-            {
-                "actorName": "Rothko",
-                "role": "Diego Rivera",
-                "awards": [
-                    "University"
                 ]
             }
         ],
         "genres": [
             "Crime/Detective",
-            "Folklore",
-            "Classic"
+            "Western",
+            "Reference book"
         ],
         "releaseDetails": {
-            "language": "Oman",
-            "country": "Trinidad and Tobago"
+            "language": "Gabon",
+            "country": "Dominica"
         },
         "finance": {
-            "budget": 71370000,
-            "boxOffice": 67700000,
-            "profit": 45350000,
-            "currency": "Swiss Franc"
+            "budget": 41740000,
+            "boxOffice": 27470000,
+            "profit": 11070000,
+            "currency": "Australian Dollar"
         }
     },
     {
-        "title": "The Parliament of Man",
+        "title": "A Swiftly Tilting Planet",
         "crew": {
-            "director": "Renoir",
-            "musicDirector": "Klimt",
-            "productionCompany": "Brekke, Crona and Hettinger"
+            "director": "Manet",
+            "musicDirector": "Escher",
+            "productionCompany": "Strosin Inc"
         },
         "cast": [
             {
-                "actorName": "Botticelli",
-                "role": "Gauguin",
+                "actorName": "Chagall",
+                "role": "Warhol",
                 "awards": [
-                    "Academy",
-                    "Institute"
+                    "University",
+                    "University"
                 ]
             },
             {
-                "actorName": "Ansel Adams",
-                "role": "Kandinsky",
+                "actorName": "Diego Rivera",
+                "role": "Michelangelo",
                 "awards": [
                     "University"
                 ]
             },
             {
-                "actorName": "Ansel Adams",
-                "role": "Durer",
+                "actorName": "Titian",
+                "role": "Seurat",
                 "awards": [
-                    "College"
+                    "University"
                 ]
             }
         ],
         "genres": [
-            "Fanfiction",
-            "Fiction narrative",
-            "Speech"
+            "Western",
+            "Folklore",
+            "Horror"
         ],
         "releaseDetails": {
-            "language": "Serbia",
-            "country": "Jamaica"
+            "language": "Romania",
+            "country": "Haiti"
         },
         "finance": {
-            "budget": 84410000,
-            "boxOffice": 10970000,
-            "profit": 63050000,
-            "currency": "CFA Franc BCEAO"
+            "budget": 24960000,
+            "boxOffice": 80860000,
+            "profit": 63030000,
+            "currency": "Tugrik"
+        }
+    },
+    {
+        "title": "The Golden Apples of the Sun",
+        "crew": {
+            "director": "Ansel Adams",
+            "musicDirector": "Pollock",
+            "productionCompany": "Little-Johns"
+        },
+        "cast": [
+            {
+                "actorName": "Kandinsky",
+                "role": "Edward Hopper",
+                "awards": [
+                    "College",
+                    "College"
+                ]
+            },
+            {
+                "actorName": "Seurat",
+                "role": "Durer",
+                "awards": [
+                    "Institute"
+                ]
+            },
+            {
+                "actorName": "Paul Klee",
+                "role": "Gauguin",
+                "awards": [
+                    "Academy"
+                ]
+            }
+        ],
+        "genres": [
+            "Narrative nonfiction",
+            "Humor",
+            "Reference book"
+        ],
+        "releaseDetails": {
+            "language": "Nepal",
+            "country": "Turkmenistan"
+        },
+        "finance": {
+            "budget": 69680000,
+            "boxOffice": 20390000,
+            "profit": 75170000,
+            "currency": "Norwegian Krone"
         }
     }
 ]
-09:05:53.177 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 40) - Step 2: Performing assertion on the API response
+18:38:21.426 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 40) - Step 2: Performing assertion on the API response
 HTTP/1.1 201 Created
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 586
-ETag: W/"24a-FMUsBRHeehg5x97+XLF28ChBud0"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
+Content-Length: 576
+ETag: W/"240-qv5euUVoKquNEDeLofcj6YG4Zl0"
+Date: Sat, 07 Mar 2026 23:38:21 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 {
-    "id": 11,
-    "title": "The Wind's Twelve Quarters",
+    "id": 12,
+    "title": "By Grand Central Station I Sat Down and Wept",
     "crew": {
-        "director": "Klimt",
-        "musicDirector": "Michelangelo",
-        "productionCompany": "Monahan Group"
+        "director": "Pollock",
+        "musicDirector": "Vettriano",
+        "productionCompany": "Stroman-Koelpin"
     },
     "cast": [
         {
-            "actorName": "Raphael",
-            "role": "Durer",
+            "actorName": "Chagall",
+            "role": "Joan Miro",
             "awards": [
-                "Institute",
+                "Academy",
                 "Institute"
             ]
         },
         {
-            "actorName": "Edward Hopper",
-            "role": "Pissarro",
+            "actorName": "Donatello",
+            "role": "Munch",
             "awards": [
                 "College"
             ]
         },
         {
-            "actorName": "Vettriano",
-            "role": "Rubens",
+            "actorName": "Klimt",
+            "role": "Rothko",
             "awards": [
                 "Academy"
             ]
         }
     ],
     "genres": [
-        "Fanfiction",
-        "Fiction narrative",
-        "Fanfiction"
+        "Metafiction",
+        "Folklore",
+        "Suspense/Thriller"
     ],
     "releaseDetails": {
-        "language": "Sao Tome and Principe",
-        "country": "Vanuatu"
+        "language": "Monaco",
+        "country": "Sudan"
     },
     "finance": {
-        "budget": 40850000,
-        "boxOffice": 63580000,
-        "profit": 44840000,
-        "currency": "Singapore Dollar"
+        "budget": 11010000,
+        "boxOffice": 41280000,
+        "profit": 39460000,
+        "currency": "CFA Franc BEAC"
     }
 }
-09:05:53.228 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 51) - Step 3: Adding movieIds to cleanUp list
-09:05:53.229 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 58) - Step 4: Id of the newly created movie is: 11
-Id of the newly created movie is: 11
-]]></system-out>
-  </testcase>
-  <testcase name="shouldBeAbleToDeleteAMovie" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.015">
-    <system-out><![CDATA[Request method:	DELETE
-Request URI:	http://localhost:4000/movies/12
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=12
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	DELETE
-Request URI:	http://localhost:4000/movies/11
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=11
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-09:05:53.440 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 81) - Step 2: Performing assertion on the API response
-09:05:53.444 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToDeleteAMovie] (com.moviedb.tests.movies.MovieCrudTests: 223) - Step 2: Performing assertion on the API response
-HTTP/1.1 200 OK
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-Content-Type: application/json; charset=utf-8
-Content-Length: 51
-ETag: W/"33-0Wsg/ugXX/2qIX3nh9yFwlWcvBw"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
-Connection: keep-alive
-Keep-Alive: timeout=5
-
-{
-    "message": "Movie with id 12 deleted successfully"
-}
+18:38:21.430 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 81) - Step 2: Performing assertion on the API response
 HTTP/1.1 201 Created
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 1718
-ETag: W/"6b6-mRxDAt0Hx518Bso78WHvFOGLxr0"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
+Content-Length: 1732
+ETag: W/"6c4-fB2LJm8lK2tYZup6OnklBBavuF4"
+Date: Sat, 07 Mar 2026 23:38:21 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
@@ -508,298 +462,377 @@ Keep-Alive: timeout=5
     "data": [
         {
             "id": 13,
-            "title": "A Summer Bird-Cage",
+            "title": "By Grand Central Station I Sat Down and Wept",
             "crew": {
-                "director": "Magritte",
-                "musicDirector": "Warhol",
-                "productionCompany": "Dicki and Sons"
+                "director": "Manet",
+                "musicDirector": "Vettriano",
+                "productionCompany": "Steuber-Mueller"
             },
             "cast": [
                 {
-                    "actorName": "Degas",
-                    "role": "Picasso",
+                    "actorName": "Ansel Adams",
+                    "role": "Raphael",
                     "awards": [
                         "Academy",
+                        "University"
+                    ]
+                },
+                {
+                    "actorName": "Cezanne",
+                    "role": "Rembrandt",
+                    "awards": [
                         "College"
                     ]
                 },
                 {
-                    "actorName": "Titian",
-                    "role": "Winslow Homer",
+                    "actorName": "Manet",
+                    "role": "Seurat",
                     "awards": [
-                        "Academy"
-                    ]
-                },
-                {
-                    "actorName": "Cassatt",
-                    "role": "Bernini",
-                    "awards": [
-                        "Academy"
-                    ]
-                }
-            ],
-            "genres": [
-                "Mythology",
-                "Legend",
-                "Humor"
-            ],
-            "releaseDetails": {
-                "language": "Guinea",
-                "country": "Namibia"
-            },
-            "finance": {
-                "budget": 55540000,
-                "boxOffice": 85710000,
-                "profit": 51310000,
-                "currency": "Ethiopian Birr"
-            }
-        },
-        {
-            "id": 14,
-            "title": "Where Angels Fear to Tread",
-            "crew": {
-                "director": "Ansel Adams",
-                "musicDirector": "Vincent",
-                "productionCompany": "Fay and Sons"
-            },
-            "cast": [
-                {
-                    "actorName": "Edward Hopper",
-                    "role": "Bernini",
-                    "awards": [
-                        "University",
                         "Institute"
-                    ]
-                },
-                {
-                    "actorName": "Paul Klee",
-                    "role": "Caravaggio",
-                    "awards": [
-                        "Academy"
-                    ]
-                },
-                {
-                    "actorName": "Rothko",
-                    "role": "Diego Rivera",
-                    "awards": [
-                        "University"
                     ]
                 }
             ],
             "genres": [
                 "Crime/Detective",
-                "Folklore",
-                "Classic"
+                "Western",
+                "Reference book"
             ],
             "releaseDetails": {
-                "language": "Oman",
-                "country": "Trinidad and Tobago"
+                "language": "Gabon",
+                "country": "Dominica"
             },
             "finance": {
-                "budget": 71370000,
-                "boxOffice": 67700000,
-                "profit": 45350000,
-                "currency": "Swiss Franc"
+                "budget": 41740000,
+                "boxOffice": 27470000,
+                "profit": 11070000,
+                "currency": "Australian Dollar"
             }
         },
         {
-            "id": 15,
-            "title": "The Parliament of Man",
+            "id": 14,
+            "title": "A Swiftly Tilting Planet",
             "crew": {
-                "director": "Renoir",
-                "musicDirector": "Klimt",
-                "productionCompany": "Brekke, Crona and Hettinger"
+                "director": "Manet",
+                "musicDirector": "Escher",
+                "productionCompany": "Strosin Inc"
             },
             "cast": [
                 {
-                    "actorName": "Botticelli",
-                    "role": "Gauguin",
+                    "actorName": "Chagall",
+                    "role": "Warhol",
                     "awards": [
-                        "Academy",
-                        "Institute"
+                        "University",
+                        "University"
                     ]
                 },
                 {
-                    "actorName": "Ansel Adams",
-                    "role": "Kandinsky",
+                    "actorName": "Diego Rivera",
+                    "role": "Michelangelo",
                     "awards": [
                         "University"
                     ]
                 },
                 {
-                    "actorName": "Ansel Adams",
-                    "role": "Durer",
+                    "actorName": "Titian",
+                    "role": "Seurat",
                     "awards": [
-                        "College"
+                        "University"
                     ]
                 }
             ],
             "genres": [
-                "Fanfiction",
-                "Fiction narrative",
-                "Speech"
+                "Western",
+                "Folklore",
+                "Horror"
             ],
             "releaseDetails": {
-                "language": "Serbia",
-                "country": "Jamaica"
+                "language": "Romania",
+                "country": "Haiti"
             },
             "finance": {
-                "budget": 84410000,
-                "boxOffice": 10970000,
-                "profit": 63050000,
-                "currency": "CFA Franc BCEAO"
+                "budget": 24960000,
+                "boxOffice": 80860000,
+                "profit": 63030000,
+                "currency": "Tugrik"
+            }
+        },
+        {
+            "id": 15,
+            "title": "The Golden Apples of the Sun",
+            "crew": {
+                "director": "Ansel Adams",
+                "musicDirector": "Pollock",
+                "productionCompany": "Little-Johns"
+            },
+            "cast": [
+                {
+                    "actorName": "Kandinsky",
+                    "role": "Edward Hopper",
+                    "awards": [
+                        "College",
+                        "College"
+                    ]
+                },
+                {
+                    "actorName": "Seurat",
+                    "role": "Durer",
+                    "awards": [
+                        "Institute"
+                    ]
+                },
+                {
+                    "actorName": "Paul Klee",
+                    "role": "Gauguin",
+                    "awards": [
+                        "Academy"
+                    ]
+                }
+            ],
+            "genres": [
+                "Narrative nonfiction",
+                "Humor",
+                "Reference book"
+            ],
+            "releaseDetails": {
+                "language": "Nepal",
+                "country": "Turkmenistan"
+            },
+            "finance": {
+                "budget": 69680000,
+                "boxOffice": 20390000,
+                "profit": 75170000,
+                "currency": "Norwegian Krone"
             }
         }
     ]
 }
-09:05:53.449 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 11
-Cleaned up Movie ID: 11
-09:05:53.456 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 151) - Step 1: Creating a default movie
+18:38:21.465 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 89) - Step 3: Adding movieIds to cleanUp list"
+18:38:21.477 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 51) - Step 3: Adding movieIds to cleanUp list
+18:38:21.477 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 58) - Step 4: Id of the newly created movie is: 12
+Id of the newly created movie is: 12
 ]]></system-out>
   </testcase>
-  <testcase name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.232">
-    <system-out><![CDATA[09:05:53.468 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 111) - Step 1: Creating a default movie
-09:05:53.485 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToCreateMultipleMoviesInASingleRequest] (com.moviedb.tests.movies.MovieCrudTests: 89) - Step 3: Adding movieIds to cleanUp list"
-Request method:	POST
-Request URI:	http://localhost:4000/movies
+  <testcase name="shouldBeAbleToDeleteAMovie" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.016">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	http://localhost:4000/movies/11
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Path params:	id=11
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:
-{
-    "title": "Tender Is the Night",
-    "crew": {
-        "director": "El Greco",
-        "musicDirector": "Picasso",
-        "productionCompany": "Anderson-Watsica"
-    },
-    "cast": [
-        {
-            "actorName": "Donatello",
-            "role": "Gauguin",
-            "awards": [
-                "College",
-                "Academy"
-            ]
-        },
-        {
-            "actorName": "Paul Klee",
-            "role": "Renoir",
-            "awards": [
-                "University"
-            ]
-        },
-        {
-            "actorName": "Edward Hopper",
-            "role": "Ansel Adams",
-            "awards": [
-                "Academy"
-            ]
-        }
-    ],
-    "genres": [
-        "Humor",
-        "Historical fiction",
-        "Fiction narrative"
-    ],
-    "releaseDetails": {
-        "language": "India",
-        "country": "Pakistan"
-    },
-    "finance": {
-        "budget": 42560000,
-        "boxOffice": 36130000,
-        "profit": 89180000,
-        "currency": "Azerbaijan Manat"
-    }
-}
-Request method:	POST
-Request URI:	http://localhost:4000/movies
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "title": "The Lathe of Heaven",
-    "crew": {
-        "director": "Degas",
-        "musicDirector": "Michelangelo",
-        "productionCompany": "Windler and Sons"
-    },
-    "cast": [
-        {
-            "actorName": "Rubens",
-            "role": "Pissarro",
-            "awards": [
-                "College",
-                "University"
-            ]
-        },
-        {
-            "actorName": "Chagall",
-            "role": "Rothko",
-            "awards": [
-                "University"
-            ]
-        },
-        {
-            "actorName": "Da Vinci",
-            "role": "Chagall",
-            "awards": [
-                "University"
-            ]
-        }
-    ],
-    "genres": [
-        "Fiction narrative",
-        "Fairy tale",
-        "Reference book"
-    ],
-    "releaseDetails": {
-        "language": "Libya",
-        "country": "Russian Federation"
-    },
-    "finance": {
-        "budget": 26430000,
-        "boxOffice": 12780000,
-        "profit": 36340000,
-        "currency": "CFA Franc BCEAO"
-    }
-}
-]]></system-out>
-  </testcase>
-  <testcase name="shouldBeAbleToUpdateAMovie" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.629">
-    <system-out><![CDATA[09:05:53.591 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 158) - Step 2: Adding movieIds to cleanUp list
-09:05:53.592 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 169) - Step 3: Performing assertion on the API response
-09:05:53.593 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 118) - Step 2: Adding movieIds to cleanUp list
-09:05:53.594 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 125) - Step 3: Updating budget for ID: 17
+Body:			<none>
 Request method:	DELETE
+Request URI:	http://localhost:4000/movies/12
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=12
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+18:38:21.510 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToDeleteAMovie] (com.moviedb.tests.movies.MovieCrudTests: 223) - Step 2: Performing assertion on the API response
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 51
+ETag: W/"33-QlbnHJ/lbQJnrvHQMzzdhFiiUd4"
+Date: Sat, 07 Mar 2026 23:38:21 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "message": "Movie with id 11 deleted successfully"
+}
+18:38:21.513 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 12
+Cleaned up Movie ID: 12
+18:38:21.513 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 151) - Step 1: Creating a default movie
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToCreateMultipleMoviesInASingleRequest" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.011">
+    <system-out><![CDATA[18:38:21.535 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 111) - Step 1: Creating a default movie
+]]></system-out>
+  </testcase>
+  <testcase name="shouldBeAbleToUpdateAMovie" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.444">
+    <system-out><![CDATA[Request method:	DELETE
 Request URI:	http://localhost:4000/movies/13
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	id=13
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+18:38:21.593 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 13
+Cleaned up Movie ID: 13
+Request method:	DELETE
+Request URI:	http://localhost:4000/movies/14
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=14
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+18:38:21.622 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 14
+Cleaned up Movie ID: 14
+Request method:	DELETE
+Request URI:	http://localhost:4000/movies/15
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=15
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+18:38:21.647 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 15
+Cleaned up Movie ID: 15
+18:38:21.647 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 183) - Step 1: Creating a default movie
+Request method:	POST
+Request URI:	http://localhost:4000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Where Angels Fear to Tread",
+    "crew": {
+        "director": "Michelangelo",
+        "musicDirector": "Degas",
+        "productionCompany": "Hettinger, Altenwerth and Waters"
+    },
+    "cast": [
+        {
+            "actorName": "Cassatt",
+            "role": "Rubens",
+            "awards": [
+                "College",
+                "Academy"
+            ]
+        },
+        {
+            "actorName": "Caravaggio",
+            "role": "Munch",
+            "awards": [
+                "University"
+            ]
+        },
+        {
+            "actorName": "Michelangelo",
+            "role": "Seurat",
+            "awards": [
+                "College"
+            ]
+        }
+    ],
+    "genres": [
+        "Speech",
+        "Biography/Autobiography",
+        "Folklore"
+    ],
+    "releaseDetails": {
+        "language": "Philippines",
+        "country": "Denmark"
+    },
+    "finance": {
+        "budget": 35590000,
+        "boxOffice": 85650000,
+        "profit": 21160000,
+        "currency": "Guinean Franc"
+    }
+}
+Request method:	POST
+Request URI:	http://localhost:4000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Dulce et Decorum Est",
+    "crew": {
+        "director": "Munch",
+        "musicDirector": "Seurat",
+        "productionCompany": "Pacocha-Pfannerstill"
+    },
+    "cast": [
+        {
+            "actorName": "Kandinsky",
+            "role": "Manet",
+            "awards": [
+                "Institute",
+                "College"
+            ]
+        },
+        {
+            "actorName": "Michelangelo",
+            "role": "Michelangelo",
+            "awards": [
+                "College"
+            ]
+        },
+        {
+            "actorName": "Seurat",
+            "role": "Rubens",
+            "awards": [
+                "College"
+            ]
+        }
+    ],
+    "genres": [
+        "Essay",
+        "Mythology",
+        "Fantasy"
+    ],
+    "releaseDetails": {
+        "language": "Monaco",
+        "country": "Guatemala"
+    },
+    "finance": {
+        "budget": 51760000,
+        "boxOffice": 79910000,
+        "profit": 94070000,
+        "currency": "Romanian Leu"
+    }
+}
+18:38:21.677 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 158) - Step 2: Adding movieIds to cleanUp list
+18:38:21.679 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToPatchUpdateAMovieTitleSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 169) - Step 3: Performing assertion on the API response
+18:38:21.693 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 118) - Step 2: Adding movieIds to cleanUp list
+18:38:21.693 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 125) - Step 3: Updating budget for ID: 17
 Request method:	PATCH
 Request URI:	http://localhost:4000/movies/16
 Proxy:			<none>
@@ -807,7 +840,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	id=16
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -823,81 +856,66 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	id=17
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "title": "The Lathe of Heaven",
+    "title": "Dulce et Decorum Est",
     "crew": {
-        "director": "Degas",
-        "musicDirector": "Michelangelo",
-        "productionCompany": "Windler and Sons"
+        "director": "Munch",
+        "musicDirector": "Seurat",
+        "productionCompany": "Pacocha-Pfannerstill"
     },
     "cast": [
         {
-            "actorName": "Rubens",
-            "role": "Pissarro",
+            "actorName": "Kandinsky",
+            "role": "Manet",
             "awards": [
-                "College",
-                "University"
+                "Institute",
+                "College"
             ]
         },
         {
-            "actorName": "Chagall",
-            "role": "Rothko",
+            "actorName": "Michelangelo",
+            "role": "Michelangelo",
             "awards": [
-                "University"
+                "College"
             ]
         },
         {
-            "actorName": "Da Vinci",
-            "role": "Chagall",
+            "actorName": "Seurat",
+            "role": "Rubens",
             "awards": [
-                "University"
+                "College"
             ]
         }
     ],
     "genres": [
-        "Fiction narrative",
-        "Fairy tale",
-        "Reference book"
+        "Essay",
+        "Mythology",
+        "Fantasy"
     ],
     "releaseDetails": {
-        "language": "Libya",
-        "country": "Russian Federation"
+        "language": "Monaco",
+        "country": "Guatemala"
     },
     "finance": {
         "budget": 265000000,
-        "boxOffice": 12780000,
-        "profit": 36340000,
-        "currency": "CFA Franc BCEAO"
+        "boxOffice": 79910000,
+        "profit": 94070000,
+        "currency": "Romanian Leu"
     }
 }
-09:05:53.609 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 13
-Cleaned up Movie ID: 13
-Request method:	DELETE
-Request URI:	http://localhost:4000/movies/14
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=14
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 572
-ETag: W/"23c-aBju3VZhNLJgmcNQsLUxKWDwNuM"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
+Content-Length: 580
+ETag: W/"244-Kzw3JZash6UO+5Ut8l7c/xIJWKQ"
+Date: Sat, 07 Mar 2026 23:38:21 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
@@ -905,135 +923,120 @@ Keep-Alive: timeout=5
     "id": 16,
     "title": "Life Is Beautiful",
     "crew": {
-        "director": "El Greco",
-        "musicDirector": "Picasso",
-        "productionCompany": "Anderson-Watsica"
+        "director": "Michelangelo",
+        "musicDirector": "Degas",
+        "productionCompany": "Hettinger, Altenwerth and Waters"
     },
     "cast": [
         {
-            "actorName": "Donatello",
-            "role": "Gauguin",
+            "actorName": "Cassatt",
+            "role": "Rubens",
             "awards": [
                 "College",
                 "Academy"
             ]
         },
         {
-            "actorName": "Paul Klee",
-            "role": "Renoir",
+            "actorName": "Caravaggio",
+            "role": "Munch",
             "awards": [
                 "University"
             ]
         },
         {
-            "actorName": "Edward Hopper",
-            "role": "Ansel Adams",
+            "actorName": "Michelangelo",
+            "role": "Seurat",
             "awards": [
-                "Academy"
+                "College"
             ]
         }
     ],
     "genres": [
-        "Humor",
-        "Historical fiction",
-        "Fiction narrative"
+        "Speech",
+        "Biography/Autobiography",
+        "Folklore"
     ],
     "releaseDetails": {
-        "language": "India",
-        "country": "Pakistan"
+        "language": "Philippines",
+        "country": "Denmark"
     },
     "finance": {
-        "budget": 42560000,
-        "boxOffice": 36130000,
-        "profit": 89180000,
-        "currency": "Azerbaijan Manat"
+        "budget": 35590000,
+        "boxOffice": 85650000,
+        "profit": 21160000,
+        "currency": "Guinean Franc"
     }
 }
-09:05:53.623 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 131) - Step 4: Performing assertion on the API response
+18:38:21.720 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUpdateAMovie] (com.moviedb.tests.movies.MovieCrudTests: 131) - Step 4: Performing assertion on the API response
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 580
-ETag: W/"244-1FRzcInY/o5BUGexhktHnf2JZAI"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
+Content-Length: 549
+ETag: W/"225-BpUmu6F7tPYFCsnCgrNbtoMFz5E"
+Date: Sat, 07 Mar 2026 23:38:21 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 {
     "id": 17,
-    "title": "The Lathe of Heaven",
+    "title": "Dulce et Decorum Est",
     "crew": {
-        "director": "Degas",
-        "musicDirector": "Michelangelo",
-        "productionCompany": "Windler and Sons"
+        "director": "Munch",
+        "musicDirector": "Seurat",
+        "productionCompany": "Pacocha-Pfannerstill"
     },
     "cast": [
         {
-            "actorName": "Rubens",
-            "role": "Pissarro",
+            "actorName": "Kandinsky",
+            "role": "Manet",
             "awards": [
-                "College",
-                "University"
+                "Institute",
+                "College"
             ]
         },
         {
-            "actorName": "Chagall",
-            "role": "Rothko",
+            "actorName": "Michelangelo",
+            "role": "Michelangelo",
             "awards": [
-                "University"
+                "College"
             ]
         },
         {
-            "actorName": "Da Vinci",
-            "role": "Chagall",
+            "actorName": "Seurat",
+            "role": "Rubens",
             "awards": [
-                "University"
+                "College"
             ]
         }
     ],
     "genres": [
-        "Fiction narrative",
-        "Fairy tale",
-        "Reference book"
+        "Essay",
+        "Mythology",
+        "Fantasy"
     ],
     "releaseDetails": {
-        "language": "Libya",
-        "country": "Russian Federation"
+        "language": "Monaco",
+        "country": "Guatemala"
     },
     "finance": {
         "budget": 265000000,
-        "boxOffice": 12780000,
-        "profit": 36340000,
-        "currency": "CFA Franc BCEAO"
+        "boxOffice": 79910000,
+        "profit": 94070000,
+        "currency": "Romanian Leu"
     }
 }
-09:05:53.631 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 14
-Cleaned up Movie ID: 14
 ]]></system-out>
   </testcase>
-  <testcase name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.68">
+  <testcase name="shouldBeAbleToPatchUpdateAMovieTitleSuccessfully" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.46">
     <system-out><![CDATA[Request method:	DELETE
-Request URI:	http://localhost:4000/movies/15
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=15
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-Request method:	DELETE
 Request URI:	http://localhost:4000/movies/17
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	id=17
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -1041,19 +1044,71 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="shouldBeAbleToUploadMoviePosterSuccessfully" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.87">
-    <system-out><![CDATA[image/png
-2882
+  <testcase name="shouldBeAbleToUploadMoviePosterSuccessfully" classname="com.moviedb.tests.movies.MovieCrudTests" time="0.756">
+    <system-out><![CDATA[2882
 ]]></system-out>
   </testcase>
-  <testcase name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.084">
-    <system-out><![CDATA[09:05:53.656 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 15
-Cleaned up Movie ID: 15
-09:05:53.659 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 183) - Step 1: Creating a default movie
-09:05:53.660 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 17
-Cleaned up Movie ID: 17
-09:05:53.663 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 92) - Step 1: Creating a default movie without movie title
-09:05:53.663 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 116) - Step 2: Validating the API response
+  <testcase name="givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.086">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:4000/movies
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Consider Phlebas",
+    "crew": {
+        "director": "Rubens",
+        "musicDirector": "Pissarro",
+        "productionCompany": "Yost, Cassin and Turcotte"
+    },
+    "cast": [
+        {
+            "actorName": "Titian",
+            "role": "Rothko",
+            "awards": [
+                "College",
+                "Academy"
+            ]
+        },
+        {
+            "actorName": "Pollock",
+            "role": "Pissarro",
+            "awards": [
+                "University"
+            ]
+        },
+        {
+            "actorName": "Michelangelo",
+            "role": "Pollock",
+            "awards": [
+                "College"
+            ]
+        }
+    ],
+    "genres": [
+        "Suspense/Thriller",
+        "Western",
+        "Narrative nonfiction"
+    ],
+    "releaseDetails": {
+        "language": "Bahrain",
+        "country": "Paraguay"
+    },
+    "finance": {
+        "budget": 69970000,
+        "boxOffice": 41520000,
+        "profit": 78330000,
+        "currency": "UAE Dirham"
+    }
+}
 Request method:	DELETE
 Request URI:	http://localhost:4000/movies/16
 Proxy:			<none>
@@ -1061,12 +1116,18 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	id=16
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+18:38:21.753 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 17
+Cleaned up Movie ID: 17
+18:38:21.757 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 92) - Step 1: Creating a default movie without movie title
+18:38:21.759 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieDetails_whenCreatingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 116) - Step 2: Validating the API response
+18:38:21.771 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 16
+Cleaned up Movie ID: 16
 Request method:	POST
 Request URI:	http://localhost:4000/movies
 Proxy:			<none>
@@ -1074,7 +1135,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -1126,149 +1187,47 @@ Body:
         "currency": "USD"
     }
 }
-09:05:53.690 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 16
-Cleaned up Movie ID: 16
+18:38:21.773 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 130) - Step 1: Calling FakerUtil's generateRandomMovieId to get a random movieId that does not exist
+18:38:21.775 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 135) - Step 2: Attempting to delete the movie with id 21168 which does not exist
+18:38:21.775 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 189) - Step 2: Adding movieIds to cleanUp list
+Request method:	DELETE
+Request URI:	http://localhost:4000/movies/21168
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=21168
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
 HTTP/1.1 400 Bad Request
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 146
-ETag: W/"92-yrk1mYcoULqosBpW1VQQoPebuWI"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
+ETag: W/"92-peZPSj7gAPpGenWajImznrLD6Rw"
+Date: Sat, 07 Mar 2026 23:38:21 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 {
-    "timestamp": "2026-03-07T14:05:53.690Z",
+    "timestamp": "2026-03-07T23:38:21.774Z",
     "status": 400,
     "error": "Bad Request",
     "message": "Field \"title\" is required and must be a non-empty string"
 }
-09:05:53.693 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 130) - Step 1: Calling FakerUtil's generateRandomMovieId to get a random movieId that does not exist
-09:05:53.694 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 135) - Step 2: Attempting to delete the movie with id 45262 which does not exist
-Request method:	DELETE
-Request URI:	http://localhost:4000/movies/45262
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=45262
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-09:05:53.712 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 140) - 
+18:38:21.792 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenDeletingMovie_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 140) - 
 ]]></system-out>
   </testcase>
-  <testcase name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.093">
-    <system-out><![CDATA[09:05:53.721 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 72) - Step 1: Attempting to retrieve the movie with id 200 which does not exist
-Request method:	POST
-Request URI:	http://localhost:4000/movies
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "title": "Time To Murder And Create",
-    "crew": {
-        "director": "Chagall",
-        "musicDirector": "Bernini",
-        "productionCompany": "Pacocha, Stroman and Abshire"
-    },
-    "cast": [
-        {
-            "actorName": "Dali",
-            "role": "Rubens",
-            "awards": [
-                "University",
-                "University"
-            ]
-        },
-        {
-            "actorName": "Joan Miro",
-            "role": "Degas",
-            "awards": [
-                "Institute"
-            ]
-        },
-        {
-            "actorName": "Matisse",
-            "role": "Rubens",
-            "awards": [
-                "Institute"
-            ]
-        }
-    ],
-    "genres": [
-        "Suspense/Thriller",
-        "Narrative nonfiction",
-        "Humor"
-    ],
-    "releaseDetails": {
-        "language": "Venezuela (Bolivarian Republic of)",
-        "country": "Singapore"
-    },
-    "finance": {
-        "budget": 60750000,
-        "boxOffice": 86690000,
-        "profit": 47300000,
-        "currency": "Euro"
-    }
-}
+  <testcase name="givenInvalidMovieId_whenDeletingMovie_thenStatusIs404" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.021">
+    <system-out><![CDATA[18:38:21.813 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 72) - Step 1: Attempting to retrieve the movie with id 200 which does not exist
 ]]></system-out>
   </testcase>
-  <testcase name="givenInvalidToken_whenRequestingMovies_thenReturns401" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.042">
-    <system-out><![CDATA[09:05:53.744 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidToken_whenRequestingMovies_thenReturns401] (com.moviedb.tests.movies.MovieNegativeTests: 53) - Step 1: Setting up page and limit query params and starting the test
-Request method:	GET
-Request URI:	http://localhost:4000/movies?page=1&limit=100
-Proxy:			<none>
-Request params:	<none>
-Query params:	page=1
-				limit=100
-Form params:	<none>
-Path params:	<none>
-Headers:		Content-Type=application/json
-				Authorization=Bearer SPECIAL_TEST_TOKEN
-				Accept=*/*
-				Content-Type=application/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-09:05:53.759 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 189) - Step 2: Adding movieIds to cleanUp list
-]]></system-out>
-  </testcase>
-  <testcase name="givenNoToken_whenRequestingMovies_thenReturns401" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.03">
-    <system-out><![CDATA[09:05:53.773 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenNoToken_whenRequestingMovies_thenReturns401] (com.moviedb.tests.movies.MovieNegativeTests: 35) - Step 1: Setting up invalid token and starting the test
-Request method:	GET
-Request URI:	http://localhost:4000/movies
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Content-Type=application/json
-				Authorization=
-				Accept=*/*
-				Content-Type=application/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-]]></system-out>
-  </testcase>
-  <testcase name="patchUpdateMovieTitleFailure" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.346">
-    <system-out><![CDATA[09:05:53.788 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [patchUpdateMovieTitleFailure] (com.moviedb.tests.movies.MovieNegativeTests: 152) - Step 1: Calling FakerUtil's generateRandomMovieId to get a random movieId that does not exist
-09:05:53.789 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [patchUpdateMovieTitleFailure] (com.moviedb.tests.movies.MovieNegativeTests: 161) - Step 2: Attempting to PATCH update the title of movie with id 38013 which does not exist
+  <testcase name="givenInvalidToken_whenRequestingMovies_thenReturns401" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.185">
+    <system-out><![CDATA[18:38:21.823 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenInvalidToken_whenRequestingMovies_thenReturns401] (com.moviedb.tests.movies.MovieNegativeTests: 53) - Step 1: Setting up page and limit query params and starting the test
 Request method:	POST
 Request URI:	http://localhost:4000/movies/18/poster
 Proxy:			<none>
@@ -1276,7 +1235,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				accept=*/*
 				Content-Type=multipart/form-data
 Cookies:		<none>
@@ -1301,26 +1260,53 @@ Iio����-��g�^��%'�{�Y&amp#24;>�&amp#30;&amp#16;&amp#17
 &amp#14;&amp#31;>\;|����&amp#20;>�v&amp#17;�&amp#17;&amp#12;&amp#31;"2��CDFT��\�rE���~&amp#30;>|X���q�,&amp#22;�Ռ��%&amp#19;�Qm���K���&amp#7;�����^y�&amp#21;���K�&amp#31;B��!�#��&amp#0;&amp#0;&amp#0;&amp#0;IEND�B`�
 Body:			<none>
 Request method:	GET
-Request URI:	http://localhost:4000/movies/200
+Request URI:	http://localhost:4000/movies?page=1&limit=100
 Proxy:			<none>
 Request params:	<none>
-Query params:	<none>
+Query params:	page=1
+				limit=100
 Form params:	<none>
-Path params:	id=200
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Path params:	<none>
+Headers:		Content-Type=application/json
+				Authorization=Bearer SPECIAL_TEST_TOKEN
 				Accept=*/*
+				Content-Type=application/json
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-Request method:	PATCH
-Request URI:	http://localhost:4000/movies/38013
+]]></system-out>
+  </testcase>
+  <testcase name="givenNoToken_whenRequestingMovies_thenReturns401" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.039">
+    <system-out><![CDATA[18:38:21.856 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [givenNoToken_whenRequestingMovies_thenReturns401] (com.moviedb.tests.movies.MovieNegativeTests: 35) - Step 1: Setting up invalid token and starting the test
+Request method:	GET
+Request URI:	http://localhost:4000/movies
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	id=38013
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Path params:	<none>
+Headers:		Content-Type=application/json
+				Authorization=
+				Accept=*/*
+				Content-Type=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="patchUpdateMovieTitleFailure" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.126">
+    <system-out><![CDATA[18:38:21.871 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [patchUpdateMovieTitleFailure] (com.moviedb.tests.movies.MovieNegativeTests: 152) - Step 1: Calling FakerUtil's generateRandomMovieId to get a random movieId that does not exist
+18:38:21.873 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [patchUpdateMovieTitleFailure] (com.moviedb.tests.movies.MovieNegativeTests: 161) - Step 2: Attempting to PATCH update the title of movie with id 41972 which does not exist
+Request method:	PATCH
+Request URI:	http://localhost:4000/movies/41972
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=41972
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -1329,43 +1315,56 @@ Body:
 {
     "title": "The Parasite"
 }
-09:05:53.807 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 77) - Step 2: Validating the API response
-HTTP/1.1 404 Not Found
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-Content-Type: application/json; charset=utf-8
-Content-Length: 113
-ETag: W/"71-rstNPxhs+yQqwlnEtW7LMwQqtsc"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
-Connection: keep-alive
-Keep-Alive: timeout=5
-
-{
-    "timestamp": "2026-03-07T14:05:53.806Z",
-    "status": 404,
-    "error": "Not Found",
-    "message": "Movie with id 200 not found"
-}
+Request method:	GET
+Request URI:	http://localhost:4000/movies/200
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=200
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
 HTTP/1.1 404 Not Found
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 115
-ETag: W/"73-JAE5ZBWB1wkccy/8NEkPxsHkALs"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
+ETag: W/"73-EHBXUduSmYjDH/SWhxyCM5On4QE"
+Date: Sat, 07 Mar 2026 23:38:21 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 {
-    "timestamp": "2026-03-07T14:05:53.811Z",
+    "timestamp": "2026-03-07T23:38:21.881Z",
     "status": 404,
     "error": "Not Found",
-    "message": "Movie with id 38013 not found"
+    "message": "Movie with id 41972 not found"
+}
+18:38:21.889 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404] (com.moviedb.tests.movies.MovieNegativeTests: 77) - Step 2: Validating the API response
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 113
+ETag: W/"71-LozSFBebpms8v3aNUKCTghc/Mw0"
+Date: Sat, 07 Mar 2026 23:38:21 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "timestamp": "2026-03-07T23:38:21.884Z",
+    "status": 404,
+    "error": "Not Found",
+    "message": "Movie with id 200 not found"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.035">
-    <system-out><![CDATA[09:05:53.845 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [listMoviesWithDefaultPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 115) - Step 1: MovieActions.getAllMovies()
+  <testcase name="givenInvalidMovieId_whenRequestingMovieInfo_thenStatusIs404" classname="com.moviedb.tests.movies.MovieNegativeTests" time="0.032">
+    <system-out><![CDATA[18:38:21.918 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [listMoviesWithDefaultPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 115) - Step 1: MovieActions.getAllMovies()
 Request method:	GET
 Request URI:	http://localhost:4000/movies
 Proxy:			<none>
@@ -1373,7 +1372,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -1381,8 +1380,8 @@ Multiparts:		<none>
 Body:			<none>
 ]]></system-out>
   </testcase>
-  <testcase name="listMoviesWithDefaultPagination" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="1.751">
-    <system-out><![CDATA[09:05:53.857 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [listMoviesWithPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 95) - Step 1: MovieActions.getAllMovies(page, limit)
+  <testcase name="listMoviesWithDefaultPagination" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="1.574">
+    <system-out><![CDATA[18:38:21.928 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [listMoviesWithPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 95) - Step 1: MovieActions.getAllMovies(page, limit)
 Request method:	GET
 Request URI:	http://localhost:4000/movies?limit=100&page=1
 Proxy:			<none>
@@ -1391,21 +1390,21 @@ Query params:	limit=100
 				page=1
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-09:05:53.867 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [listMoviesWithDefaultPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 120) - Step 2: Validating API response
-09:05:53.876 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [listMoviesWithPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 100) - Step 2: Validating API response
+18:38:21.936 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [listMoviesWithDefaultPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 120) - Step 2: Validating API response
+18:38:21.944 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [listMoviesWithPagination] (com.moviedb.tests.movies.MovieRetrievalTests: 100) - Step 2: Validating API response
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 6399
 ETag: W/"18ff-K96RzlkAufW47GM8z3yyzJg14gE"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
+Date: Sat, 07 Mar 2026 23:38:21 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
@@ -1893,9 +1892,9 @@ HTTP/1.1 200 OK
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 7001
-ETag: W/"1b59-s5KU0SzA+R+NCs5iYZewgfNpaN8"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
+Content-Length: 6971
+ETag: W/"1b3b-uZqbS8QEZ56OZXHB2kjIPi+XS68"
+Date: Sat, 07 Mar 2026 23:38:21 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
@@ -2379,83 +2378,67 @@ Keep-Alive: timeout=5
         },
         {
             "id": 18,
-            "title": "Time To Murder And Create",
+            "title": "Consider Phlebas",
             "crew": {
-                "director": "Chagall",
-                "musicDirector": "Bernini",
-                "productionCompany": "Pacocha, Stroman and Abshire"
+                "director": "Rubens",
+                "musicDirector": "Pissarro",
+                "productionCompany": "Yost, Cassin and Turcotte"
             },
             "cast": [
                 {
-                    "actorName": "Dali",
-                    "role": "Rubens",
+                    "actorName": "Titian",
+                    "role": "Rothko",
                     "awards": [
-                        "University",
+                        "College",
+                        "Academy"
+                    ]
+                },
+                {
+                    "actorName": "Pollock",
+                    "role": "Pissarro",
+                    "awards": [
                         "University"
                     ]
                 },
                 {
-                    "actorName": "Joan Miro",
-                    "role": "Degas",
+                    "actorName": "Michelangelo",
+                    "role": "Pollock",
                     "awards": [
-                        "Institute"
-                    ]
-                },
-                {
-                    "actorName": "Matisse",
-                    "role": "Rubens",
-                    "awards": [
-                        "Institute"
+                        "College"
                     ]
                 }
             ],
             "genres": [
                 "Suspense/Thriller",
-                "Narrative nonfiction",
-                "Humor"
+                "Western",
+                "Narrative nonfiction"
             ],
             "releaseDetails": {
-                "language": "Venezuela (Bolivarian Republic of)",
-                "country": "Singapore"
+                "language": "Bahrain",
+                "country": "Paraguay"
             },
             "finance": {
-                "budget": 60750000,
-                "boxOffice": 86690000,
-                "profit": 47300000,
-                "currency": "Euro"
+                "budget": 69970000,
+                "boxOffice": 41520000,
+                "profit": 78330000,
+                "currency": "UAE Dirham"
             }
         }
     ]
 }
 ]]></system-out>
   </testcase>
-  <testcase name="listMoviesWithPagination" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0.011">
-    <system-out><![CDATA[09:05:53.895 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieIdReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 73) - Step 1: MovieActions.getMovieById(2)
-]]></system-out>
-  </testcase>
-  <testcase name="searchByMovieIdReturnsSingleExactMatch" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0.19">
-    <system-out><![CDATA[09:05:53.898 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsAllPartialTitleMatchingMovies] (com.moviedb.tests.movies.MovieRetrievalTests: 52) - Step 1: MovieActions.getMoviesByTitle(movieTitle)
-09:05:53.899 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 198) - Step 3: Performing assertion on the API response
-Request method:	GET
-Request URI:	http://localhost:4000/movies/2
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	id=2
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
+  <testcase name="listMoviesWithPagination" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0"/>
+  <testcase name="searchByMovieIdReturnsSingleExactMatch" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0.163">
+    <system-out><![CDATA[18:38:21.965 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieIdReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 73) - Step 1: MovieActions.getMovieById(2)
+18:38:21.965 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [shouldBeAbleToUploadMoviePosterSuccessfully] (com.moviedb.tests.movies.MovieCrudTests: 198) - Step 3: Performing assertion on the API response
 HTTP/1.1 201 Created
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 162
-ETag: W/"a2-VrkeKh2gOGaNawoFuzI27APcZlQ"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
+ETag: W/"a2-MlTkiXMFmvwzFGt/yt7svCi0nEs"
+Date: Sat, 07 Mar 2026 23:38:21 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
@@ -2463,11 +2446,25 @@ Keep-Alive: timeout=5
     "message": "Poster uploaded successfully",
     "movieId": 18,
     "poster": {
-        "filename": "poster-2e736330-1aba-4423-9901-cde7edc2dd83.png",
+        "filename": "poster-731b4594-b0a4-4d8e-b62e-1e646197dac7.png",
         "mimetype": "image/png",
         "size": 2882
     }
 }
+18:38:21.966 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsAllPartialTitleMatchingMovies] (com.moviedb.tests.movies.MovieRetrievalTests: 52) - Step 1: MovieActions.getMoviesByTitle(movieTitle)
+Request method:	GET
+Request URI:	http://localhost:4000/movies/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=2
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
 Request method:	GET
 Request URI:	http://localhost:4000/movies/search?name=a
 Proxy:			<none>
@@ -2475,20 +2472,20 @@ Request params:	<none>
 Query params:	name=a
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-09:05:53.912 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieIdReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 78) - Step 2: Validating API response
+18:38:21.970 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieIdReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 78) - Step 2: Validating API response
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 637
 ETag: W/"27d-g2mFXAkSGZGIc0nwPZh3Pl9+kPI"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
+Date: Sat, 07 Mar 2026 23:38:21 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
@@ -2539,11 +2536,10 @@ Keep-Alive: timeout=5
         "currency": "USD"
     }
 }
-09:05:53.918 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsAllPartialTitleMatchingMovies] (com.moviedb.tests.movies.MovieRetrievalTests: 57) - Step 2: Validating API response
 ]]></system-out>
   </testcase>
-  <testcase name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0.757">
-    <system-out><![CDATA[09:05:53.923 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 30) - Step 1: MovieActions.getMoviesByTitle(movieTitle)
+  <testcase name="searchByMovieTitleReturnsSingleExactMatch" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0.756">
+    <system-out><![CDATA[18:38:21.987 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 30) - Step 1: MovieActions.getMoviesByTitle(movieTitle)
 Request method:	GET
 Request URI:	http://localhost:4000/movies/search?name=RRR
 Proxy:			<none>
@@ -2551,19 +2547,85 @@ Request params:	<none>
 Query params:	name=RRR
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
+poster-731b4594-b0a4-4d8e-b62e-1e646197dac7.png
+18:38:22.011 [TestNG-test-Movie related tests-3] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsAllPartialTitleMatchingMovies] (com.moviedb.tests.movies.MovieRetrievalTests: 57) - Step 2: Validating API response
+18:38:22.014 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 35) - Step 2: Validating API response
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
-Content-Length: 5687
-ETag: W/"1637-G6IPON5fc5IqWSjHI/GxF5W2R9w"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
+Content-Length: 659
+ETag: W/"293-lp/06KZtB45xeBeZgEXF224nLEY"
+Date: Sat, 07 Mar 2026 23:38:22 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{
+    "total": 1,
+    "data": [
+        {
+            "id": 9,
+            "title": "RRR",
+            "crew": {
+                "director": "S.S. Rajamouli",
+                "musicDirector": "M.M. Keeravani",
+                "productionCompany": "DVV Entertainment"
+            },
+            "cast": [
+                {
+                    "actorName": "N.T. Rama Rao Jr.",
+                    "role": "Komaram Bheem",
+                    "awards": [
+                        "Filmfare Award for Best Actor (Telugu)"
+                    ]
+                },
+                {
+                    "actorName": "Ram Charan",
+                    "role": "Alluri Sitarama Raju",
+                    "awards": [
+                        "Filmfare Award for Best Actor (Telugu) Nominee"
+                    ]
+                },
+                {
+                    "actorName": "Alia Bhatt",
+                    "role": "Sita",
+                    "awards": [
+                        "Filmfare Award for Best Actress"
+                    ]
+                }
+            ],
+            "genres": [
+                "Action",
+                "Drama",
+                "Epic"
+            ],
+            "releaseDetails": {
+                "language": "Telugu",
+                "country": "India"
+            },
+            "finance": {
+                "budget": 5500000000,
+                "boxOffice": 12000000000,
+                "profit": 6500000000,
+                "currency": "INR"
+            }
+        }
+    ]
+}
+image/png
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 5657
+ETag: W/"1619-QWSEayqbrBeH3mahKVbsd3qGdGM"
+Date: Sat, 07 Mar 2026 23:38:21 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
@@ -2950,124 +3012,58 @@ Keep-Alive: timeout=5
         },
         {
             "id": 18,
-            "title": "Time To Murder And Create",
+            "title": "Consider Phlebas",
             "crew": {
-                "director": "Chagall",
-                "musicDirector": "Bernini",
-                "productionCompany": "Pacocha, Stroman and Abshire"
+                "director": "Rubens",
+                "musicDirector": "Pissarro",
+                "productionCompany": "Yost, Cassin and Turcotte"
             },
             "cast": [
                 {
-                    "actorName": "Dali",
-                    "role": "Rubens",
+                    "actorName": "Titian",
+                    "role": "Rothko",
                     "awards": [
-                        "University",
+                        "College",
+                        "Academy"
+                    ]
+                },
+                {
+                    "actorName": "Pollock",
+                    "role": "Pissarro",
+                    "awards": [
                         "University"
                     ]
                 },
                 {
-                    "actorName": "Joan Miro",
-                    "role": "Degas",
+                    "actorName": "Michelangelo",
+                    "role": "Pollock",
                     "awards": [
-                        "Institute"
-                    ]
-                },
-                {
-                    "actorName": "Matisse",
-                    "role": "Rubens",
-                    "awards": [
-                        "Institute"
+                        "College"
                     ]
                 }
             ],
             "genres": [
                 "Suspense/Thriller",
-                "Narrative nonfiction",
-                "Humor"
+                "Western",
+                "Narrative nonfiction"
             ],
             "releaseDetails": {
-                "language": "Venezuela (Bolivarian Republic of)",
-                "country": "Singapore"
+                "language": "Bahrain",
+                "country": "Paraguay"
             },
             "finance": {
-                "budget": 60750000,
-                "boxOffice": 86690000,
-                "profit": 47300000,
-                "currency": "Euro"
+                "budget": 69970000,
+                "boxOffice": 41520000,
+                "profit": 78330000,
+                "currency": "UAE Dirham"
             }
         }
     ]
 }
 ]]></system-out>
   </testcase>
-  <testcase name="searchByMovieTitleReturnsSingleExactMatch" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0.869">
-    <system-out><![CDATA[09:05:53.940 [TestNG-test-Movie related tests-1] &amp#27;[32mINFO &amp#27;[m [searchByMovieTitleReturnsSingleExactMatch] (com.moviedb.tests.movies.MovieRetrievalTests: 35) - Step 2: Validating API response
-HTTP/1.1 200 OK
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-Content-Type: application/json; charset=utf-8
-Content-Length: 659
-ETag: W/"293-lp/06KZtB45xeBeZgEXF224nLEY"
-Date: Sat, 07 Mar 2026 14:05:53 GMT
-Connection: keep-alive
-Keep-Alive: timeout=5
-
-{
-    "total": 1,
-    "data": [
-        {
-            "id": 9,
-            "title": "RRR",
-            "crew": {
-                "director": "S.S. Rajamouli",
-                "musicDirector": "M.M. Keeravani",
-                "productionCompany": "DVV Entertainment"
-            },
-            "cast": [
-                {
-                    "actorName": "N.T. Rama Rao Jr.",
-                    "role": "Komaram Bheem",
-                    "awards": [
-                        "Filmfare Award for Best Actor (Telugu)"
-                    ]
-                },
-                {
-                    "actorName": "Ram Charan",
-                    "role": "Alluri Sitarama Raju",
-                    "awards": [
-                        "Filmfare Award for Best Actor (Telugu) Nominee"
-                    ]
-                },
-                {
-                    "actorName": "Alia Bhatt",
-                    "role": "Sita",
-                    "awards": [
-                        "Filmfare Award for Best Actress"
-                    ]
-                }
-            ],
-            "genres": [
-                "Action",
-                "Drama",
-                "Epic"
-            ],
-            "releaseDetails": {
-                "language": "Telugu",
-                "country": "India"
-            },
-            "finance": {
-                "budget": 5500000000,
-                "boxOffice": 12000000000,
-                "profit": 6500000000,
-                "currency": "INR"
-            }
-        }
-    ]
-}
-poster-2e736330-1aba-4423-9901-cde7edc2dd83.png
-]]></system-out>
-  </testcase>
-  <testcase name="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200" classname="com.moviedb.tests.system.SystemTests" time="0.063">
+  <testcase name="searchByMovieTitleReturnsAllPartialTitleMatchingMovies" classname="com.moviedb.tests.movies.MovieRetrievalTests" time="0.756"/>
+  <testcase name="givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200" classname="com.moviedb.tests.system.SystemTests" time="0.048">
     <system-out><![CDATA[Request method:	DELETE
 Request URI:	http://localhost:4000/movies/18
 Proxy:			<none>
@@ -3075,15 +3071,15 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	id=18
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-09:05:53.989 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 18
+18:38:22.033 [TestNG-test-Movie related tests-2] &amp#27;[32mINFO &amp#27;[m [] (com.moviedb.tests.movies.MovieCrudTests: 239) - In CleanUp > Cleaned up Movie ID: 18
 Cleaned up Movie ID: 18
-09:05:54.025 [TestNG-test-System related tests-1] &amp#27;[32mINFO &amp#27;[m [givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200] (com.moviedb.tests.system.SystemTests: 21) - Step 1: Calling Health Check API
+18:38:22.064 [TestNG-test-System related tests-1] &amp#27;[32mINFO &amp#27;[m [givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200] (com.moviedb.tests.system.SystemTests: 21) - Step 1: Calling Health Check API
 Request method:	GET
 Request URI:	http://localhost:4000/health
 Proxy:			<none>
@@ -3091,26 +3087,26 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyODkyMzUxLCJleHAiOjE3NzI5Nzg3NTF9.bp0fP99kRFSpdqmAIkLyeYUn0ENPxsm7MxOQqgI_kwE
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzcyOTI2Njk5LCJleHAiOjE3NzMwMTMwOTl9.IEUOfxUehs-ZTJh87t-lDGFCNTVwy5EneeatHZcbfNs
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
-09:05:54.039 [TestNG-test-System related tests-1] &amp#27;[32mINFO &amp#27;[m [givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200] (com.moviedb.tests.system.SystemTests: 26) - Step 2: Validating API response
+18:38:22.081 [TestNG-test-System related tests-1] &amp#27;[32mINFO &amp#27;[m [givenAllAPIsAreUp_whenHealthCheckIsPerformed_thenReturn200] (com.moviedb.tests.system.SystemTests: 26) - Step 2: Validating API response
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
 Content-Type: application/json; charset=utf-8
 Content-Length: 54
-ETag: W/"36-2EN/2QzuSWtfep8KtGb8KKpDWRI"
-Date: Sat, 07 Mar 2026 14:05:54 GMT
+ETag: W/"36-p78uiNIj44TjC3T9H6M8L8i/ERk"
+Date: Sat, 07 Mar 2026 23:38:22 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 
 {
     "status": "UP",
-    "timestamp": "2026-03-07T14:05:54.037Z"
+    "timestamp": "2026-03-07T23:38:22.075Z"
 }
 ]]></system-out>
   </testcase>

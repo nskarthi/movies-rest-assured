@@ -1,0 +1,21 @@
+# Build Artifacts
+target/
+test-output/
+
+# Logs
+logs/
+*.log
+*.gz
+
+# Eclipse Specific
+.settings/
+.project
+.classpath
+bin/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Reports
+MovieDB_Report.html
