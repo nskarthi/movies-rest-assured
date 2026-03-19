@@ -10,6 +10,8 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
+import api.utils.LogUtils;
+
 public class ExtentReportManager implements ITestListener, ISuiteListener {
 	private static ExtentReports extent;
 	// This is for parallel testing
@@ -50,26 +52,30 @@ public class ExtentReportManager implements ITestListener, ISuiteListener {
         // 5. Assign the test object to the current thread
 		methodTest.set(test);
 		
-        // Step 6: This is needed for log4j log line items to include method name
+        // Step 6: This is needed for log4j log line items to include the @Test method name in the log
 		// Push the method name into Log4j Thread Context
+		// This methodName is a variable in the log4j2.xml. @Test method name will be assigned to this methodName variable
         ThreadContext.put("methodName", result.getMethod().getMethodName());
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		methodTest.get().pass("Test Passed successfully");
+        LogUtils.getLogger().info("Test Passed");
         ThreadContext.remove("methodName"); // Clear it after test
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		methodTest.get().info("Test skipped");
+        LogUtils.getLogger().info("Test Skipped");
         ThreadContext.remove("methodName"); // Clear it after test
 	}
 	
 	@Override
 	public void onTestFailure(ITestResult result) {
 		methodTest.get().fail(result.getThrowable()); // Automatically logs the error/stacktrace
+        LogUtils.getLogger().info("Test Failed: " + result.getThrowable());
         ThreadContext.remove("methodName"); // Clear it after test
 	}
 
@@ -85,6 +91,7 @@ public class ExtentReportManager implements ITestListener, ISuiteListener {
 	public static void log(String message) {
 		if (methodTest.get() != null) {
 			methodTest.get().info(message);
+	        LogUtils.getLogger().info(message);
 		} else {
 			// Fallback to console if ExtentTest isn't initialized yet
 			System.out.println("[INFO] " + message);

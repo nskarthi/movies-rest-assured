@@ -30,6 +30,7 @@ public class ConfigLoader {
 
     // Helper to fetch values based on the active environment prefix
     private String getEnvProperty(String key) {
+    	//dev.url, dev.userid
         String fullKey = env + "." + key;
         String value = properties.getProperty(fullKey);
         if (value == null) {

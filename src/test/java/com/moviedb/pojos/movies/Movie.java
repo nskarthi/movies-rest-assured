@@ -18,7 +18,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter @Setter
-@EqualsAndHashCode(exclude = "id") // Exclude 'id' so it doesn't affect equality
+@EqualsAndHashCode(exclude = "id") // Exclude 'id' so it doesn't affect equality during comparison
 //@Accessors(chain = true) // This makes setters return 'this' instead of 'void'.
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Movie {

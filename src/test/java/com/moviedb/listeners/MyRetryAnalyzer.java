@@ -24,7 +24,7 @@ public class MyRetryAnalyzer implements IRetryAnalyzer {
                 AuthManager.clearCache(); 
 
                 count++;
-                return true; // Triggers the retry
+                return true; // returning "True" is what triggers the retry
             }
         }
         return false;

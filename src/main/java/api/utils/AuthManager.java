@@ -47,7 +47,7 @@ public class AuthManager {
                 .post("/auth/login");
 
         if (response.getStatusCode() != 200) {
-            throw new RuntimeException("Failed to login! Status: " + response.getStatusCode() + 
+            throw new RuntimeException("Failed to get token! Status: " + response.getStatusCode() + 
                                        " Body: " + response.getBody().asString());
         }
 
